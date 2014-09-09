@@ -18,4 +18,9 @@ format_data$from <- str_replace(format_data$from, "\\.", " ")
 
 webs <- llply(split(format_data, format_data$region), graph.data.frame)
 
-save(webs, file="webs.Rdata")
+# In case this is needed
+raw <- webs
+raw <- llply(raw, function(x) remove.edge.attribute(x, "weight"))
+raw <- llply(raw, function(x) remove.edge.attribute(x, "region"))
+
+save(raw, webs, file="webs.Rdata")

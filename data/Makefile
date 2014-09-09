@@ -11,5 +11,5 @@ host.tre:
 	mv HostTree.tre host.tre
 
 para.tre:
-	$(DL) http://datadryad.org/bitstream/handle/10255/dryad.54850/FleaTree.tre
+	$(DL) http://datadryad.org/bitstream/handle/10255/dryad.54851/FleaTree.tre
 	mv FleaTree.tre para.tre
