@@ -21,8 +21,9 @@ network representation, also allows description of replicated interactions
 - Known phylogenetic structure in networks, but unclear how it relates to
 micro-{eco/evo} processes. Papers by Stouffer, Ekloff, ...
 
-- **Goals of the paper**: Layout map for research bridging coevo with
-ecological networks, using illustrations from empirical dataset
+- **Goals of the paper**: Layout map for research bridging coevo with current
+structure of ecological networks, or more broadly, assemblages of several
+species, using illustrations from empirical dataset
 
 # Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
 
@@ -48,7 +49,8 @@ mites, Chamberlain et al 2014 Oecologia
 (measured vs. metaweb) vs. in the regional network.
 
 - Key references: Olito & Fox 2014, our Oikos paper, Mike B's papers on
-coevolution in connected landscapes
+coevolution in connected landscapes, Manon's paper on bacteria-phage networks
+in soil.
 
 # Point 3 -- The spatial replication of networks is imperfect
 
@@ -75,4 +77,15 @@ is biased by interactions
 - Illustration: Phylogenetic dispersal of species in three largest modules
 
 - Key references: Baskerville on Serengeti food web, Cavender-Barres community
-phylogenetics
+phylogenetics, Koskella papers on bacteria-phage
+
+# Conclusions
+
+- Need to bride ecological networks with co-evolution (understand the impact
+of ecology vs. evolution in the local observations)
+
+- Focus on datasets that are spatially replicated, with as good as possible
+phylogenies. Ref Buckley, Hearkel.
+
+- Currently local variability is not accounted for by statistical methods,
+need to do a better job. See Desdevises chapter on ParaFit 2.0.
