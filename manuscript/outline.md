@@ -1,20 +1,78 @@
-% TBC
+% What is the right scale of coevolution over large spatial extents?
 % ...
 % Sept 11, 2014
 
 # Introduction
 
-- Overview of theory on coevolution, including spatial aspects (GMTC, coevo in metaco, ...)
-- Difference (more than semantics) in micro-coevolution vs. co-cladogenesis, brief review of my book chapter
-- Upper limit on organisational scale of the theory, many populations within a few species
-- Large organizational scales for species interactions are well handled by network representation, also allows description of replicated interactions (metaweb)
-- Known phylogenetic structure in networks, but unclear how it relates to micro-{eco/evo} processes
-- **Goals of the paper**: Lay out map for research bridging coevo with ecological networks, using illustrations from empirical dataset
+- Overview of theory on coevolution, including spatial aspects (GMTC, coevo
+in metaco, ...). Outline of four key mechanisms and concepts.
+
+- Difference (more than semantics) in micro-coevolution vs. co-cladogenesis,
+brief review of my book chapter.
+
+- Upper limit on organisational scale of the theory, many populations within
+a few species. Nuismer papers on landscape coevolution, old-ish review paper
+by Urban.
+
+- Large organizational scales for species interactions are well handled by
+network representation, also allows description of replicated interactions
+(metaweb). Reviews by Proulx, Poulin, Bascompte.
+
+- Known phylogenetic structure in networks, but unclear how it relates to
+micro-{eco/evo} processes. Papers by Stouffer, Ekloff, ...
+
+- **Goals of the paper**: Layout map for research bridging coevo with
+ecological networks, using illustrations from empirical dataset
 
 # Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
 
+- We expect a matching between the scales of eco/evo mechanisms
+
+- Interactions well predicted by species traits that evolve slowly (body
+size in food webs)
+
+- Show how this influenced the methodological toolkit (virtually all
+assumptions derive from Farenholz's rule)
+
+- Illustration: PACo or ParaFit score in the metaweb vs. distributions of
+the local webs
+
+- Key references: Desdevises papers on Lamellodiscus, Swafford papers on
+mites, Chamberlain et al 2014 Oecologia
+
 # Point 2 -- Interactions respond locally to micro-processes
+
+- Neutrality and trait-based mechanisms
+
+- Illustration: distribution of the significance in each interaction locally
+(measured vs. metaweb) vs. in the regional network.
+
+- Key references: Olito & Fox 2014, our Oikos paper, Mike B's papers on
+coevolution in connected landscapes
 
 # Point 3 -- The spatial replication of networks is imperfect
 
+- Caused by local ecological processes, but also influences local evolutionary
+ones
+
+- Question the relevance of comparison of within-sites coevolutionary measures
+
+- Illustration: relationship between network dissimilarity and the differences
+in coevo strengths, or in dissimilarity to the metaweb vs how stronger/weaker
+coevo signal is locally
+
+- Key references : Buckley et al 2014, Canard papers on rodents data,
+Parasitology paper
+
 # Point 4 -- Emergent network properties may not respond to evolutionary mechanisms
+
+- Co-occurence constraints: pairs of species have never been observed together,
+but the coevolution should be measured on potential-interactions
+
+- Phylogenetic content of modules, look at over-under dispersal, co-occurence
+is biased by interactions
+
+- Illustration: Phylogenetic dispersal of species in three largest modules
+
+- Key references: Baskerville on Serengeti food web, Cavender-Barres community
+phylogenetics
