@@ -25,6 +25,18 @@ micro-{eco/evo} processes. Papers by Stouffer, Ekloff, ...
 structure of ecological networks, or more broadly, assemblages of several
 species, using illustrations from empirical dataset
 
+# Dataset used
+
+- Cite DOI of datasets
+
+- 51 sites, spatial coordinates
+
+- number species, L, Co and distribution of Co locally
+
+- Infos on phylogeny
+
+- Analyzed using PACo @balb13 @buck14
+
 # Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
 
 - We expect a matching between the scales of eco/evo mechanisms
@@ -37,6 +49,8 @@ assumptions derive from Farenholz's rule)
 
 - Illustration: PACo or ParaFit score in the metaweb vs. distributions of
 the local webs
+
+![figure1]
 
 - Key references: Desdevises papers on Lamellodiscus, Swafford papers on
 mites, Chamberlain et al 2014 Oecologia
@@ -89,3 +103,6 @@ phylogenies. Ref Buckley, Hearkel.
 
 - Currently local variability is not accounted for by statistical methods,
 need to do a better job. See Desdevises chapter on ParaFit 2.0.
+
+
+[figure1]: ../figures/figure1.pdf "We determined whether a significant matching existed between hosts and parasites phylogenies at each location, using the PACo method. The association matrices used where (i) the *local* (observed) interactions, and (ii) the *regional* (possible, after aggregating all local datasets) ones. Surprisingly, and even though the regional dataset shows a strong co-cladogenetic structure, very few samplign sites show this too; 35 out of 51 communities where found not to be coevolved using either matrices."

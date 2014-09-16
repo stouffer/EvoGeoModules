@@ -1,39 +1,22 @@
-library(paco)
-library(stringr)
+library(RColorBrewer)
+library(rworldmap)
 library(igraph)
-library(betalink)
 
-source("commons.r")
+load("metrics.Rdata")
+load("paco_fig1.Rdata")
 
-load("webs.Rdata")
-mw <- metaweb(raw)
+sites <- read.table("../data/coordinates.csv", h=T, sep="\t")
 
-host_tree <- read.tree("../data/host.tre")
-host_tree$tip.label <- str_replace(host_tree$tip.label, "_", " ")
-para_tree <- compute.brlen(read.tree("../data/para.tre"))
-para_tree$tip.label <- str_replace(para_tree$tip.label, "_", " ")
+pp <- list(x=sites$Long, y=sites$Lat)
 
-A <- incidence(mw)
+pdf(file="../figures/figure1.pdf")
 
-h_mat <- cophenetic(host_tree)[colnames(A), colnames(A)]
-p_mat <- cophenetic(para_tree)[rownames(A), rownames(A)]
+palette(brewer.pal(9, "Set2"))
 
-D <- proc_analysis(paco(pre_paco(H=h_mat, P=p_mat, HP=A)), nperm=10000)
-save(D, file="D.Rdata")
+map <- getMap(resolution="low")
+plot(map, xlim=range(pp$x), ylim=range(pp$y), asp=1, col=rgb(0.9, 0.9, 0.9))
+points(pp$x, pp$y, pch=22+(fig1dat$loc <= 0.05), bg=1+(fig1dat$reg <= 0.05), cex=1.5)
+legend("bottomleft", c("Loc. + Reg.", "Loc. only", "Reg. only", "None"), pch=c(23, 23, 22, 22), pt.bg=c(2,1,2,1), title="PACo", bg="white")
+box()
 
-local_paco <- function(n, hc, pc)
-{
-   blues <- V(n)$name[degree(n, mode="out")>0]
-   reds <- V(n)$name[degree(n, mode="in")>0]
-   reduced_A <- A[blues,reds]
-   local_A <- incidence(n)
-   D <- proc_analysis(paco(pre_paco(H=h_mat, P=p_mat, HP=A)))
-   regD <- proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A)), nperm=5000)
-   locD <- proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A)), nperm=5000)
-   output <- data.frame(loc=locD$gof$p, reg=regD$gof$p)
-   print(output)
-   return(output)
-}
-
-fig1dat <- ldply(raw, local_paco)
-save(fig1dat, "paco_fig1.Rdata")
+dev.off()
