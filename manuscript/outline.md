@@ -59,10 +59,15 @@ mites, Chamberlain et al 2014 Oecologia
 
 - Neutrality and trait-based mechanisms
 
-- These mechansism *filter* interactions -- even though they will change the network-level signal, contribution of interactions should not vary locally vs. regionally (expectation is a positive relationship), and measuring on potential/realized interactions should not change the result
+- These mechansism *filter* interactions -- even though they will change the
+network-level signal, contribution of interactions should not vary locally
+vs. regionally (expectation is a positive relationship), and measuring on
+potential/realized interactions should not change the result
 
 - Illustration: distribution of the significance in each interaction locally
 (measured vs. metaweb) vs. in the regional network.
+
+![figure2]
 
 - Key references: Olito & Fox 2014, our Oikos paper, Mike B's papers on
 coevolution in connected landscapes, Manon's paper on bacteria-phage networks
@@ -70,16 +75,16 @@ in soil.
 
 # Point 3 -- The spatial replication of networks is imperfect
 
-
-- Hypothesis is that most coevolved interactions are most likely to persist
-locally because of strong co-adaptation -- see obligate/facultative parasites
-results
+- Ecological processes = sorting of interactions + species
 
 - Caused by local ecological processes, but also influences local evolutionary
 dynamics
 
-- Illustration: jacknife score vs. observed/possible for each metaweb
-interaction
+- Illustration: jacknife score vs. observed/possible : there is no relationship
+between how important an interaction is (coevo) and how frequent it will
+be. suggests that ecological >> evolutionary drivers of local network structure
+
+![figure3]
 
 - Key references : Buckley et al 2014, Canard papers on rodents data,
 Parasitology paper
@@ -100,8 +105,11 @@ phylogenetics, Koskella papers on bacteria-phage
 
 # Conclusions
 
-- Need to bride ecological networks with co-evolution (understand the impact
+- Need to bridge ecological networks with co-evolution (understand the impact
 of ecology vs. evolution in the local observations)
+
+- Main advance: coevolutionary dynamics are important at the
+continental/regional scale, much less at the local scale
 
 - Focus on datasets that are spatially replicated, with as good as possible
 phylogenies. Ref Buckley, Hearkel.
@@ -109,5 +117,9 @@ phylogenies. Ref Buckley, Hearkel.
 - Currently local variability is not accounted for by statistical methods,
 need to do a better job. See Desdevises chapter on ParaFit 2.0.
 
-
 [figure1]: ../figures/figure1.pdf "We determined whether a significant matching existed between hosts and parasites phylogenies at each location, using the PACo method. The association matrices used where (i) the *local* (observed) interactions, and (ii) the *regional* (possible, after aggregating all local datasets) ones. Surprisingly, and even though the regional dataset shows a strong co-cladogenetic structure, very few samplign sites show this too; 35 out of 51 communities where found not to be coevolved using either matrices."
+
+[figure2]: ../figures/figure2.pdf "TODO"
+
+[figure3]: ../figures/figure3.pdf "TODO"
+
