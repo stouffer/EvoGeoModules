@@ -30,8 +30,8 @@ l_contrib <- function(n, hc, pc)
    reds <- V(n)$name[degree(n, mode="in")>0]
    reduced_A <- A[blues,reds]
    local_A <- incidence(n)
-   regD <- link_contribution(proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A)), nperm=50))
-   locD <- link_contribution(proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A)), nperm=50))
+   regD <- link_contribution(proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A)), nperm=10000))
+   locD <- link_contribution(proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A)), nperm=10000))
    output <- list(loc=locD$jacknife$mean, reg=regD$jacknife$mean)
    return(output)
 }
