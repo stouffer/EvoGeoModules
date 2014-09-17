@@ -28,7 +28,6 @@ local_paco <- function(n, hc, pc)
    reds <- V(n)$name[degree(n, mode="in")>0]
    reduced_A <- A[blues,reds]
    local_A <- incidence(n)
-   D <- proc_analysis(paco(pre_paco(H=h_mat, P=p_mat, HP=A)))
    regD <- proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A)), nperm=5000)
    locD <- proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A)), nperm=5000)
    output <- data.frame(loc=locD$gof$p, reg=regD$gof$p)

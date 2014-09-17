@@ -59,6 +59,8 @@ mites, Chamberlain et al 2014 Oecologia
 
 - Neutrality and trait-based mechanisms
 
+- These mechansism *filter* interactions -- even though they will change the network-level signal, contribution of interactions should not vary locally vs. regionally (expectation is a positive relationship), and measuring on potential/realized interactions should not change the result
+
 - Illustration: distribution of the significance in each interaction locally
 (measured vs. metaweb) vs. in the regional network.
 
