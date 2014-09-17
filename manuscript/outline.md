@@ -70,14 +70,16 @@ in soil.
 
 # Point 3 -- The spatial replication of networks is imperfect
 
+
+- Hypothesis is that most coevolved interactions are most likely to persist
+locally because of strong co-adaptation -- see obligate/facultative parasites
+results
+
 - Caused by local ecological processes, but also influences local evolutionary
-ones
+dynamics
 
-- Question the relevance of comparison of within-sites coevolutionary measures
-
-- Illustration: relationship between network dissimilarity and the differences
-in coevo strengths, or in dissimilarity to the metaweb vs how stronger/weaker
-coevo signal is locally
+- Illustration: jacknife score vs. observed/possible for each metaweb
+interaction
 
 - Key references : Buckley et al 2014, Canard papers on rodents data,
 Parasitology paper
@@ -85,7 +87,8 @@ Parasitology paper
 # Point 4 -- Emergent network properties may not respond to evolutionary mechanisms
 
 - Co-occurence constraints: pairs of species have never been observed together,
-but the coevolution should be measured on potential-interactions
+but the coevolution should be measured on potential interactions; the dataset
+used to evaluate coevolution is itself incomplete
 
 - Phylogenetic content of modules, look at over-under dispersal, co-occurence
 is biased by interactions
