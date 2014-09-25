@@ -39,6 +39,8 @@
 # Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
 
 - We expect a matching between the scales of eco/evo mechanisms
+  - Key refs: @pric03 mostly, also @nieb10
+  - Key points: acquisition/loss of interactions is viewed as acquisition of character in cladistics, macro-evo event
 
 - Interactions well predicted by species traits that evolve slowly (body
 size in food webs)
@@ -56,12 +58,12 @@ mites, Chamberlain et al 2014 Oecologia
 
 # Point 2 -- Interactions respond locally to micro-processes
 
-- Neutrality and trait-based mechanisms
+- Review of mechanisms involved in interactions locally: neutrality and trait-based mechanisms
+  - Key refs: Oikos paper, Canard, Olesen, Combes
 
-- These mechansism *filter* interactions -- even though they will change the
-network-level signal, contribution of interactions should not vary locally
-vs. regionally (expectation is a positive relationship), and measuring on
-potential/realized interactions should not change the result
+- These mechansism can only *filter* from a pool of regional interactions
+  - Key refs: *none yet*
+  - Key points: i) even though they will change the network-level signal, contribution of interactions should not vary locally vs. regionally ii) this is the expectation because (a) past knowledge about motifs/evolution and (b) interactions are the unit in which selection takes place, not networks
 
 - Illustration: distribution of the significance in each interaction locally
 (measured vs. metaweb) vs. in the regional network.
