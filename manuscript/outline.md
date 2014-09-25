@@ -4,15 +4,11 @@
 
 # Introduction
 
-- Overview of theory on coevolution, including spatial aspects (GMTC, coevo
-in metaco, ...). Outline of four key mechanisms and concepts.
+- Theory on coevolution predicted to result in diversification of interacting species. Yet poorly integrated with ways of describing multi-species systems.
+  - Key refs: Yoder & Nuismer, Urban, Thomspon, Jordano, Bascompte (coevol. invariants)
 
-- Difference (more than semantics) in micro-coevolution vs. co-cladogenesis,
-brief review of my book chapter.
-
-- Upper limit on organisational scale of the theory, many populations within
-a few species. Nuismer papers on landscape coevolution, old-ish review paper
-by Urban.
+- Upper limit on the scale at which coevo applies: few species, meta-community rather than very large spatial scales: smaller than the distribution of species themselves.
+  - Key refs: Nuismer, Brockhurst, Vogwill
 
 - Large organizational scales for species interactions are well handled by
 network representation, also allows description of replicated interactions
