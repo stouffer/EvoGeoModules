@@ -1,4 +1,4 @@
-% Should we seek at macro-scale theory for coevolution? Nope.
+% Should we build a macro-scale theory for coevolution? Nope.
 % ...
 % Sept 11, 2014
 
