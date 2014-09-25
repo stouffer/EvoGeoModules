@@ -83,7 +83,7 @@ be. suggests that ecological >> evolutionary drivers of local network structure
 ![figure3]
 
 - This is caused by local ecological processes, but also influences local evolutionary dynamics
-  - Key refs: Gomulkiewicz, Hochberg, Benkman
+  - Key refs: Gomulkiewicz, Hochberg, Benkman, Siepilski
   - Key points: i) Opportunity to integrate more network theory to understand between-sites differences ii) Even though coevo theory recognized variation in effects, very little attention to variation in presence/absence of int and its implications
 
 # Conclusions
