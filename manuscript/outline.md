@@ -1,4 +1,4 @@
-% What is the right scale of coevolution over large spatial extents?
+% Should we seek at macro-scale theory for coevolution? Nope.
 % ...
 % Sept 11, 2014
 
@@ -22,9 +22,9 @@
 
 - In this paper, we study the interaction between local and regional ecological processes in coevolved interactions, show how the disturb our ability to measure coevolution at the local scale, and propose a roadmap to better integrate coevolutionary theory at large spatial/organisational scales
   - Key refs: *none yet* besides data citation
-  - Key points: significantly coevolved interactions are *always* significant even when the netowkr is not detected as such
+  - Key points: i) significantly coevolved interactions are *always* significant even when the network is not detected as such ii) *perhaps a theory for coevolution at large organisational scales is not necessary since species/interactions coevolve, networks don't*
 
-# Dataset used
+# Data and analysis
 
 - Cite DOI of datasets
 
