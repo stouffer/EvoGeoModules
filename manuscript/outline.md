@@ -61,8 +61,8 @@ mites, Chamberlain et al 2014 Oecologia
 - Review of mechanisms involved in interactions locally: neutrality and trait-based mechanisms
   - Key refs: Oikos paper, Canard, Olesen, Combes
 
-- These mechansism can only *filter* from a pool of regional interactions
-  - Key refs: *none yet*
+- These mechanism can only *filter* from a pool of regional interactions
+  - Key refs: Biol Lett paper, Olito & Fox, Lounnas, ...
   - Key points: i) even though they will change the network-level signal, contribution of interactions should not vary locally vs. regionally ii) this is the expectation because (a) past knowledge about motifs/evolution and (b) interactions are the unit in which selection takes place, not networks
 
 - Illustration: distribution of the significance in each interaction locally
@@ -70,16 +70,11 @@ mites, Chamberlain et al 2014 Oecologia
 
 ![figure2]
 
-- Key references: Olito & Fox 2014, our Oikos paper, Mike B's papers on
-coevolution in connected landscapes, Manon's paper on bacteria-phage networks
-in soil.
-
 # Point 3 -- The spatial replication of networks is imperfect
 
 - Ecological processes = sorting of interactions + species
-
-- Caused by local ecological processes, but also influences local evolutionary
-dynamics
+  - Key refs: Ecol Lett &beta;-div
+  - Key points: observation of interactions result from filtering through two processes, and not clear they are related to past coevolution = we expect a loss of signal locally
 
 - Illustration: jacknife score vs. observed/possible : there is no relationship
 between how important an interaction is (coevo) and how frequent it will
@@ -87,22 +82,9 @@ be. suggests that ecological >> evolutionary drivers of local network structure
 
 ![figure3]
 
-- Key references : Buckley et al 2014, Canard papers on rodents data,
-Parasitology paper
-
-# Point 4 -- Emergent network properties may not respond to evolutionary mechanisms
-
-- Co-occurence constraints: pairs of species have never been observed together,
-but the coevolution should be measured on potential interactions; the dataset
-used to evaluate coevolution is itself incomplete
-
-- Phylogenetic content of modules, look at over-under dispersal, co-occurence
-is biased by interactions
-
-- Illustration: Phylogenetic dispersal of species in three largest modules
-
-- Key references: Baskerville on Serengeti food web, Cavender-Barres community
-phylogenetics, Koskella papers on bacteria-phage
+- This is caused by local ecological processes, but also influences local evolutionary dynamics
+  - Key refs: Gomulkiewicz, Hochberg, Benkman
+  - Key points: i) Opportunity to integrate more network theory to understand between-sites differences ii) Even though coevo theory recognized variation in effects, very little attention to variation in presence/absence of int and its implications
 
 # Conclusions
 
