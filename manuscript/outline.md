@@ -6,20 +6,23 @@
 
 - Theory on coevolution predicted to result in diversification of interacting species. Yet poorly integrated with ways of describing multi-species systems.
   - Key refs: Yoder & Nuismer, Urban, Thomspon, Jordano, Bascompte (coevol. invariants)
+  - Key points: i) coevo -> diversification ii) core mechanisms of GMTC
 
-- Upper limit on the scale at which coevo applies: few species, meta-community rather than very large spatial scales: smaller than the distribution of species themselves.
+- There is an upper limit on the scale at which coevo applies: few species, meta-community rather than very large spatial scales: smaller than the distribution of species themselves.
   - Key refs: Nuismer, Brockhurst, Vogwill
+  - Key points: Theory will be difficult to scale up because it was designed at small scales, try to propose parallels between mechanisms
 
-- Large organizational scales for species interactions are well handled by
-network representation, also allows description of replicated interactions
-(metaweb). Reviews by Proulx, Poulin, Bascompte.
+- On the other hand, large spatial scales are being better described by network approaches
+  - Key refs: Bascompte, Albouy, Baskerville
+  - Key pointd: yada yada yada
 
-- Known phylogenetic structure in networks, but unclear how it relates to
-micro-{eco/evo} processes. Papers by Stouffer, Ekloff, ...
+- Yet there is a clear phylogenetic signal in networks both at the global scale, and within motifs
+  - Key refs: Stouffer, Ekloff, some works on cophylogeny
+  - Key points: i) macro-structure of networks results from macro-evo processes ii) interactions between pairs of species are conserved too
 
-- **Goals of the paper**: Layout map for research bridging coevo with current
-structure of ecological networks, or more broadly, assemblages of several
-species, using illustrations from empirical dataset
+- In this paper, we study the interaction between local and regional ecological processes in coevolved interactions, show how the disturb our ability to measure coevolution at the local scale, and propose a roadmap to better integrate coevolutionary theory at large spatial/organisational scales
+  - Key refs: *none yet* besides data citation
+  - Key points: significantly coevolved interactions are *always* significant even when the netowkr is not detected as such
 
 # Dataset used
 
