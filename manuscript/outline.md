@@ -2,6 +2,8 @@
 % ...
 % Sept 11, 2014
 
+Coevolutionary dynamics shape the structure of ecological communities. Reciprocal selection between organisms acts both on species and their interactions. The Geographic Mosaic Theory of Coevolution (GMTC) provides a spatial perspective on these dynamics, by proposing the existence of feedbacks between local and regional scales. Yet it is not clear how the structure of communities at spatial scales relevant to species distribution (e.g. continental) are either influencing or influenced by local coevolutionary process. Here we show that the phylogenetic signature of coevolution is lost in local communities, despite individual interactions still being recognized as coevolutionary relevant. 
+
 # Introduction
 
 - Theory on coevolution predicted to result in diversification of interacting species. Yet poorly integrated with ways of describing multi-species systems.
