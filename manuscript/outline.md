@@ -1,10 +1,54 @@
 % Should we build a macro-scale theory for coevolution? Nope.
-% ...
+% Timoth\'ee Poisot \and Daniel B. Stouffer
 % Sept 11, 2014
 
-**Coevolutionary dynamics acting on both species and their interactions are a key driving force behind the structure of ecological communities. The Geographic Mosaic Theory of Coevolution (GMTC) provides a spatial perspective to these dynamics by proposing the existence of feedbacks between local and regional scales. It remains unclear, however, how the structure of communities at larger spatial scales either influences or is influenced by local coevolutionary processes. Despite this, ecological networks are known to have an ecological structure, which suggest that coevolution may play a role in their evolutionary dynamics. Here we show that the coevolutionary significance of individual interactions is maintained when moving between the local and regional scale. Importantly, this occurs despite the fact that community variation at the local scale tends to weaken or remove community-wide coevolutionary signal. This apparent mismatch between our interaction-level and community-level results strongly suggests that interactions provide the correct scale to study coevolution at small spatial scales while communities are the relevant scale only at larger spatial extents. We provide a new perspective on the interplay between coevolutionary theory and community ecology, by establishing the organisational scales at which the different theories have relevance. Although it has been tempting so far to understand how coevolution relates to network structure, our results suggest that the way forward is to understand how network structure may affect coevolution over space.**
+**Coevolutionary dynamics acting on both species and their interactions
+are a key driving force behind the structure of ecological communities. The
+Geographic Mosaic Theory of Coevolution (GMTC) provides a spatial perspective
+to these dynamics by proposing the existence of feedbacks between local
+and regional scales. It remains unclear, however, how the structure of
+communities at larger spatial scales either influences or is influenced by
+local coevolutionary processes. Despite this, ecological networks are known
+to have an ecological structure, which suggest that coevolution may play a
+role in their evolutionary dynamics. Here we show that the coevolutionary
+significance of individual interactions is maintained when moving between
+the local and regional scale. Importantly, this occurs despite the fact that
+community variation at the local scale tends to weaken or remove community-wide
+coevolutionary signal. This apparent mismatch between our interaction-level
+and community-level results strongly suggests that interactions provide the
+correct scale to study coevolution at small spatial scales while communities
+are the relevant scale only at larger spatial extents. We provide a new
+perspective on the interplay between coevolutionary theory and community
+ecology, by establishing the organisational scales at which the different
+theories have relevance. Although it has been tempting so far to understand
+how coevolution relates to network structure, our results suggest that the
+way forward is to understand how network structure may affect coevolution
+over space instead.**
 
 # Introduction
+
+<!--
+Paragraph 1 -- evolutionary dynamics and scales
+-->
+
+Ecological interactions introduce selective pressures on the species
+involved. At large organisational scales, this results in taxonomic boundaries
+delineating groups of interacting species [@eklof], invariant structures
+in some ecological communities [@nuismer,@jordano], and conservatism of
+both the distribution of community modules [@stouffer1] and the role of
+species occupy within them [@stouffer2]. Although the evolutionary dynamics
+for a pair of interacting species has been well described [@thompson],
+attempts to understand how these mechanisms cascade up to generate species
+diversity observed in large ecological networks have been unconclusive
+[@hembry;@yoder], despite the well known effect of antagonistic coevolution
+on genomic diversification [@vogwill?]. The scales at which these diversities
+happen are hard to reconcile: coevolution is expressed within patches connected
+by gene-flow [@brockhurst;@nuismer;@benkman], whereas the species diversity
+of complex networks is typically observed at spatial scales matching the
+species distribution [@havens;@basc09a]. Because these scales differ by
+orders of magnitude, one must question the relevance of previous calls to
+scale the theory on coevolution up to multi-species systems covering large
+spatial extents [@urban].
 
 - Theory on coevolution predicted to result in diversification of interacting species. Yet poorly integrated with ways of describing multi-species systems.
   - Key refs: Yoder & Nuismer, Urban, Thomspon, Jordano, Bascompte (coevol. invariants)
