@@ -50,13 +50,17 @@ orders of magnitude, one must question the relevance of previous calls to
 scale the theory on coevolution up to multi-species systems covering large
 spatial extents [@urban].
 
-- Theory on coevolution predicted to result in diversification of interacting species. Yet poorly integrated with ways of describing multi-species systems.
-  - Key refs: Yoder & Nuismer, Urban, Thomspon, Jordano, Bascompte (coevol. invariants)
-  - Key points: i) coevo -> diversification ii) core mechanisms of GMTC
+Network-based approaches [@proulx;@dunne], on the other hand, were designed to 
+study and describe species-rich systems. Previous empirical findings revealed the
+impact of evolutionary dynamics on overal network structure in food webs 
+[@ekloff;@stouffer;@otherpeople], pollination networks [@chamberlain;@vamosi], and 
+host-parasite networks [@desdevises;@hafner;@krasnov]. Both micro [@poisot;@buckling;@jordano]
+and macro [@roopnarine;@dunne] evolutionary dynamics have been measured or modelled in
+species-rich communities, but there is no understanding of how, or even of whether,
+local/micro-evoluationary and regional/macro-evolutionary feedback into one another.
+Another layer of complexity -- $\beta$ and all of that.
 
-- There is an upper limit on the scale at which coevo applies: few species, meta-community rather than very large spatial scales: smaller than the distribution of species themselves.
-  - Key refs: Nuismer, Brockhurst, Vogwill
-  - Key points: Theory will be difficult to scale up because it was designed at small scales, try to propose parallels between mechanisms
+@nenzen -- interaction spatial movement, climate, evolution
 
 - On the other hand, large spatial scales are being better described by network approaches
   - Key refs: Bascompte, Albouy, Baskerville
