@@ -1,6 +1,8 @@
-% Should we build a macro-scale theory for coevolution? Nope.
-% Timoth\'ee Poisot \and Daniel B. Stouffer
-% Sept 11, 2014
+---
+title: Should we build a macro-scale theory for coevolution? Nope.
+authors: Timoth\'ee Poisot \and Daniel B. Stouffer
+date: Sept 11, 2014
+...
 
 **Coevolutionary dynamics acting on both species and their interactions
 are a key driving force behind the structure of ecological communities. The
