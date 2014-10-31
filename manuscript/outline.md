@@ -27,10 +27,6 @@ over space instead.**
 
 # Introduction
 
-<!--
-Paragraph 1 -- evolutionary dynamics and scales
--->
-
 Ecological interactions introduce selective pressures on the species
 involved. At large organisational scales, this results in taxonomic boundaries
 delineating groups of interacting species [@eklof], invariant structures
@@ -58,33 +54,9 @@ host-parasite networks [@desdevises;@hafner;@krasnov]. Both micro [@poisot;@buck
 and macro [@roopnarine;@dunne] evolutionary dynamics have been measured or modelled in
 species-rich communities, but there is no understanding of how, or even of whether,
 local/micro-evoluationary and regional/macro-evolutionary feedback into one another.
-Another layer of complexity -- $\beta$ and all of that.
+Another layer of complexity is that ecological networks are known to vary in their structure over time and space [@refs]: the same two species will not interact in a consistent way locally, either because of local environmental contingencies, by chance, or because their phenologies do not positively covary in space [@devictor]. As a consequence, *locally*, the evolutionary signal on network structure is expected to be burried under much ecological noise, and the effect of coevolution can only be inferred at the regional scale.
 
-@nenzen -- interaction spatial movement, climate, evolution
-
-- On the other hand, large spatial scales are being better described by network approaches
-  - Key refs: Bascompte, Albouy, Baskerville
-  - Key pointd: yada yada yada
-
-- Yet there is a clear phylogenetic signal in networks both at the global scale, and within motifs
-  - Key refs: Stouffer, Ekloff, some works on cophylogeny
-  - Key points: i) macro-structure of networks results from macro-evo processes ii) interactions between pairs of species are conserved too
-
-- In this paper, we study the interaction between local and regional ecological processes in coevolved interactions, show how the disturb our ability to measure coevolution at the local scale, and propose a roadmap to better integrate coevolutionary theory at large spatial/organisational scales
-  - Key refs: *none yet* besides data citation
-  - Key points: i) significantly coevolved interactions are *always* significant even when the network is not detected as such ii) *perhaps a theory for coevolution at large organisational scales is not necessary since species/interactions coevolve, networks don't*
-
-# Data and analysis
-
-- Cite DOI of datasets
-
-- 51 sites, spatial coordinates
-
-- number species, L, Co and distribution of Co locally
-
-- Infos on phylogeny
-
-- Analyzed using PACo @balb13 @buck14
+We use data on ectoparasites of rodents from Western to Eastern Europe [@ref].
 
 # Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
 
