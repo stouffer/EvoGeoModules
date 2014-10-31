@@ -120,8 +120,11 @@ contribution of interactions will be the same in the local and regional
 networks. For the 5 networks that show evidences of coevolution accounting
 both for species and interactions sorting, we measured the contribution of
 each interaction locally, and compared it to its contribution to the regional
-network. Results are presented in **FIG**.
-
+network. Results are presented in **FIG**. **one-sentence summary**. This is
+a key result, as it establishes that although coevolution does not leave an
+imprint on local networks, it is still detectable in *interactions*. This is in
+line with recent results that established that, although networks are composed
+of interactions, both objects seem to have uncoupled behaviors [@olit14].
 
 # Point 2 -- Interactions respond locally to micro-processes
 
