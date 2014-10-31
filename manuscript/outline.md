@@ -69,7 +69,8 @@ trees have been rendered ultrametric. We use *PACO* [@balb; @doi] to measure the
 between trees knowing the matrix of interaction. *PACO* yields a network-level significance
 value for the likelihood that hosts and parasites have coevolved. For each local network, we measure
 the strength of coevolution using (i) only local observations and (ii) all possible
-interactions between local species (as known from the regional aggregation of all local networks). 
+interactions between local species (as known from the regional aggregation of all local networks). More informations about the networks are given in *Suppl. Mat. 1*. At the regional scale, coevolutionary signal is
+extremely strong ($p \leq 10^{-4}$).
 
 # Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
 
