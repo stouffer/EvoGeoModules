@@ -1,6 +1,6 @@
 ---
 title: Should we build a macro-scale theory for coevolution? Nope.
-authors: Timoth\'ee Poisot \and Daniel B. Stouffer
+author: Timothée Poisot \and Daniel B. Stouffer
 date: Oct. 31, 2014
 ---
 
@@ -27,8 +27,6 @@ how coevolution relates to network structure, our results suggest that the
 way forward is to understand how network structure may affect coevolution
 over space instead.**
 
-# Introduction
-
 Ecological interactions introduce selective pressures on the species
 involved. At large organisational scales, this results in taxonomic boundaries
 delineating groups of interacting species [@eklo11], invariant structures in
@@ -41,72 +39,80 @@ large ecological networks have been unconclusive [@hemb14;@yode10], despite
 the well known effect of antagonistic coevolution on genomic diversification
 [@pate10;@buck06]. The scales at which these diversities happen are hard to
 reconcile: coevolution is expressed within patches connected by gene-flow
-[@brockhurst;@nuismer;@benkman], whereas the species diversity of complex
-networks is typically observed at spatial scales matching the species
-distribution [@havens;@basc09a]. Because these scales differ by orders of
-magnitude, one must question the relevance of previous calls to scale the
-theory on coevolution up to multi-species systems covering large spatial
-extents [@urban].
+[@broc07c;@nuis03;@benk03a], whereas the species diversity of complex networks
+is typically observed at spatial scales matching the species distribution
+[@have92;@basc09a]. Because these scales differ by orders of magnitude,
+one must question the relevance of previous calls to scale the theory on
+coevolution up to multi-species systems covering large spatial extents
+[@urban].
 
-Network-based approaches [@proulx;@dunne], on the other hand, were designed to
-study and describe species-rich systems. Previous empirical findings revealed
-the impact of evolutionary dynamics on overal network structure in food webs
-[@ekloff;@stouffer;@otherpeople], pollination networks [@chamberlain;@vamosi],
-and host-parasite networks [@desdevises;@hafner;@krasnov]. Both micro
-[@poisot;@buckling;@jordano] and macro [@roopnarine;@dunne] evolutionary
-dynamics have been measured or modelled in species-rich communities, but there
-is no understanding of how, or even of whether, local/micro-evoluationary
-and regional/macro-evolutionary feedback into one another.  Another layer of
-complexity is that ecological networks are known to vary in their structure
-over time and space [@refs]: the same two species will not interact in a
-consistent way locally, either because of local environmental contingencies,
-by chance, or because their phenologies do not positively covary in space
-[@devictor]. As a consequence, *locally*, the evolutionary signal on network
-structure is expected to be burried under much ecological noise, and the
-effect of coevolution can only be inferred *regionally*.
+Network-based approaches [@prou05;@dunn06], on the other hand, were designed
+to study and describe species-rich systems. Previous empirical findings
+revealed the impact of evolutionary dynamics on overall network structure
+in food webs [@eklo11;@stou07], pollination networks [@cham14;@vamo14], and
+host-parasite networks [@desd02a;@hafn95]. Both micro [@hall10a;@jord03]
+and macro [@roop12;@dunn08] evolutionary dynamics have been measured or
+modelled in species-rich communities, but there is no understanding of how,
+or even of whether, local/micro-evolutionary and regional/macro-evolutionary
+feedback into one another.  Another layer of complexity is that ecological
+networks are known to vary in their structure over time and space [@pois14]:
+the same two species will not interact in a consistent way locally, either
+because of local environmental contingencies, by chance, or because their
+phenologies do not positively covary in space [@devi12]. As a consequence,
+*locally*, the evolutionary signal on network structure is expected to be
+burried under much ecological noise, and the effect of coevolution can only
+be inferred *regionally*.
+
+In multi-species systems that typically span a large taxonomic range,
+coevolution is often measured as the matching between the phylogenies of two
+sets of interacting organisms [@desd02a;@lege02]. This build on the century-old
+ideas that extant species interact in a way similar to the way their ancestors
+did [@fahr13]. "Coevolved" systems should (i) have approximately similar
+phylogenetic trees and (ii) species at matching positions in either trees
+should interact. It is not clear, however, how this idea relates to dynamics
+occurring at smaller scales [@pois15]: many ecological and evolutionary
+processes that occur locally, or over small spatial scales, can disturb this
+expected structure. Notably, it has been shown that species interactions
+are not consistent through space [@pois12c;@pois14]. Local loss of both
+interactions and species from the regional pool is most likely to result in
+observed communities that do not appear to have been shaped by coevolution.
 
 We use data on ectoparasites of rodents from Western to Eastern Europe
-[@kras12b]. The local observations on 51 localities are aggregated into a
+[@kras12b] to test the following four hypotheses. First, local species
+assemblages do not show evidence of coevolution even though the system
+has a whole does. Second, interaction-level coevolutionary signal is
+conserved. Third, interaction-level coevolutionary signal does not predict the
+spatial consistency of interactions. We do so by coupling two novel methods:
+the *PACO* algorithm for detection of phylogenetic congruence [@balb13],
+and a general framework for the variation of ecological networks [@pois12c].
+
+<!--Result 1-->
+
+Local observations on the 51 localities (*Supp. Mat. 1*) are aggregated into a
 regional metanetwork [@pois12c]. The two phylogenetic trees have been rendered
 ultrametric. We use *PACO* [@balb13] to measure the congruence between trees
 knowing the matrix of interaction. *PACO* yields a network-level significance
-value for the likelihood that hosts and parasites have coevolved. For
-each local network, we measure the strength of coevolution using (i) only
-local observations and (ii) all possible interactions between local species
-(as known from the regional aggregation of all local networks). **Explain
--- species sorting vs interaction sorting**. More informations about the
-networks are given in *Suppl. Mat. 1*. At the regional scale, coevolutionary
-signal is extremely strong ($p \leq 10^{-4}$), as shown by previous studies
-[@kras12a]. Most local networks, on the other hand, show very little evidence
-of phylogenetic congruence. Out of 51 local networks, 35 show no signal
-of coevolution, 11 show coevolution when using the regional interactions,
-and 12 show coevolution using the local interactions (see *Supp.  Mat. XX*
-for associated tests). **Figure?**.
+value for the likelihood that hosts and parasites have coevolved. For each
+local network, we measure the strength of coevolution using (i) only local
+observations and (ii) all possible interactions between local species (as
+known from the regional aggregation of all local networks). This allows us to
+separate the effect of species sorting (regional interactions) and interaction
+sorting (local interactions). At the regional scale, coevolutionary signal
+is extremely strong ($p \leq 10^{-4}$), as established by previous analysis
+of this system [@kras12a]. Most local networks, on the other hand, show
+very little evidence of phylogenetic congruence. Out of 51 local networks,
+35 show no signal of coevolution, 11 show coevolution when using the regional
+interactions, and 12 show coevolution using the local interactions (see *Supp.
+Mat. 1* for network-level significance values). **Figure?**.
 
 This suggests that macro-evolutionary processes (such as co-diversification)
 have consequences at the macro-ecological level [@pric03], but may not be
 detected at finer spatial scales due to a stronger effect of ecological
 processes locally. **Transition into hyp 2**.
 
-# Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
-
-- We expect a matching between the scales of eco/evo mechanisms
-  - Key refs: @pric03 mostly, also @nieb10
-  - Key points: acquisition/loss of interactions is viewed as acquisition of character in cladistics, macro-evo event
-
-- Interactions well predicted by species traits that evolve slowly (body
-size in food webs)
-
-- Show how this influenced the methodological toolkit (virtually all
-assumptions derive from Farenholz's rule)
-
-- Illustration: PACo or ParaFit score in the metaweb vs. distributions of
-the local webs
-
 ![figure1]
 
-- Key references: Desdevises papers on Lamellodiscus, Swafford papers on
-mites, Chamberlain et al 2014 Oecologia
+<!--Result 2-->
 
 # Point 2 -- Interactions respond locally to micro-processes
 
