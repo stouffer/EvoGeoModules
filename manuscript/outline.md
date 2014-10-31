@@ -54,9 +54,18 @@ host-parasite networks [@desdevises;@hafner;@krasnov]. Both micro [@poisot;@buck
 and macro [@roopnarine;@dunne] evolutionary dynamics have been measured or modelled in
 species-rich communities, but there is no understanding of how, or even of whether,
 local/micro-evoluationary and regional/macro-evolutionary feedback into one another.
-Another layer of complexity is that ecological networks are known to vary in their structure over time and space [@refs]: the same two species will not interact in a consistent way locally, either because of local environmental contingencies, by chance, or because their phenologies do not positively covary in space [@devictor]. As a consequence, *locally*, the evolutionary signal on network structure is expected to be burried under much ecological noise, and the effect of coevolution can only be inferred at the regional scale.
+Another layer of complexity is that ecological networks are known to vary in their structure
+over time and space [@refs]: the same two species will not interact in a consistent way locally,
+either because of local environmental contingencies, by chance, or because their phenologies do
+not positively covary in space [@devictor]. As a consequence, *locally*, the evolutionary
+signal on network structure is expected to be burried under much ecological noise, and the
+effect of coevolution can only be inferred *regionally*.
 
-We use data on ectoparasites of rodents from Western to Eastern Europe [@ref].
+We use data on ectoparasites of rodents from Western to Eastern Europe [@ref]. The local
+observations are aggregated into a regional metanetwork as per @poisotXX. The two phylogenetic
+trees have been rendered ultrametric. We use *PACO* [@balb; @doi] to measure the congruence
+between trees knowing the matrix of interaction. *PACO* yields a network-level significance
+value for the likelihood that hosts and parasites have coevolved.
 
 # Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
 
