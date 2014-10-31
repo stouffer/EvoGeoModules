@@ -105,14 +105,23 @@ very little evidence of phylogenetic congruence. Out of 51 local networks,
 interactions, and 12 show coevolution using the local interactions (see *Supp.
 Mat. 1* for network-level significance values). **Figure?**.
 
-This suggests that macro-evolutionary processes (such as co-diversification)
-have consequences at the macro-ecological level [@pric03], but may not be
-detected at finer spatial scales due to a stronger effect of ecological
-processes locally. **Transition into hyp 2**.
-
 ![figure1]
 
 <!--Result 2-->
+
+This suggests that macro-evolutionary processes (such as co-diversification)
+have consequences at the macro-ecological level [@pric03], but may not be
+detected at finer spatial scales due to a stronger effect of ecological
+processes locally. *PACO* permits the analysis of *how strongly* each
+interaction contribute to coevolution, in a way that is as independent as
+possible from other interactions. As interactions vary only insofar that there
+are some locations in which they *do not* happen, we expect that the overall
+contribution of interactions will be the same in the local and regional
+networks. For the 5 networks that show evidences of coevolution accounting
+both for species and interactions sorting, we measured the contribution of
+each interaction locally, and compared it to its contribution to the regional
+network. Results are presented in **FIG**.
+
 
 # Point 2 -- Interactions respond locally to micro-processes
 
