@@ -64,13 +64,19 @@ signal on network structure is expected to be burried under much ecological nois
 effect of coevolution can only be inferred *regionally*.
 
 We use data on ectoparasites of rodents from Western to Eastern Europe [@ref]. The local
-observations are aggregated into a regional metanetwork as per @poisotXX. The two phylogenetic
+observations on 51 localities are aggregated into a regional metanetwork as per @poisotXX. The two phylogenetic
 trees have been rendered ultrametric. We use *PACO* [@balb; @doi] to measure the congruence
 between trees knowing the matrix of interaction. *PACO* yields a network-level significance
 value for the likelihood that hosts and parasites have coevolved. For each local network, we measure
 the strength of coevolution using (i) only local observations and (ii) all possible
-interactions between local species (as known from the regional aggregation of all local networks). More informations about the networks are given in *Suppl. Mat. 1*. At the regional scale, coevolutionary signal is
-extremely strong ($p \leq 10^{-4}$).
+interactions between local species (as known from the regional aggregation of all local
+networks). **Explain -- species sorting vs interaction sorting**. More informations
+about the networks are given in *Suppl. Mat. 1*. At the regional scale, coevolutionary signal is
+extremely strong ($p \leq 10^{-4}$), as shown by previous studies [@ref]. Most local
+networks, on the other hand, show very little evidence of phylogenetic congruence. Out of
+51 local networks, 35 show no signal of coevolution, 11 show coevolution when using the
+regional interactions, and 12 show coevolution using the local interactions (see *Supp.
+Mat. XX* for associated tests). **Figure?**.
 
 # Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
 
