@@ -67,7 +67,8 @@ We use data on ectoparasites of rodents from Western to Eastern Europe [@ref]. T
 observations are aggregated into a regional metanetwork as per @poisotXX. The two phylogenetic
 trees have been rendered ultrametric. We use *PACO* [@balb; @doi] to measure the congruence
 between trees knowing the matrix of interaction. *PACO* yields a network-level significance
-value for the likelihood that hosts and parasites have coevolved.
+value for the likelihood that hosts and parasites have coevolved. For each local network, we measure
+the strength of coevolution using (i) only local observations
 
 # Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
 
