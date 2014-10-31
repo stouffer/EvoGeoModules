@@ -68,7 +68,8 @@ observations are aggregated into a regional metanetwork as per @poisotXX. The tw
 trees have been rendered ultrametric. We use *PACO* [@balb; @doi] to measure the congruence
 between trees knowing the matrix of interaction. *PACO* yields a network-level significance
 value for the likelihood that hosts and parasites have coevolved. For each local network, we measure
-the strength of coevolution using (i) only local observations
+the strength of coevolution using (i) only local observations and (ii) all possible
+interactions between local species (as known from the regional aggregation of all local networks). 
 
 # Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
 
