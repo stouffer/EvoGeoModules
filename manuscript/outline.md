@@ -78,6 +78,10 @@ networks, on the other hand, show very little evidence of phylogenetic congruenc
 regional interactions, and 12 show coevolution using the local interactions (see *Supp.
 Mat. XX* for associated tests). **Figure?**.
 
+This shows that @price macro-evolutionary processes (such as co-diversification)
+have consequences at the macro-ecological level, but may not be detected at finer spatial scales
+due to a stronger effect of ecological processes locally. **Transition into hyp 2**. 
+
 # Point 1 -- Strong hypothesis that macro-evolutionary processes have macro-ecological consequences
 
 - We expect a matching between the scales of eco/evo mechanisms
