@@ -1,8 +1,12 @@
 ---
-title: Should we build a macro-scale theory for coevolution? Nope.
+title: Coevolution is detected regionally but not locally in ecological communities
 author: Timothée Poisot \and Daniel B. Stouffer
 date: Oct. 31, 2014
 ---
+
+<!--Mark Twain said that the difference between the right word and almost
+the right word is the difference between lightning and a lightning bug. I
+think this paper still has too many of the later.-->
 
 **Coevolutionary dynamics acting on both species and their interactions
 are a key driving force behind the structure of ecological communities. The
@@ -33,7 +37,7 @@ delineating groups of interacting species [@eklo11], invariant structures in
 some ecological communities [@nuis13,@jord03], and conservatism of both the
 distribution of community modules [@stou05] and the role of species occupy
 within them [@stou12]. Although the evolutionary dynamics for a pair of
-interacting species has been well described [@thompson], attempts to understand
+interacting species has been well described [@thom05], attempts to understand
 how these mechanisms cascade up to generate species diversity observed in
 large ecological networks have been inconclusive [@hemb14;@yode10], despite
 the well known effect of antagonistic coevolution on genomic diversification
@@ -44,7 +48,7 @@ is typically observed at spatial scales matching the species distribution
 [@have92;@basc09a]. Because these scales differ by orders of magnitude,
 one must question the relevance of previous calls to scale the theory on
 coevolution up to multi-species systems covering large spatial extents
-[@urban].
+[@urba08].
 
 Network-based approaches [@prou05;@dunn06], on the other hand, were designed
 to study and describe species-rich systems. Previous empirical findings
@@ -130,18 +134,19 @@ of interactions, both objects seem to have uncoupled behaviors [@olit14].
 <!--Result 3-->
 
 Species interactions vary in a way that is independent from species
-distribution [@pois12c].  One possible explanation is that species that
-have a strong (coevolutionary) relationship would either co-distribute more,
-or interact more frequently when they co-occur. Should it be true, we would
-expect that *coevolved species pairs*, or in other words, species involved in
-an interaction contributing strongly to the community-wide coevolution, should
-be interacting frequently. This would result in a positive association between
-the frequency of the interaction (the number of observations of a particular
-interaction divided by the number of observations of the tow species together),
-and its overall importance for coevolution (here measured in the *regional*
-network). As we report in **FIGURE**, we do not find this relationship -- how
-strongly an interaction contributes to overall coevolution does not predict
-how frequently it will be realized when the two species are put together.
+distribution [@pois12c]. One possible explanation is that species that
+have a strong (coevolutionary) relationship would either co-distribute
+more, or interact more frequently when they co-occur. Should it be true,
+we would expect that *coevolved species pairs*, or in other words, species
+involved in an interaction contributing strongly to the community-wide
+coevolution, should be interacting frequently [@mouq12]. This would result
+in a positive association between the frequency of the interaction (the
+number of observations of a particular interaction divided by the number
+of observations of the tow species together), and its overall importance
+for coevolution (here measured in the *regional* network). As we report in
+**FIGURE**, we do not find this relationship -- how strongly an interaction
+contributes to overall coevolution does not predict how frequently it will
+be realized when the two species are put together.
 
 <!--Discussion 3-->
 
@@ -156,14 +161,16 @@ mis-matches of phenologies [@oles11a], local micro-environmental conditions
 higher-order constraints or (ii) replacement of species by functionally
 equivalents from the regional pool. These result show that our current
 understanding of coevolution in multi-species interactions does not scale well
-to ecological questions -- although phylogenetic structure and interaction show
-a strong agreement at the regional scale, the structure of local communities
-remains largely driven by ecological constraints. The analysis of ecological
-networks has often focused on emerging properties [@blut10] rather than on
-the building blocks of the networks, that is species and interactions. As we
-report that interactions retain their coevolution signal at either the local
-or regional scale, we suggest that they should be the focus of community
-ecologists in the future.
+to ecological questions -- although phylogenetic structure and interaction
+show a strong agreement at the regional scale, the structure of local
+communities remains largely driven by ecological constraints. The analysis
+of ecological networks has often focused on emerging properties [@blut10]
+rather than on the building blocks of the networks, that is species and
+interactions. Contrary to the often-argued point that coevolution should
+explain the local structure of interactions [@thom13], our result suggests
+that given the high variance in local interactions, coupled with the lack
+of relationship between coevolution and interaction frequency, local network
+structure is more likely to affect coevolution than the other way around.
 
 <!--Oh boy, this last sentence sucks.-->
 
