@@ -3,6 +3,7 @@ library(stringr)
 library(igraph)
 library(betalink)
 library(doMC)
+library(ape)
 
 source("commons.r")
 
@@ -21,7 +22,7 @@ A <- incidence(mw)
 h_mat <- cophenetic(host_tree)[colnames(A), colnames(A)]
 p_mat <- cophenetic(para_tree)[rownames(A), rownames(A)]
 
-D <- link_contribution(D)
+D <- paco_links(D)
 save(D, file="D.Rdata")
 
 l_contrib <- function(n, hc, pc)
@@ -30,14 +31,16 @@ l_contrib <- function(n, hc, pc)
    reds <- V(n)$name[degree(n, mode="in")>0]
    reduced_A <- A[blues,reds]
    local_A <- incidence(n)
-   regD <- link_contribution(proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A)), nperm=10000))
-   locD <- link_contribution(proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A)), nperm=10000))
+   regD <- paco_links(PACo(add_pcoord(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A)), nperm=10000))
+   locD <- paco_links(PACo(add_pcoord(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A)), nperm=10000))
    output <- list(loc=locD$jacknife$mean, reg=regD$jacknife$mean)
    return(output)
 }
 
-coevolved_locales <- subset(fig1dat, loc <= .05 & reg <= .05)$`.id`
-co_raw <- raw[coevolved_locales]
+#coevolved_locales <- subset(fig1dat, loc <= .05 & reg <= .05)$`.id`
+#co_raw <- raw[coevolved_locales]
+
+co_raw <- raw
 
 ## Parallel version
 registerDoMC(6)
