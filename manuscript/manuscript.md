@@ -25,7 +25,7 @@ suggest that the way forward is to understand how network structure may
 affect coevolution over space instead.**
 
 Ecological interactions introduce selective pressures on the species involved
--- for example, lodgepole pines and red crossbills traits phenologies respond
+-- for example, lodgepole pines and red crossbills phenologies respond
 spatially to the presence of squirrels [@benk03a], and palm species undergo
 changes in seed morphology in response to the extinction of disperser birds
 [@galetti]. When taxonomically diverse species are considered at once, groups
@@ -39,57 +39,50 @@ tremendous species diversity of both species and interactions characteristic
 of empirical communities have been inconclusive [@hemb14].
 
 In multi-species systems that typically span a large taxonomic range,
-coevolution is often measured as the matching between the phylogenies of
-two sets of interacting organisms [@desd02a;@lege02]. This build on the
-century-old ideas that extant species interact in a way similar to the
-way their ancestors did [@fahr13]. "Coevolved" systems should (i) have
-approximately similar phylogenetic trees and (ii) species at matching
-positions in either trees should interact.  It is not clear, however,
-how this idea relates to dynamics occurring at smaller scales [@pois15]:
-many ecological and evolutionary processes that occur locally are expected
-to blur the phylogenetic signal. The spatial scales at which the different
-mechanisms involved are mostly incommensurable: coevolution is expressed
-within patches connected by gene-flow [@broc07c;@nuis03], whereas the species
-diversity of complex networks is typically observed at spatial scales matching
-the species distribution [@have92;@basc09a].
+coevolution is often measured as the matching between the phylogenies of two
+sets of interacting organisms [@desd02a;@lege02]. This build on the century-old
+ideas that extant species interact in a way similar to the way their ancestors
+did [@fahr13]. "Coevolved" systems should (i) have similar phylogenetic trees
+and (ii) species at matching positions in either trees should interact. It
+is not clear, however, how this idea relates to dynamics occurring at smaller
+scales [@pois15]: many ecological and evolutionary processes that occur locally
+are expected to blur the phylogenetic signal. The spatial scales at which
+the different mechanisms involved are mostly incommensurable: coevolution is
+expressed within patches connected by gene-flow [@broc07c;@nuis03], whereas
+the species diversity of complex networks is typically observed at spatial
+scales matching the species distribution [@have92;@basc09a].
 
-Network-based approaches [@prou05;@dunn06], on the other hand, were designed
-to study and describe species-rich systems. Previous empirical findings
-revealed the impact of evolutionary dynamics on overall network structure
-in food webs [@eklo11;@stou07], pollination networks [@cham14;@vamo14], and
-host-parasite networks [@desd02a;@hafn95]. Both micro [@hall10a;@jord03]
-and macro [@roop12;@dunn08] evolutionary dynamics have been measured or
-modelled in species-rich communities, but there is no understanding of how,
-or even of whether, local/micro-evolutionary and regional/macro-evolutionary
-feedback into one another.  Another layer of complexity is that ecological
-networks are known to vary in their structure over time and space [@pois14]:
-the same two species will not interact in a consistent way locally, either
-because of local environmental contingencies, by chance, or because their
-phenologies do not positively covary in space [@devi12]. As a consequence,
-*locally*, the evolutionary signal on network structure is expected to be
-buried under much ecological noise, and the effect of coevolution can only
-be inferred *regionally*.
+Species interaction networks have a structure which is in part driven
+by evolutionary mechanisms, both micro [@hall10a;@jord03] and macro
+[@eklo11;@dunn08]. Yet it has recently been demonstrated that ecological
+interactions display important turnover over time and space [@pois12c]: the
+structure of networks made of the same species is expected to change from one
+location to the other, under the effect of local environmental contingencies,
+spatial mis-match in species phenologies, variations in population abundances,
+and chance events [@pois14]. As a consequence, *locally*, the evolutionary
+signal on network structure is expected to be buried under much ecological
+noise, and the effect of coevolution can only be inferred *regionally* --
+to the point where we must now ask if deep evolutionary history matters at
+all at the scale where the structure of ecological networks is relevant to
+ecological properties.
 
-should interact.  Notably, it has been shown that species interactions
-are not consistent through space [@pois12c;@pois14]. Local loss of both
-interactions and species from the regional pool is most likely to result in
-observed communities that do not appear to have been shaped by coevolution.
+<!--I don't think this ¶ is necessary in the final text, but let's keep it
+to see the flow at the moment-->
 
 We use data on ectoparasites of rodents from Western to Eastern Europe
-[@kras12b] to test the following four hypotheses. First, local species
-assemblages do not show evidence of coevolution even though the system
-has a whole does. Second, interaction-level coevolutionary signal is
-conserved. Third, interaction-level coevolutionary signal does not predict the
-spatial consistency of interactions. For each local network, we measure the
-strength of coevolution using (i) only local observations and (ii) all
-possible interactions between local species (as known from the regional
-aggregation of all local networks). This allows us to separate the effect
-of species sorting (regional interactions) and interaction sorting (local
-interactions). At the regional scale, coevolutionary signal is extremely
-strong ($p \leq 10^{-4}$), as established by previous analysis of this system
-[@kras12a]. Most local networks, on the other hand, show very little evidence
-of phylogenetic congruence. Out of 51 local networks, 35 show no signal
-of coevolution, 11 show coevolution when using the regional interactions,
+[@kras12b] to test the following four hypotheses. First, local (observed)
+networks do not show evidence of coevolution, whereas the continental-scale
+(henceforth regional) system does. Second, the spatial variation of
+species interactions is independent from the variation in phylogenetic
+diversity. Third, interactions are distributed spatially in a way that is
+independent from their evolutionary history. Finally, the contribution of
+interactions to coevolution is similar at the local and regional scale.
+
+At the regional scale, coevolutionary signal is extremely strong ($p \leq
+10^{-4}$), as established by previous analysis of this system [@kras12a]. Most
+local networks, on the other hand, show very little evidence of phylogenetic
+congruence (Fig. 1). Out of 51 local networks, 35 show no signal of
+coevolution, 11 show coevolution when using the regional interactions,
 and 12 show coevolution using the local interactions (see *Supp.  Mat. 1*
 for network-level significance values). **Figure?**.
 
@@ -168,7 +161,11 @@ The matching between host and parasite phylogenies knowing the species
 interactions is measured using the *PACO* method [@balb13]: *PACO* measures
 both the network-level congruence (*i.e.* is the network coevolved) and the
 interaction-level signal (*i.e.* what is the contribution of each interaction
-to the overall coevolution signal).
+to the overall coevolution signal). For each local network, we measure the
+strength of coevolution using (i) only local observations and (ii) all possible
+interactions between local species (as known from the regional aggregation of
+all local networks). This allows us to separate the effect of species sorting
+(regional interactions) and interaction sorting (local interactions).
 
 Phylogenetic distance between two localities is measured for hosts and
 parasites using PCD [@ives10]: this measure accounts for the dissimilarity
