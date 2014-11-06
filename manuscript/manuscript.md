@@ -78,33 +78,58 @@ diversity. Third, interactions are distributed spatially in a way that is
 independent from their evolutionary history. Finally, the contribution of
 interactions to coevolution is similar at the local and regional scale.
 
-At the regional scale, coevolutionary signal is extremely strong ($p \leq
-10^{-4}$), as established by previous analysis of this system [@kras12a]. Most
-local networks, on the other hand, show very little evidence of phylogenetic
-congruence (Fig. 1). Out of 51 local networks, 35 show no signal of
-coevolution, 11 show coevolution when using the regional interactions,
-and 12 show coevolution using the local interactions (see *Supp.  Mat. 1*
-for network-level significance values). **Figure?**.
+At the regional scale, coevolutionary signal is extremely strong ($p
+\leq 10^{-4}$), as established by previous analysis of this system
+[@kras12a]. Most local networks, on the other hand, show very little
+evidence of phylogenetic congruence (Fig. 1). Out of 51 local networks, 35
+show no signal of coevolution, 11 show coevolution when using the regional
+interactions, and 12 show coevolution using the local interactions (see
+*Supp.  Mat. 1* for network-level significance values). This suggests that
+macro-evolutionary processes (such as co-diversification) have consequences
+at the macro-ecological level [@pric03], but may not be detected at finer
+spatial scales due to a stronger effect of ecological processes locally.
 
 ![figure1]
 
-<!--Result 2-->
+This of course implies that the variation of species interactions is not
+tied to the phylogenetic relatedness of species across space. Both hosts and
+parasites show a distance decay of phylogenetic similarity (Fig. 2A), which
+we also observe for the *total* network dissimilarity (*i.e.* species and
+interaction variation, Fig. 2B). However when the effect of species variation
+is removed, the similarity of interactions shows no correlation to either
+spatial distance (Fig. 2C) or host or parasite phylogenetic dissimilarity
+(Fig. 2D). These result show that although evolutionary history ties into
+species distribution (because communities close in space tend to have related
+hosts and parasites), it is a poor predictor of the way these species will
+interact.
 
-This suggests that macro-evolutionary processes (such as co-diversification)
-have consequences at the macro-ecological level [@pric03], but may not be
-detected at finer spatial scales due to a stronger effect of ecological
-processes locally. *PACO* permits the analysis of *how strongly* each
-interaction contribute to coevolution, in a way that is as independent as
-possible from other interactions. As interactions vary only insofar that there
-are some locations in which they *do not* happen, we expect that the overall
-contribution of interactions will be the same in the local and regional
-networks. For the 5 networks that show evidences of coevolution accounting
-both for species and interactions sorting, we measured the contribution of
-each interaction locally, and compared it to its contribution to the regional
-network. Results are presented in **FIG**. **one-sentence summary**. This is
-a key result, as it establishes that although coevolution does not leave an
-imprint on local networks, it is still detectable in *interactions*. This is in
-line with recent results that established that, although networks are composed
+<!--I like this result after all!-->
+
+Ecological interactions vary only insofar that there are some locations in
+which they *do not* happen -- yet some interactions happen more consistently
+than others. The literature on host-parasite interaction usually assumes
+that some interactions are frequent because they reflect a significant
+past history of coevolution [@comb01;@mora10]. Should it be the case, the
+correlation between how frequently an interaction is (the number of times
+it is observed, divided by the number of time the two species co-occurred)
+and the importance of this interaction for coevolution (at the continental
+scale) is expected to be significant and positive. We find that it is neither
+(Fig. 3). The fact that an interaction is commonly observed does not reflect
+past co-evolution, but is most likely explained by local ecological factors:
+example mechanisms would be co-distribution of species in environments
+in which they can interact [@grav11], positive covariance of traits and
+environmental features, or random selection of partners by species with a
+wide range of possible interactions [@pois13].
+
+we expect that the overall contribution of 
+interactions will be the same in the local and regional networks. For the
+5 networks that show evidences of coevolution accounting both for species
+and interactions sorting, we measured the contribution of each interaction
+locally, and compared it to its contribution to the regional network. Results
+are presented in **FIG**. **one-sentence summary**. This is a key result,
+as it establishes that although coevolution does not leave an imprint on
+local networks, it is still detectable in *interactions*. This is in line
+with recent results that established that, although networks are composed
 of interactions, both objects seem to have uncoupled behaviors [@olit14].
 
 <!--Result 3-->
