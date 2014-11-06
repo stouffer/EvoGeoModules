@@ -121,57 +121,40 @@ in which they can interact [@grav11], positive covariance of traits and
 environmental features, or random selection of partners by species with a
 wide range of possible interactions [@pois13].
 
-we expect that the overall contribution of 
-interactions will be the same in the local and regional networks. For the
-5 networks that show evidences of coevolution accounting both for species
-and interactions sorting, we measured the contribution of each interaction
-locally, and compared it to its contribution to the regional network. Results
-are presented in **FIG**. **one-sentence summary**. This is a key result,
-as it establishes that although coevolution does not leave an imprint on
-local networks, it is still detectable in *interactions*. This is in line
-with recent results that established that, although networks are composed
-of interactions, both objects seem to have uncoupled behaviors [@olit14].
-
-<!--Result 3-->
-
-Species interactions vary in a way that is independent from species
-distribution [@pois12c]. One possible explanation is that species that
-have a strong (coevolutionary) relationship would either co-distribute
-more, or interact more frequently when they co-occur. Should it be true,
-we would expect that *coevolved species pairs*, or in other words, species
-involved in an interaction contributing strongly to the community-wide
-coevolution, should be interacting frequently [@mouq12]. This would result
-in a positive association between the frequency of the interaction (the
-number of observations of a particular interaction divided by the number
-of observations of the tow species together), and its overall importance
-for coevolution (here measured in the *regional* network). As we report in
-**FIGURE**, we do not find this relationship -- how strongly an interaction
-contributes to overall coevolution does not predict how frequently it will
-be realized when the two species are put together.
+We finally evaluate whether individual interactions contribute equally
+to coevolutionary signal in the locals and continental network. An
+interaction between two species at matching positions in the tree should
+contribute positively to coevolution, regardless of the overall score of
+the community. We find that it is indeed the case: interactions contributing
+strongly to coevolutionary signal at the continental scale *also* contribute
+strongly at the local scale (Fig. 4). This is a key result, as it establishes
+that although coevolution does not leave an imprint on local networks, it
+is still detectable in *interactions*. This is in line with recent results
+that established that, although networks are composed of interactions,
+both objects seem to have uncoupled behaviors [@olit14].
 
 <!--Discussion 3-->
 
-Our results, that (i) local networks show no signal of coevolution and (ii)
-the strength of coevolution between two species does not predict how frequently
-they interact, fall when in line with recent conclusions about the spatial
-dynamics of species interactions. Species interactions vary according to
-ecological mechanisms [@pois14]: local population abundance [@cana14], local
-mis-matches of phenologies [@oles11a], local micro-environmental conditions
-[@pois11b]. And even though network composition varies, the overall network
-*structure* remains constant over time [@dupo09], suggesting either (i)
-higher-order constraints or (ii) replacement of species by functionally
-equivalents from the regional pool. These result show that our current
-understanding of coevolution in multi-species interactions does not scale well
-to ecological questions -- although phylogenetic structure and interaction
-show a strong agreement at the regional scale, the structure of local
-communities remains largely driven by ecological constraints. The analysis
-of ecological networks has often focused on emerging properties [@blut10]
-rather than on the building blocks of the networks, that is species and
-interactions. Contrary to the often-argued point that coevolution should
-explain the local structure of interactions [@thom13], our result suggests
-that given the high variance in local interactions, coupled with the lack
-of relationship between coevolution and interaction frequency, local network
-structure is more likely to affect coevolution than the other way around.
+Our results, that (i) local networks show no signal of coevolution and
+(ii) the strength of coevolution between two species does not predict how
+frequently they interact, fall when in line with recent conclusions about the
+spatial dynamics of species interactions. Although species interactions vary
+according to ecological mechanisms [@pois14], and although the identity of
+species in a network varies, the overall network *structure* remains constant
+over time [@dupo09]. This can suggest higher-order constraints on structure,
+or replacement of species by functionally equivalents from the regional
+pool. These result show that our current understanding of coevolution in
+multi-species interactions does not scale well to ecological questions --
+although phylogenetic structure and interaction show a strong agreement at the
+continental scale, community structure remains largely driven by ecological
+constraints. Ecological networks analysis has often focused on emerging
+properties [@blut10] rather than on the building blocks of the networks,
+that is species and interactions. Contrary to the often-argued point that
+coevolution should explain the local structure of interactions [@thom13],
+our result suggests that given the high variance in local interactions,
+coupled with the lack of relationship between coevolution and interaction
+frequency, local network structure is more likely to affect coevolution than
+the other way around.
 
 # Methods
 
