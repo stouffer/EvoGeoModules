@@ -4,23 +4,22 @@ author: Timothée Poisot \and Daniel B. Stouffer
 date: Oct. 31, 2014
 ---
 
-**Coevolutionary dynamics act on both species and their interactions to
-drive the structure of ecological communities. It remains unclear, however,
-how the structure of communities at larger spatial scales either influences
-or is influenced by local coevolutionary processes, and how mechanisms acting
-at different scales feedback into one another. Most of these feedbacks are
-mediated by the structure of ecological interactions, *i.e.* how they are
-distributed within communities.  Here we show that, though species interactions
-vary substantially over a continental gradient, the coevolutionary significance
-of individual interactions is maintained across different scales. Intriguingly,
-this also occurs despite the fact that community variation at the local
-scale tends to weaken or remove community-wide coevolutionary signal. When
-considered in terms of the interplay between coevolutionary theory and
-community ecology, our results demonstrate that interactions are locally
-relevant whereas overall community structure is most relevant at regional
-scales. Although it has been tempting so far to understand how coevolution
-relates to network structure, our results suggest that the way forward is to
-understand how network structure may affect coevolution over space instead.**
+**Coevolutionary dynamics act on both species and their interactions
+to drive the structure of ecological communities. It remains unclear,
+however, how the structure of communities at larger spatial scales either
+influences or is influenced by local coevolutionary processes, and how
+mechanisms acting at different scales feedback into one another. Most of
+these feedbacks are mediated by the structure of ecological interactions,
+*i.e.* how they are distributed within communities.  Here we show that,
+though species interactions vary substantially over a continental gradient,
+the coevolutionary significance of individual interactions is maintained
+across different scales. Intriguingly, this also occurs despite the fact that
+community variation at the local scale tends to weaken or remove community-wide
+coevolutionary signal. When considered in terms of the interplay between
+coevolutionary theory and community ecology, our results demonstrate that
+individual interactions are locally relevant whereas the emerging structure
+of these interactions across many species only becomes relevant at regional
+scales. **
 
 Ecological interactions are capable of introducing strong selective pressures
 on the species involved; for example, lodgepole pines and red crossbills
