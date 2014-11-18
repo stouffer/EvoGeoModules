@@ -46,28 +46,9 @@ the same two species can interact in different ways under the effect of
 local environmental contingencies, spatial mismatch in species phenologies,
 variations in population abundances, and chance events [@pois14]. This suggests that the impact of deep evolutionary history on community structure can be lessened by the action of ecological mechanisms at the local scale.
 
-<!--
-TP: I don't think this ¶ is necessary in the final text, but let's keep it
-to see the flow at the moment
-
-DBS: I'm so glad you left this note as this was one of my comments. I agree that most of it shouldn't appear as a whole paragraph, but do think that each key idea must appear near the start of the corresponding paragraphs.
--->
-
-In order to better understand the interplay between coevolutionary theory
-and community ecology, we study data a dataset of rodent ectoparasites from
-Western to Eastern Europe [@kras12b]. These data show high turnover of both
-species and their interactions over time, and have well resolved phylogenetic
-trees to support a fine analysis of coevolution.
-
-$\dots$to test the following four hypotheses. First, local (observed)
-networks do not show evidence of coevolution, whereas the continental-scale
-(henceforth regional) system does. Second, the spatial variation of
-species interactions is independent from the variation in phylogenetic
-diversity. Third, interactions are distributed spatially in a way that is
-independent from their evolutionary history. Finally, the contribution of
-interactions to coevolution is similar at the local and regional scale.
-
-If ecological mechanisms do reduce evolutionary signal, we expect to detect
+In order to better understand the interplay between coevolutionary dynamics
+and community structure, we study a dataset of rodent and their ectoparasites from
+Western to Eastern Europe [@kras12b]. This dataset is uniquely suited for this task, as it offers an unprecedented spatial replication at a scale large enough to capture macro-ecological processes. In addition, host-macroparasite associations are expected to be driven by macro-evolution and co-speciation events. This dataset also exhibits spatial variation in interactions across different localities. If ecological mechanisms do reduce evolutionary signal, we expect to detect
 coevolution at the continental scale, but not locally. In line with this
 hypothesis, coevolution is strong at the continental level [@kras12a]
 ($p \leq 10^{-4}$) but most local networks show very little evidence of
