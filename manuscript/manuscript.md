@@ -44,22 +44,19 @@ to blur the phylogenetic signal [@pois15]. One possible reason is that interacti
 at ecologically relevant temporal and spatial scales [@pois12c]:
 the same two species can interact in different ways under the effect of
 local environmental contingencies, spatial mismatch in species phenologies,
-variations in population abundances, and chance events [@pois14]. This suggests that the impact of deep evolutionary history on community structure can be lessened by the action of ecological mechanisms at the local scale.
+variations in population abundances, and chance events [@pois14]. This suggests that the impact of deep evolutionary history on community structure can be lessened by the action of ecological mechanisms at the local scale. To adress this question, we study a dataset of rodent and their ectoparasites from
+Western to Eastern Europe [@kras12b]. This dataset is uniquely suited for this task, as it offers an unprecedented spatial replication at a scale large enough to capture macro-ecological processes. In addition, host-macroparasite associations are expected to be driven by macro-evolution and co-speciation events. This dataset also exhibits spatial variation in interactions across different localities.
 
-In order to better understand the interplay between coevolutionary dynamics
-and community structure, we study a dataset of rodent and their ectoparasites from
-Western to Eastern Europe [@kras12b]. This dataset is uniquely suited for this task, as it offers an unprecedented spatial replication at a scale large enough to capture macro-ecological processes. In addition, host-macroparasite associations are expected to be driven by macro-evolution and co-speciation events. This dataset also exhibits spatial variation in interactions across different localities. If ecological mechanisms do reduce evolutionary signal, we expect to detect
-coevolution at the continental scale, but not locally. In line with this
-hypothesis, coevolution is strong at the continental level [@kras12a]
-($p \leq 10^{-4}$) but most local networks show very little evidence of
-phylogenetic congruence (Fig. 1). Out of 51 local networks, 35 show no signal
+If ecological mechanisms do reduce evolutionary signal, we should detect
+coevolution at the continental scale but not locally. Phylogenetic congruence is strong at the continental level [@kras12a]
+($p \leq 10^{-4}$), which offers the baseline for the expected level of congruence in local communities. Because variation of interactions can decrease congruence, we analyse the local data at two different levels (see methods): using the *regional* interaction data, which accounts for species sorting only, and the *local* interaction data, which corresponds to the actual observations (species and interactions sorting). Out of 51 local networks, 35 show no signal
 of coevolution, 11 show coevolution when using the regional interactions,
 and 12 show coevolution using the local interactions (see *Supp.  Mat. 1*
 for network-level significance values). This suggests that macro-evolutionary
 processes such as co-diversification have consequences at the macro-ecological
 level [@pric03], but may not in fact be detectable at fine spatial scales.
 
-![(A) Conceptual representation of the sampling level. (B) Spatial distribution of the 51 sampled sites, with significance of the regional and local interaction networks color-coded.](../figures/figure1.pdf)
+![Spatial distribution of the 51 sampled sites, with significance of the regional and local interaction networks color-coded.](../figures/figure1.pdf)
 
 That there is no signal of coevolution implies that species at matching
 positions in the tree do not necessarily interact, which can happen if
