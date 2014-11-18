@@ -1,5 +1,5 @@
 ---
-title: Coevolution acts on interactions but not on communities
+title: Coevolutionar structure is observable in interactions, not in communities
 author: Timothée Poisot \and Daniel B. Stouffer
 date: Oct. 31, 2014
 ---
@@ -8,11 +8,9 @@ date: Oct. 31, 2014
 drive the structure of ecological communities. It remains unclear, however,
 how the structure of communities at larger spatial scales either influences
 or is influenced by local coevolutionary processes, and how mechanisms acting
-at different scales feedback into one another. Most of these feedbacks are
-mediated by the structure of ecological interactions, *i.e.* how they are
-distributed within communities.  Here we show that, though species interactions
+at different scales feedback into one another. The structure of ecological interactions determine how these feedbacks are distributed among species of a community. Here we show that, though species interactions
 vary substantially over a continental gradient, the coevolutionary significance
-of individual interactions is maintained across different scales. Intriguingly,
+of individual interactions is maintained across different scales. Notably,
 this also occurs despite the fact that community variation at the local scale
 tends to weaken or remove community-wide coevolutionary signal. When considered
 in terms of the interplay between coevolutionary theory and community ecology,
