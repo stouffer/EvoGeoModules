@@ -23,12 +23,12 @@ for example, lodgepole pines and red crossbills phenologies respond
 spatially to the presence of squirrels [@benk03a] and palm species undergo
 changes in seed morphology in response to the extinction of bird dispersing
 their seeds [@gale13]. Most of these interactions are long-standing from
-a macroevolutionary point of view [@eklo11], explaining why interactions
-are distributed similarly across communities, either at the large [@jord03]
-or small [@stou07] scale. Although the evolutionary dynamics of interacting
+a macroevolutionary point of view [@eklo11], explaining why the way that interactions
+are distributed is so similar across communities, either at the large [@jord03]
+or small [@stou07] scale. This suggests that large and small scale structure results from evolutionary dynamics of speces. Although the evolutionary dynamics of interacting
 species pairs has been well described [@gand08], attempts to understand
-how these cascade up to generate the tremendous species diversity of both
-species and interactions characteristic of empirical communities have been
+how these cascade up to generate the tremendous diversity of both
+species and interactions found within empirical communities have been
 inconclusive [@hemb14].
 
 Historically, coevolution in taxonomically diverse communities is quantified
