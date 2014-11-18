@@ -25,15 +25,15 @@ p_mat <- cophenetic(para_tree)[rownames(A), rownames(A)]
 D <- paco_links(D)
 save(D, file="D.Rdata")
 
-l_contrib <- function(n, hc, pc)
+l_contrib <- function(n)
 {
    blues <- V(n)$name[degree(n, mode="out")>0]
    reds <- V(n)$name[degree(n, mode="in")>0]
    reduced_A <- A[blues,reds]
    local_A <- incidence(n)
-   regD <- paco_links(PACo(add_pcoord(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A)), nperm=10000))
-   locD <- paco_links(PACo(add_pcoord(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A)), nperm=10000))
-   output <- list(loc=locD$jacknife$mean, reg=regD$jacknife$mean)
+   regD <- paco_links(PACo(add_pcoord(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A)), nperm=1000))
+   locD <- paco_links(PACo(add_pcoord(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A)), nperm=1000))
+   output <- list(loc=locD$jackknife$mean, reg=regD$jackknife$mean)
    return(output)
 }
 
@@ -60,7 +60,7 @@ for(S in names(fig2dat))
    f2d <- rbind(f2d, df_all)
 }
 
-f2d$rvalue <- D$jacknife$mean[as.character(f2d$int)]
+f2d$rvalue <- D$jackknife$mean[as.character(f2d$int)]
 rownames(f2d) <- c(1:nrow(f2d))
 f2d$score <- as.numeric(as.vector(f2d$score))
 
