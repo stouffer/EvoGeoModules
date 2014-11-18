@@ -35,20 +35,16 @@ Historically, coevolution in taxonomically diverse communities is quantified
 as the matching between the phylogenies of two sets of interacting organisms
 [@lege02]. This notion builds on the century-old idea that extant species
 interact in a way similar to the way their ancestors did [@fahr13]. More
-explicitly, communities that assembled through coevolution should (i)
+explicitly, it is thought that communities that assembled through coevolution should (i)
 have similar phylogenetic trees and (ii) species at matching positions
 in either trees should interact. It is not clear, however, how this idea
-stands when confronted to dynamics occurring at smaller scales: indeed,
+holds when confronted with dynamics occurring at smaller scales: indeed,
 many ecological and evolutionary processes that occur locally are expected
-to blur the phylogenetic signal [@pois15]. One possible reason is the
-recently demonstrated fact that interactions display important turnover,
-at temporal and spatial scales relevant to ecological dynamics [@pois12c]:
+to blur the phylogenetic signal [@pois15]. One possible reason is that interactions can display substantial turnover,
+at ecologically relevant temporal and spatial scales [@pois12c]:
 the same two species can interact in different ways under the effect of
-local environmental contingencies, spatial mis-match in species phenologies,
-variations in population abundances, and chance events [@pois14]. As a
-consequence, it is important to assess whether deep evolutionary history
-matters at all at the scale where the structure of ecological networks is
-relevant to ecological properties.
+local environmental contingencies, spatial mismatch in species phenologies,
+variations in population abundances, and chance events [@pois14]. This suggests that the impact of deep evolutionary history on community structure can be lessened by the action of ecological mechanisms at the local scale.
 
 <!--
 TP: I don't think this ¶ is necessary in the final text, but let's keep it
