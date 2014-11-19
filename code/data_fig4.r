@@ -14,7 +14,7 @@ coord <- read.csv("../data/coordinates.csv", sep="\t")
 rownames(coord) <- coord$Region
 coord <- coord[,c(2,3)]
 
-spd <- spDists(as.matrix(coord))
+spd <- spDists(as.matrix(coord), longlat=TRUE)
 rownames(spd) <- colnames(spd) <- rownames(coord)
 spd <- melt(spd)
 colnames(spd) <- c('i', 'j', 'sp')
@@ -46,13 +46,18 @@ for(i in c(1:length(raw)))
 host_pcd <- pcd(t(host_space), host_tree)
 para_pcd <- pcd(t(para_space), para_tree)
 
-hpcd <- melt(as.matrix(host_pcd$PCD))
-colnames(hpcd) <- c('i', 'j', 'hpcd')
-ppcd <- melt(as.matrix(para_pcd$PCD))
-colnames(ppcd) <- c('i', 'j', 'ppcd')
+m = function(x) melt(as.matrix(x))
 
-opcd <- merge(hpcd, ppcd)
-spd <- merge(spd, opcd)
+pcds = m(host_pcd$PCD)
+colnames(pcds) = c("Var1", "Var2", "hpcd")
+pcds = merge(pcds, m(host_pcd$PCDp))
+colnames(pcds) = c("Var1", "Var2", "hpcd", "hpcdp")
+pcds = merge(pcds, m(para_pcd$PCD))
+colnames(pcds) = c("Var1", "Var2", "hpcd", "hpcdp", "ppcd")
+pcds = merge(pcds, m(para_pcd$PCDp))
+colnames(pcds) = c("i", "j", "hpcd", "hpcdp", "ppcd", "ppcdp")
+
+spd <- merge(spd, pcds)
 
 fig4dat <- merge(bw, spd)
 save(fig4dat, file="paco_fig4.Rdata")
