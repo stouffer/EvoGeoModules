@@ -1,7 +1,7 @@
 ---
 title: Coevolutionar structure is observable in interactions, not in communities
 author: Timothée Poisot \and Daniel B. Stouffer
-date: Oct. 31, 2014
+date: Nov. 19, 2014
 ---
 
 **Coevolutionary dynamics act on both species and their interactions to
@@ -75,14 +75,13 @@ level [@pric03], but may not in fact be detectable at fine spatial scales.
 
 ![Spatial distribution of the 51 sampled sites, with significance of the regional and local interaction networks color-coded.](../figures/figure1.pdf)
 
-That there is no signal of coevolution implies that species at matching
-positions in the tree do not necessarily interact, which can happen if
-the variation of species interactions is not tied to the phylogenetic
-relatedness of species across space. In this system, the phylogenetic
-dissimilarity of both hosts and parasites increases with distance (Fig. 2A),
+The fact that the signal of coevolution is lessened at the local level implies that species at matching
+positions in their phylogenetic trees do not always interact. One possible explanation is that the variation of species interactions is not related to the species phylogenetic
+relatedness across different communities. In this system, the phylogenetic
+dissimilarity of both hosts and parasites increases with distance ($\rho = 0.16$ and $0.08$ for hosts and parasites, Fig. 2A),
 and we observe the same for the joint variation of species and interactions
-(Fig. 2B). In contrast, when we control for the effect of species variation,
-we find that the similarity of interactions is independent of both spatial
+($\rho = 0.34$, Fig. 2B). In contrast, when we control for the effect of species variation,
+we find that the similarity of interactions is independent of spatial
 distance (Fig. 2C) and host or parasite phylogenetic dissimilarity
 (Fig. 2D). Therefore, while evolutionary history is tightly linked to
 species distribution---since communities close to each other tend to have
