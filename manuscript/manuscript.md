@@ -1,5 +1,5 @@
 ---
-title: Coevolutionar structure is observable in interactions, not in communities
+title: Coevolutionary structure is observable in interactions, not in communities
 author: Timothée Poisot \and Daniel B. Stouffer
 date: Nov. 19, 2014
 ---
@@ -75,20 +75,13 @@ level [@pric03], but may not in fact be detectable at fine spatial scales.
 
 ![Spatial distribution of the 51 sampled sites, with significance of the regional and local interaction networks color-coded.](../figures/figure1.pdf)
 
+<!-- TP I changed the figure a bit, so I rewrote the paragraph, but I think the last sentence is weak -->
 The fact that the signal of coevolution is lessened at the local level implies that species at matching
 positions in their phylogenetic trees do not always interact. One possible explanation is that the variation of species interactions is not related to the species phylogenetic
-relatedness across different communities. In this system, the phylogenetic
-dissimilarity of both hosts and parasites increases with distance ($\rho = 0.16$ and $0.08$ for hosts and parasites, Fig. 2A),
-and we observe the same for the joint variation of species and interactions
-($\rho = 0.34$, Fig. 2B). In contrast, when we control for the effect of species variation,
-we find that the similarity of interactions is independent of spatial
-distance (Fig. 2C) and host or parasite phylogenetic dissimilarity
-(Fig. 2D). Therefore, while evolutionary history is tightly linked to
-species distribution---since communities close to each other tend to have
-related hosts and parasites---these results show that it is also rather poor
-predictor of the way in which these species ultimately interact.
+relatedness across different communities. In this system, communities farther apart had different species (*Suppl. Mat. 2*), but once the phylogenetic relatedness between species is accounted for, there is no relationship between spatial distance and species dissimilarity (Fig. 2A). This is not surprising, given than species from this dataset are phylogenetically related, and widespread across the spatial extent. While distant networks are more dissimilar, the way shared species interact within them is indepedant of spatial distance (Fig. 2B). The same trend exists for community dissimilarity as a function of (cumulative) phylogenetic dissimilarity of hosts and parasites (Fig. 2C). Therefore, evolutionary history is a rather poor
+predictor of the way species ultimately interact, regardless of the overall similarity in species composition.
 
-![Relationships between spatial distance, phylogenetic dissimilarity, and the dissimilarity of interactions at the local and regional scales. (*temp.*)](../figures/figure4.pdf)
+![Relationships between spatial distance, phylogenetic dissimilarity, and the dissimilarity of interactions.](../figures/figure4.pdf)
 
 Interactions also ultimately differ in how frequently they vary when
 the species involved are co-occurring [@pois13]. The literature on
