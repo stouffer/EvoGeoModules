@@ -59,50 +59,43 @@ To address these questions, we study a dataset of interactions between rodents
 and their ectoparasites from Western to Eastern Europe [@kras12b]. This
 dataset is uniquely suited for this task as it represents a paradigmatic
 system in which species-species interactions are thought to be driven by
-macro-evolution and co-speciation events [@XXX], and coevolutionary signal is
-indeed significant at the continental level [@kras12a] ($p \leq 10^{-4}$;
-Methods Summary). Importantly, it also provides considerable spatial
-replication and variability at a scale large enough to capture macro-
-ecological processes (Methods Summary).
+macro-evolution and co-speciation events [@vern09], and coevolutionary
+signal is indeed significant at the continental level [@kras12a] ($p \leq
+10^{-4}$; Methods Summary). Importantly, it also provides considerable spatial
+replication and variability [@kras04;@kras11] at a scale large enough to
+capture macro- ecological processes (Methods Summary).
 
-Given the typical expectation for host-macroparasite communities [@XXX],
-<!--DBS: I think the previous bit should be rephrased but can't think of how.-->
-the phylogenetic congruence observed at the continental level provides a
-coevolutionary baseline for what could be expected in local communities. On
-the other hand, if ecological mechanisms reduce coevolutionary signal, we
-should detect coevolution at the continental scale but not locally. Noting
-that variation of interactions can decrease congruence, we analyse the local
-data at two different levels to test these hypotheses (Methods Summary); we
-first use *regional* interaction data, which accounts for species sorting
-only, and we next use the *local* interaction data, which corresponds to the
-actual observations (species and interactions sorting). Out of 51 local
-networks, 35 show no signal of coevolution, 11 show significant coevolutionary
-signal when using the regional interactions, and 12 show significant
-coevolutionary signal using the local interactions (see *Supp. Mat. 1* for
-network-level significance values). These results would appear to support the
-idea that macro-evolutionary processes such as co-diversification can have
-consequences at the macro-ecological level [@pric03] but may not in fact be
-detectable at finer spatial scales.
+As host-macroparasites interactions are hypothesized to be highly constrained
+and conserved [@comb01], the phylogenetic congruence observed at the
+continental level provides a coevolutionary baseline for what could be
+expected in local communities. On the other hand, if ecological mechanisms
+reduce coevolutionary signal, we should detect coevolution at the continental
+scale but not locally. Noting that variation of interactions can decrease
+congruence, we analyse the local data at two different levels to test these
+hypotheses (Methods Summary); we first use *regional* interaction data, which
+accounts for species sorting only, and we next use the *local* interaction
+data, which corresponds to the actual observations (species and interactions
+sorting). Out of 51 local networks, 35 show no signal of coevolution, 11
+show significant coevolutionary signal when using the regional interactions,
+and 12 show significant coevolutionary signal using the local interactions
+(see *Supp. Mat. 1* for network-level significance values). These results
+would appear to support the idea that macro-evolutionary processes such
+as co-diversification can have consequences at the macro-ecological level
+[@pric03] but may not in fact be detectable at finer spatial scales.
 
-<!-- TP I changed the figure a bit, so I rewrote the paragraph, but I think
-the last sentence is weak, although it does make the transition smoother
---> The fact that we observed a weaker signal of coevolution at the local level
+The fact that we observed a weaker signal of coevolution at the local level
 implies that species at matching positions in their phylogenetic trees
 do not always interact. One possible explanation is that the variation of
 species interactions is not related to the species phylogenetic relatedness
-across different communities. In this system, communities farther apart contain
-different species (*Suppl. Mat. 2*), but, once the phylogenetic relatedness
-between species is accounted for, there is actually no relationship between spatial
-distance and species dissimilarity (Fig. 2A).
-<!--This is not surprising, given
-than species from this dataset are phylogenetically related, and widespread
-across the spatial extent.-->
-While distant networks are more dissimilar,
-the way shared species interact within them is independent of spatial
-distance (Fig. 2B). The same trend exists for community dissimilarity as a
-function of (cumulative) phylogenetic dissimilarity of hosts and parasites
-(Fig. 2C). These results point to the fact that interactions do not vary in
-a way that is driven by evolutionary mechanisms or history.
+across different communities. In this system, communities farther apart
+contain different species (*Suppl. Mat. 2*), but, once the phylogenetic
+relatedness between species is accounted for, there is actually no relationship
+between spatial distance and species dissimilarity (Fig. 2A). While distant
+networks are more dissimilar, the way shared species interact within them is
+independent of spatial distance (Fig. 2B). The same trend exists for community
+dissimilarity as a function of (cumulative) phylogenetic dissimilarity of hosts
+and parasites (Fig. 2C). These results point to the fact that interactions
+do not vary in a way that is driven by evolutionary mechanisms or history.
 
 Interactions also ultimately differ in how frequently they vary when the
 species involved co-occur [@carstensen;@olit14;@tyli07]. Once more, the
