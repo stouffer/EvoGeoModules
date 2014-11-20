@@ -147,17 +147,17 @@ between our current understanding of coevolution as the basis of multi-species
 interactions and its applicability to ecological questions. Local networks
 show little to no signal of coevolution and, the strength of coevolution
 between two species does not predict how frequently they interact. In
-opposition to the frequent assumptions that phylogenetic structure is a
-key driver of community structure[@cave09;@mouq12], our data reveal that at
+opposition to the frequent assumption that phylogenetic structure is a key
+driver of community structure [@cave09;@mouq12], our data reveal that at
 ecologically relevant spatial scales, this impact is actually minimal. Yet,
 individual interactions are able to retain their coevolutionary signal even
-when the community they are woven into is not. These discrepancies also
-provide a roadmap about how this gap between our appreciation of the role
-of coevolution, and its empirically measurable outcomes, is to be bridged
-by future research: our results suggest that local network structure is far
-more likely to affect coevolution than it is to be driven by it; this implies
-that network structure is the *mechanism* by which coevolution proceeds,
-rather than the imprint it leaves in ecological communities.
+when the community they are woven into is not. But these discrepancies do
+actually provide a clear roadmap about how this gap between our appreciation
+of the role of coevolution, and its empirically measurable outcomes, is to be
+bridged by future research: our results suggest that local network structure
+is far more likely to affect coevolution than it is to be driven by it;
+this implies that network structure is the *mechanism* by which coevolution
+proceeds, rather than the imprint it leaves on ecological communities.
 
 # Methods Summary
 
@@ -208,10 +208,10 @@ occur.-->
 # References
 
 **Acknowledgments.** We thank Boris Krasnov for providing the spatial
-coordinates of sites, and Juan Antonio Balbuena for discussions about the
-*PACo* method. Funding to TP and DBS was provided by a Marsden Fund Fast-Start grant
-(UOC-1101) and to DBS by a Rutherford Discovery Fellowship, both administered by the Royal
-Society of New Zealand.
+coordinates of sites, and Juan Antonio Balbuena for discussions about
+the *PACo* method. Funding to TP and DBS was provided by a Marsden Fund
+Fast-Start grant (UOC-1101) and to DBS by a Rutherford Discovery Fellowship,
+both administered by the Royal Society of New Zealand.
 
 ![Spatial pattern of coevolutionary signal across the 51 sites. For each location, we indicate whether or nor the structure of regional and local interaction networks is consistent with the pattern of phylogenetic congruence. The color of the circle corresponds to regionally significant or nonsignificant (foo and bar, respectively) while the symbol within corresponds to locally significant or nonsignificant (Zoroaster's barsom and varza, respectively).](../figures/figure1.pdf)
 
