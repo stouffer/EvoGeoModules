@@ -7,16 +7,17 @@ date: Nov. 20, 2014
 **Coevolutionary dynamics are known act on both species and their interactions
 in ways that drive the structure of ecological communities. It remains
 unclear, however, how the structure of communities at larger spatial scales
-either influences or is influenced by local coevolutionary processes, and how
-mechanisms acting at these different scales feedback onto one another.  Here we
-show that, though species interactions vary substantially over a continental
-gradient, the coevolutionary significance of individual interactions is
-maintained across different scales. Notably, this also occurs despite the
-fact that observed community variation at the local scale frequently tends to
-weaken or remove community-wide coevolutionary signal.  When considered in
-terms of the interplay between coevolutionary theory and community ecology,
-our results demonstrate that individual interactions are show a consistent
-signature of past coevolution, even when weaved in community that do not.**
+either influences or is influenced by local coevolutionary processes, and
+how mechanisms acting at these different scales feedback onto one another.
+Here we show that, though species interactions vary substantially over
+a continental gradient, the coevolutionary significance of individual
+interactions is maintained across different scales. Notably, this also
+occurs despite the fact that observed community variation at the local scale
+frequently tends to weaken or remove community-wide coevolutionary signal.
+When considered in terms of the interplay between coevolutionary theory and
+community ecology, our results demonstrate that individual interactions are
+locally relevant whereas the emerging structure of these interactions across
+many species only becomes relevant at regional scales.**
 
 Ecological interactions often exert important selective pressures on the
 species involved; for example, lodgepole pines and red crossbills phenologies
@@ -24,18 +25,14 @@ respond spatially to the presence of squirrels [@benk03a] and palm species
 undergo changes in seed morphology in response to the extinction of bird
 dispersing their seeds [@gale13]. In addition, most of these critical
 interactions are long-standing from a macro-evolutionary point of view
-[@eklo11,@stou12]. Given that interactions are distributed in similar ways
-across communities, at both the large [@jord03] or small [@stou07] scale, it
-can be argued that much ecological structure is the end result of evolutionary
-or coevolutionary dynamics between species [@XXX]. Unfortunately, while the
-coevolutionary dynamic of pairs of interacting species has been well described
-at macro [@van73] and micro [@gand08] evolutionary timescales, most attempts
-to understand how they cascade up to the levels of diversity of both species
-and interactions found within empirical communities have been inconclusive
-[@hemb14]. Moreover, because coevolutionary dynamics are often presented as
-a key driving force behind ecological structure across both time and space
-[@thom94a;@thom05], it is crucial to understand the scale at which they
-are relevant.
+[@eklo11,@stou12]. Given that interactions are distributed in similar
+ways across communities, at both the large [@jord03] or small [@stou07]
+scale, it can be argued that much ecological structure is the end result of
+evolutionary or coevolutionary dynamics between species [@XXX]. Unfortunately,
+while the coevolutionary dynamic of pairs of interacting species has been
+well described [@gand08], most attempts to understand how they cascade up
+to the levels of diversity of both species and interactions found within
+empirical communities have been inconclusive [@hemb14].
 
 Historically, the evidence for coevolution in taxonomically diverse
 communities is quantified as the matching between the phylogenies of two sets
