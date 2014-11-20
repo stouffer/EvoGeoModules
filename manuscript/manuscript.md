@@ -193,8 +193,8 @@ occur.-->
 
 **Acknowledgments.** We thank Boris Krasnov for providing the spatial
 coordinates of sites, and Juan Antonio Balbuena for discussions about the
-*PACo* method. Funding was provided by a Marsden Fund Fast-Start grant
-(UOC-1101) and Rutherford Discover Fellowship, both administered by the Royal
+*PACo* method. Funding to TP and DBS was provided by a Marsden Fund Fast-Start grant
+(UOC-1101) and to DBS by a Rutherford Discovery Fellowship, both administered by the Royal
 Society of New Zealand.
 
 ![Spatial pattern of coevolutionary signal across the 51 sites. For each location, we indicate whether or nor the structure of regional and local interaction networks is consistent with the pattern of phylogenetic congruence. The color of the circle corresponds to regionally significant or nonsignificant (foo and bar, respectively) while the symbol within corresponds to locally significant or nonsignificant (Zoroaster's barsom and varza, respectively).](../figures/figure1.pdf)
