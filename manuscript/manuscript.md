@@ -91,8 +91,7 @@ different species (*Suppl. Mat. 2*); nevertheless, once the phylogenetic related
 between species is accounted for, there is no significant relationship between
 spatial distance and species dissimilarity (Fig. 2A). Similarly, while distant networks
 are more dissimilar, the way shared species interact within them is also independent
-of spatial distance (Fig. 2B). The same trend exists for networks dissimilarity
-as a function of (cumulative) phylogenetic dissimilarity of hosts and parasites
+of spatial distance (Fig. 2B).Cumulative phylogenetic dissimilarity of hosts and parasites similarly increases network, but not interactionsl, dissimilarity
 (Fig. 2C). These results all support the conclusion that interactions do not vary in
 a way that is captured by evolutionary mechanisms or history.
 
@@ -144,7 +143,7 @@ show little to no signal of coevolution and the strength of coevolution
 between two species is a surprisingly poor predictor of how frequently they interact. In
 contrast to the frequent assumption that phylogenetic structure is a key
 driver of community structure [@cave09;@mouq12], these data reveal that this impact is actually minimal at
-ecologically relevant spatial scales. Yet,
+ecologically relevant spatial scales. Despite all the above,
 individual interactions are able to maintain their coevolutionary signal even
 when the community they are woven into does not. Thinking more broadly, these discrepancies
 provide a clear roadmap for bridging the aforementioned gap between our appreciation
