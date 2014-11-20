@@ -21,19 +21,17 @@ Ecological interactions often exert important selective pressures on the
 species involved. For example, the phenologies of lodgepole pines and red crossbills
 respond spatially to the presence of squirrels [@benk03a] and palm species
 undergo changes in seed morphology in response to the extinction of bird
-dispersing their seeds [@gale13]. In addition, most of these critical
-interactions are long-standing from a macro-evolutionary point of view
-[@eklo11,@stou12]. Given that interactions are distributed in similar ways
+dispersing their seeds [@gale13]. Given that interactions are distributed in similar ways
 across communities, at both the large [@jord03] or small [@stou07] scale, it
 can be argued that much ecological structure is the end result of evolutionary
-or coevolutionary dynamics between species [@XXX]. Unfortunately, while the
+or coevolutionary dynamics between species [@eklo11,@stou12]. Unfortunately, while the
 coevolutionary dynamic of pairs of interacting species has been well described
 at macro [@van73] and micro [@gand08] evolutionary timescales, most attempts
 to understand how they cascade up to the levels of diversity of both species
 and interactions found within empirical communities have been inconclusive
 [@hemb14]. Moreover, because coevolutionary dynamics are often presented as
 a key driving force behind ecological structure across both time and space
-[@thom94a;@thom05], it is crucial to determine the scale at which they
+[@thom05], it is crucial to determine the scale at which they
 are both relevant and quantifiable.
 
 Historically, the evidence for coevolution in taxonomically diverse
