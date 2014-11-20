@@ -1,5 +1,5 @@
 ---
-title: Coevolution leave a stronger imprint on interactions than on community structure
+title: Coevolution leaves a stronger imprint on interactions than on community structure
 author: Timothée Poisot and Daniel B. Stouffer
 ---
 
