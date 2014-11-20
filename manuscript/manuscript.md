@@ -54,16 +54,14 @@ and chance events [@pois14].
 It is unclear, however, whether these mechanisms influence how the
 coevolutionary signal within individual interactions should vary across spatial scales.
 
-<!--Only through the analysis of high-quality data can asnwers to the above
-questions be reached.-->
 To answer these questions, we study a dataset of interactions between rodents and
 their ectoparasites from Western to Eastern Europe [@kras12b] (Methods Summary). This dataset is
 uniquely suited for this task as it represents a paradigmatic system in which
 species-species interactions are thought to be driven by macro-evolution and
-co-speciation events [@vern09;@hadf14], and coevolutionary signal is indeed
+co-speciation events [@vern09], and coevolutionary signal is indeed
 significant at the continental level [@kras12a] ($p \leq 10^{-4}$; Methods
 Summary). Importantly, it also provides spatial replication
-and variability [@kras04;@kras11] at a scale large enough to capture macro-ecological
+and variability [@kras11] at a scale large enough to capture macro-ecological
 processes.
 
 As host-macroparasites interactions are hypothesized to be both ecologically
@@ -99,10 +97,10 @@ as a function of (cumulative) phylogenetic dissimilarity of hosts and parasites
 a way that is captured by evolutionary mechanisms or history.
 
 Interactions also ultimately differ in how frequently they vary when the
-species involved co-occur [@carstensen;@olit14;@tyli07]. Once more, the
+species involved co-occur [@carstensen;@olit14]. Once more, the
 literature on host-parasite interactions usually assumes that the reason why
 some interactions are more frequent is because they reflect a significant past
-history of coevolution [@comb01;@mora10]. If this were true, we should observe
+history of coevolution [@mora10]. If this were true, we should observe
 a significant, positive correlation between the probability of observing an
 interaction and the importance of that interaction for coevolution at the
 continental scale (Methods Summary). Surprisingly, we find that neither is true here since
