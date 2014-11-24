@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Dr. Philip Campbell   
 Editor in Chief, Nature
 
@@ -28,11 +27,3 @@ an *Extended Methods* section of YYY words, and two Supplementary Materials
 
 Thank you for your consideration of our manuscript,   
 Dr. Timothee Poisot
-=======
-Although it has been tempting so far to understand how coevolution
-relates to network structure, our results suggest that the way forward is to
-understand how network structure may affect coevolution over space instead.
-
-Only through the analysis of high-quality data can asnwers to the above
-questions be reached.
->>>>>>> a82d3a65539e0c072cdcbdbafc994d90aa161583
