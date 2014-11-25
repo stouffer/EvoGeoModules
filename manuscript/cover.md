@@ -5,12 +5,23 @@ Dear Dr. Campbell,
 
 We are happy to inform you of our decision to submit our manuscript entitled
 *Coevolution acts more on interactions than it does on community structure*
-for publication in *Nature*.
+for publication in *Nature*. We believe that our manuscript will be of
+general interest to the *Nature*'s readership for the following reasons.
 
-We believe that our manuscript will be of general interest to the readership
-of *Nature* for the following reasons. There is a perennial debate about
-the degree to which the structure of ecological communities is the result
-of coevolution in the past or ecological processes in the present. 
+There is persistent debate between evolutionary biologists and ecologists
+about the degree to which the structure of ecological communities is the
+result of coevolution in the past or ecological processes in the present. One
+particular idea, however, that these two groups *do* agree upon is that species-species
+interactions are a key mechanism driver underlying both of these phenomena. In this regard,
+the effects of antagonistic interactions---such as those between predators and their
+prey or parasites and their hosts---are considered to be particularly
+important.  
+
+Nevertheless, a paucity of empirical data has made it exceedingly
+difficult to tease apart the concurrent effects of coevolution and ecological
+processes to determine the scale at which each is dominant.
+
+
 
 Summary 1 (for the Editor):
 
