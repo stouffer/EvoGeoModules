@@ -21,19 +21,17 @@ Ecological interactions often exert important selective pressures on the
 species involved. For example, the phenologies of lodgepole pines and red crossbills
 respond spatially to the presence of squirrels [@benk03a] and palm species
 undergo changes in seed morphology in response to the extinction of bird
-dispersing their seeds [@gale13]. In addition, most of these critical
-interactions are long-standing from a macro-evolutionary point of view
-[@eklo11,@stou12]. Given that interactions are distributed in similar ways
+dispersing their seeds [@gale13]. Given that interactions are distributed in similar ways
 across communities, at both the large [@jord03] or small [@stou07] scale, it
 can be argued that much ecological structure is the end result of evolutionary
-or coevolutionary dynamics between species [@XXX]. Unfortunately, while the
+or coevolutionary dynamics between species [@eklo11,@stou12]. Unfortunately, while the
 coevolutionary dynamic of pairs of interacting species has been well described
 at macro [@van73] and micro [@gand08] evolutionary timescales, most attempts
 to understand how they cascade up to the levels of diversity of both species
 and interactions found within empirical communities have been inconclusive
 [@hemb14]. Moreover, because coevolutionary dynamics are often presented as
 a key driving force behind ecological structure across both time and space
-[@thom94a;@thom05], it is crucial to determine the scale at which they
+[@thom05], it is crucial to determine the scale at which they
 are both relevant and quantifiable.
 
 Historically, the evidence for coevolution in taxonomically diverse
@@ -56,16 +54,14 @@ and chance events [@pois14].
 It is unclear, however, whether these mechanisms influence how the
 coevolutionary signal within individual interactions should vary across spatial scales.
 
-<!--Only through the analysis of high-quality data can asnwers to the above
-questions be reached.-->
 To answer these questions, we study a dataset of interactions between rodents and
 their ectoparasites from Western to Eastern Europe [@kras12b] (Methods Summary). This dataset is
 uniquely suited for this task as it represents a paradigmatic system in which
 species-species interactions are thought to be driven by macro-evolution and
-co-speciation events [@vern09;@hadf14], and coevolutionary signal is indeed
+co-speciation events [@vern09], and coevolutionary signal is indeed
 significant at the continental level [@kras12a] ($p \leq 10^{-4}$; Methods
 Summary). Importantly, it also provides spatial replication
-and variability [@kras04;@kras11] at a scale large enough to capture macro-ecological
+and variability [@kras11] at a scale large enough to capture macro-ecological
 processes.
 
 As host-macroparasites interactions are hypothesized to be both ecologically
@@ -95,16 +91,15 @@ different species (*Suppl. Mat. 2*); nevertheless, once the phylogenetic related
 between species is accounted for, there is no significant relationship between
 spatial distance and species dissimilarity (Fig. 2A). Similarly, while distant networks
 are more dissimilar, the way shared species interact within them is also independent
-of spatial distance (Fig. 2B). The same trend exists for networks dissimilarity
-as a function of (cumulative) phylogenetic dissimilarity of hosts and parasites
+of spatial distance (Fig. 2B).Cumulative phylogenetic dissimilarity of hosts and parasites similarly increases network, but not interactionsl, dissimilarity
 (Fig. 2C). These results all support the conclusion that interactions do not vary in
 a way that is captured by evolutionary mechanisms or history.
 
 Interactions also ultimately differ in how frequently they vary when the
-species involved co-occur [@carstensen;@olit14;@tyli07]. Once more, the
+species involved co-occur [@carstensen;@olit14]. Once more, the
 literature on host-parasite interactions usually assumes that the reason why
 some interactions are more frequent is because they reflect a significant past
-history of coevolution [@comb01;@mora10]. If this were true, we should observe
+history of coevolution [@mora10]. If this were true, we should observe
 a significant, positive correlation between the probability of observing an
 interaction and the importance of that interaction for coevolution at the
 continental scale (Methods Summary). Surprisingly, we find that neither is true here since
@@ -148,7 +143,7 @@ show little to no signal of coevolution and the strength of coevolution
 between two species is a surprisingly poor predictor of how frequently they interact. In
 contrast to the frequent assumption that phylogenetic structure is a key
 driver of community structure [@cave09;@mouq12], these data reveal that this impact is actually minimal at
-ecologically relevant spatial scales. Yet,
+ecologically relevant spatial scales. Despite all the above,
 individual interactions are able to maintain their coevolutionary signal even
 when the community they are woven into does not. Thinking more broadly, these discrepancies
 provide a clear roadmap for bridging the aforementioned gap between our appreciation
