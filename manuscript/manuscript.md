@@ -38,7 +38,7 @@ Historically, the evidence for coevolution in taxonomically diverse
 communities is quantified as the degree of matching between the phylogenies of
 two sets of interacting organisms [@lege02]. This notion builds on the
 century-old idea that extant species interact in a way similar to the
-way their ancestors did [@fahr13]. More explicitly, it is thought that
+way their ancestors did [@fahr13], while being considerably more restrictive than just phylogenetic conservation of species' interactions [@reze07,@eklo11,@stou12]. More explicitly, it is thought that
 communities that have assembled by successive divergence events should
 display phylogenetic congruence, that is (i) have similar phylogenetic
 trees and (ii) have species at matching positions in the trees that tend to
