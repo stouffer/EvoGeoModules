@@ -1,24 +1,49 @@
-library(ggplot2)
-library(reshape2)
-library(plyr)
-library(gridExtra)
+library(RColorBrewer)
+palette(brewer.pal(9, "Set1"))
 
-load("paco_fig4.Rdata")
+load("paco_fig2.Rdata")
+load("paco_fig1.Rdata")
+load("D.Rdata")
 
-pA <- melt(fig4dat[,c("sp", "ppcdp", "hpcdp")], id.vars=c("sp"))
-levels(pA$variable) = c("Parasites", "Hosts")
-fa = ggplot(pA, aes(x=sp, y=value)) + geom_density2d() + geom_point()+ facet_grid(~variable) + theme_bw() + opts(strip.background=theme_blank()) + xlab("Spatial distance (km)") + ylab("Phylogenetic dissimilarity")
+pdf(width=14, file="../figures/figure4.pdf")
+par(mfcol=c(1,2), xaxs="i", yaxs="i",pty="s")
 
-pB <- melt(fig4dat[,c("sp", "OS", "WN")], id.vars=c("sp"))
-levels(pB$variable) = c("Interactions", "Networks")
-fb = ggplot(pB, aes(x=sp, y=value)) + geom_density2d() + geom_point() + facet_grid(~variable) + theme_bw() + opts(strip.background=theme_blank()) + xlab("Spatial distance (km)") + ylab("Community dissimilarity")
 
-fig4dat$pcd = (fig4dat$ppcd + fig4dat$hpcd)
-pB <- melt(fig4dat[,c("pcd", "OS", "WN")], id.vars=c("pcd"))
-levels(pB$variable) = c("Interactions", "Networks")
-fc = ggplot(pB, aes(x=pcd, y=value)) + geom_density2d() + geom_point() + facet_grid(~variable) + theme_bw() + opts(strip.background=theme_blank()) + xlab("Phylogenetic dissimilarity") + ylab("Community dissimilarity")
 
-pdf("../figures/figure4.pdf", width=8, height=9)
-grid.arrange(fa, fb, fc, ncol=1)
+
+
+LOC = fig1dat$loc_ss / max(D$gof$ss)
+REG = fig1dat$reg_ss / max(D$gof$ss)
+
+
+plot(density(LOC, from=0, to=0.3),
+	xlab = "Network-level coevolution (relative to continental)",
+	ylab = "Density",
+	col = 2,
+	xlim = c(0, 0.4),
+	ylim = c(0, 20),
+	main=""
+)
+lines(density(REG, from=0, to=1),col=3)
+box()
+
+legend("topright", fill=c(2,3), legend=c("Regional", "Local"), bty="n")
+
+
+
+
+
+plot(density(unique(fig2dat[,c("int","rvalue")])$rvalue, from=1e3, to=max(fig2dat$rvalue)), log="x",
+	xlab = "Contribution to coevolution",
+	ylab = "Density",
+	col = 1,
+	xlim = c(1e3, 4e4),
+	ylim = c(0, 0.0002),
+	main=""
+)
+lines(density(subset(fig2dat, type=="reg")$score, from=1e3, to=max(fig2dat$rvalue)),col=2)
+lines(density(subset(fig2dat, type=="loc")$score, from=1e3, to=max(fig2dat$rvalue)),col=3)
+
+legend("topright", fill=c(1,2,3), legend=c("Continental", "Regional", "Local"), bty="n")
+
 dev.off()
-

@@ -19,18 +19,18 @@ A <- incidence(mw)
 h_mat <- cophenetic(host_tree)[colnames(A), colnames(A)]
 p_mat <- cophenetic(para_tree)[rownames(A), rownames(A)]
 
-D <- proc_analysis(paco(pre_paco(H=h_mat, P=p_mat, HP=A)), nperm=10000)
+D <- PACo(prepare_paco_data(H=h_mat, P=p_mat, HP=A), nperm=100)
 save(D, file="D.Rdata")
 
-local_paco <- function(n, hc, pc)
+local_paco <- function(n)
 {
    blues <- V(n)$name[degree(n, mode="out")>0]
    reds <- V(n)$name[degree(n, mode="in")>0]
    reduced_A <- A[blues,reds]
    local_A <- incidence(n)
-   regD <- proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A)), nperm=10000)
-   locD <- proc_analysis(paco(pre_paco(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A)), nperm=10000)
-   output <- data.frame(loc=locD$gof$p, reg=regD$gof$p)
+   regD <- PACo(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A), nperm=100)
+   locD <- PACo(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A), nperm=100)
+   output <- data.frame(loc=locD$gof$p, reg=regD$gof$p, loc_ss=locD$gof$ss, reg_ss=regD$gof$ss)
    return(output)
 }
 
