@@ -29,34 +29,44 @@ by any stretch of the imagination. As such, we firmly believe that our
 present manuscript represents a natural and crucially important next step.
 
 In our study, we apply cutting-edge methods to quantify the coevolutionary
-signal in interaction networks with an unprecedented dataset of host-parasite
+signal in interaction networks from an unprecedented dataset of host-parasite
 interactions on a continental scale. With this combination of techniques and
 data, we test a variety of commonly-held but seldom-tested coevolutionary
 hypotheses. In addition, we demonstrate that what we as scientists actually
-understand about coevolution is contingent upon the spatial scale of the
+understand about coevolution is very contingent upon the spatial scale of the
 data studied and the ecological scale at which we observe that coevolution
 acts. Intriguingly, we demonstrate that particular species-species
 interactions are able to maintain their coevolutionary signal even when
-they are woven into a community that does not.
-
-
-
+they are woven into a community that does not. Overall, our results suggest
+that the way forward in coevolutionary studies is to understand how network
+structure affects coevolution, and *not* the other way around.
 
 Summary 1 (for the Editor):
 
-Every ecological community is ultimately the outcome of evolutionary and coevolutionary processes in the past and ecological
-processes in the present. Previous studies have described Although it has been tempting so far to understand how coevolution
-relates to community structure, our results suggest that the way forward is
-to understand how network structure may affect coevolution over space instead.
+Every ecological community is ultimately the outcome of evolutionary
+and coevolutionary processes in the past and ecological processes in the
+present. Previous studies have described the way that extant interactions
+can be captured by knowing species' evolutionary relationships while
+failing to quantify whether coevolution between these species underpins
+this observation.  Here, we demonstrate how the fingerprint of coevolution
+is eroded away by distinct ecological processes, but also show that this
+signal is most manifest in interactions as opposed to whole networks. This
+implies that network structure is the most parsimonious mechanism by which
+coevolution proceeds and not the imprint it leaves on ecological communities.
 
 Summary 2 (for the press):
 
-Understanding the structure of complex networks, how it has emerged, and
-how it influences future dynamics, are key research topics in ecology,
-sociology, physics, and many other fields. While there has been considerable growth in studies of whole network structure, the importance of Our results
-establish that individual interactions retain some properties that entire
-networks may lose. This should result in a shift of our attention from
-networks to their individual components.
+Understanding the structure of complex networks is a key research topic in
+ecology, sociology, physics, and many other fields. At its most fundamental
+level, the way in which present-day network structures have emerge is more
+important for us to truly understand the systems these networks describe. In
+ecological communities, observed networks are the end results of species
+evolution and/or coevolutionary processes between species.  We demonstrate
+here that the importance of individual interactions for coevolution can
+easily get lost if we naively assume that coevolution is necessarily a
+community-wide phenomena. This result implies that many network studies
+should benefit from a fundamental shift of our attention from the networks
+themselves to the impact of their individual components.
 
 Our submission includes the main manuscript (XXXX words with four embedded figures),
 an *Extended Methods* section of YYY words, and two files of Supplementary Information
