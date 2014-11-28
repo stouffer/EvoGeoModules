@@ -3,6 +3,7 @@ library(stringr)
 library(igraph)
 library(betalink)
 library(doMC)
+library(ape)
 
 source("commons.r")
 
@@ -19,8 +20,11 @@ A <- incidence(mw)
 h_mat <- cophenetic(host_tree)[colnames(A), colnames(A)]
 p_mat <- cophenetic(para_tree)[rownames(A), rownames(A)]
 
-D <- PACo(prepare_paco_data(H=h_mat, P=p_mat, HP=A), nperm=100)
+
+cat("PACO on all data STARTED\n")
+D <- PACo(prepare_paco_data(H=h_mat, P=p_mat, HP=A), nperm=5000)
 save(D, file="D.Rdata")
+cat("PACO on all data DONE\n")
 
 local_paco <- function(n)
 {
@@ -28,13 +32,13 @@ local_paco <- function(n)
    reds <- V(n)$name[degree(n, mode="in")>0]
    reduced_A <- A[blues,reds]
    local_A <- incidence(n)
-   regD <- PACo(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A), nperm=100)
-   locD <- PACo(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A), nperm=100)
+   regD <- PACo(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A), nperm=5000)
+   locD <- PACo(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A), nperm=5000)
    output <- data.frame(loc=locD$gof$p, reg=regD$gof$p, loc_ss=locD$gof$ss, reg_ss=regD$gof$ss)
    return(output)
 }
 
 ## Parallel version
-registerDoMC(6)
+registerDoMC(3)
 fig1dat <- ldply(raw, local_paco, .parallel=TRUE)
 save(fig1dat, file="paco_fig1.Rdata")
