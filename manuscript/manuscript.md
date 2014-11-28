@@ -174,16 +174,16 @@ the phylogenetic trees for hosts and parasites were rendered ultrametric
 
 # References
 
-**Acknowledgments.** We thank Boris Krasnov for providing the spatial
-coordinates of sites, and Juan Antonio Balbuena for discussions about
-the *PACo* method. Funding to TP and DBS was provided by a Marsden Fund
-Fast-Start grant (UOC-1101) and to DBS by a Rutherford Discovery Fellowship,
-both administered by the Royal Society of New Zealand.
+**Acknowledgments.** We thank Juan Antonio Balbuena for discussions about the
+*PACo* method, and members of the Stouffer and Tylianakis groups for comments
+on an early draft of this manuscript. Funding to TP and DBS was provided
+by a Marsden Fund Fast-Start grant (UOC-1101) and to DBS by a Rutherford
+Discovery Fellowship, both administered by the Royal Society of New Zealand.
 
-![Spatial pattern of coevolutionary signal across the 51 sites. For each location, we indicate whether or nor the structure of regional and local interaction networks is consistent with the pattern of phylogenetic congruence. The color of the circle corresponds to regionally significant or nonsignificant (foo and bar, respectively) while the symbol within corresponds to locally significant or nonsignificant (Zoroaster's barsom and varza, respectively).](../figures/figure1.pdf)
+![Spatial distribution of coevolutionary signal across the 51 sites. For each location, we indicate whether or nor the structure of regional and local interaction networks is consistent with phylogenetic congruence. The color of the circle corresponds to regionally significant or nonsignificant (foo and bar, respectively) while the symbol within corresponds to locally significant or nonsignificant (Zoroaster's barsom and varza, respectively).](../figures/figure1.pdf)
 
-![Relationships between spatial distance, phylogenetic dissimilarity, and the dissimilarity of interactions.](../figures/figure4.pdf)
+![Distribution of coevolutionary signal at the network and interaction level. **A** Networks at the local and regional scale show less coevolutionary signal than the network at the continental scale. **B** Interactions in the local, regional, and continental scale have equal contributions to coevolution. **C** Networks that have lower coevolutionary signal are made of interactions that contribute little to coevolution at the continental scale.](../figures/figure4.pdf)
 
-![Lack of a relationship between the spatial consistency of an interaction and its importance for coevolution in the continental network. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur.<!--Note that, when quantifying this relationship each interaction is weighted by the number of times the two species involved have been observed together.-->](../figures/figure3.pdf)
+![Lack of a relationship between the spatial consistency of an interaction and its importance for coevolution in the continental network. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur.](../figures/figure3.pdf)
 
-![Relationship between continental and local contribution to coevolution (*temp.*).](../figures/figure2.pdf)
+![Relationship between continental and local contribution to coevolution. Each line corresponds to a location.](../figures/figure2.pdf)
