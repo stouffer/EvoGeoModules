@@ -1,10 +1,10 @@
 load("paco_fig3.Rdata")
 
-library(ggplot2)
-
-
 fig3dat$vary = cut(fig3dat$proba, breaks=seq(0.0, 1.0, 0.2))
 
-pdf(file="../figures/figure3.pdf")
-print(ggplot(fig3dat, aes(x=vary, y=stat, fill=vary)) + geom_violin() + scale_y_log10() + geom_jitter() + theme_bw() + xlab("Interaction spatial consistency") + ylab("Importance for coevolution")) 
+pdf(file="../figures/figure3.pdf", height=6)
+
+boxplot(stat~vary, fig3dat, ylim=c(0,3e4), lty=1, pch=19, xlab="Interaction spatial consistency", ylab="Contribution to Coevolution")
+points(jitter(match(fig3dat$vary, levels(fig3dat$vary))), fig3dat$stat, pch=19, cex=fig3dat$weight/7, col="darkgrey")
+
 dev.off()
