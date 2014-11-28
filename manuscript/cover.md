@@ -26,9 +26,9 @@ Stouffer et al. *Science* (2012)). In almost all cases, however, these studies
 have focused on phylogenetic conservation of species' interactions---the
 idea that closely-related species tend to interact with similar species.
 Notably, these studies all drew implicit or explicit parallels to the idea
-of coevolution, despite the fact that these mechanisms are not the same by
-any stretch of the imagination. As of now, a comprehensive investigation of
-how coevolution acts on the structure of species-species interactions have
+of coevolution, despite the fact that phylogenetic conservatism of interactions
+does not adress the higher-order constraints involved in the coevolutionary process.
+As of now, a comprehensive investigation of how coevolution acts on the structure of species-species interactions have
 been lacking at large scales. This is the gap that our manuscript fills,
 and as such, we firmly believe that our present manuscript represents a
 natural and crucially important next step.
