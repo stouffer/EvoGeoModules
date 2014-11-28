@@ -26,7 +26,7 @@ of bird dispersing their seeds [@gale13]. Given that interactions are
 distributed in similar ways across communities, at both the large [@jord03]
 or small [@stou07] scale, it can be argued that much ecological structure
 is the end result of evolutionary or coevolutionary dynamics between species
-[@eklo11,@stou12]. Unfortunately, while the coevolutionary dynamic of pairs
+[@eklo11;@stou12]. Unfortunately, while the coevolutionary dynamic of pairs
 of interacting species has been well described at macro [@van73] and micro
 [@gand08] evolutionary timescales, most attempts to understand how they cascade
 up to the levels of diversity of both species and interactions found within
@@ -36,25 +36,24 @@ ecological structure across both time and space [@thom05], it is crucial to
 determine the scale at which they are both relevant and quantifiable.
 
 Historically, the evidence for coevolution in taxonomically diverse communities
-is quantified as the degree of matching between the phylogenies of two sets of
-interacting organisms [@lege02]. This notion builds on the century-old idea
-that extant species interact in a way similar to the way their ancestors did
-[@fahr13]. Yet it is considerably more restrictive than just phylogenetic
-conservation of species' interactions [@reze07,@eklo11,@stou12], as it
-accounts for higher-order constraints. More explicitly, it is thought that
-communities that have assembled by successive divergence events should display
-phylogenetic congruence, that is (i) have similar phylogenetic trees and
-(ii) have species at matching positions in the trees that tend to interact
-[@page03;@brooks].  On the other hand, many ecological and evolutionary
-processes that occur locally are expected to blur community-wide coevolutionary
-signal [@pois15]. One possible explanation is that interactions can display
-substantial turnover at ecologically relevant temporal and spatial scales
-[@pois12c]: the same two species can interact in different ways under
-the effect of local environmental contingencies, spatial mismatch in
-species phenologies, variations in population abundances, and chance events
-[@pois14].  It is unclear, however, whether these mechanisms influence how
-the coevolutionary signal within individual interactions should vary across
-spatial scales.
+is quantified as the degree of matching between the phylogenies of two sets
+of interacting organisms [@lege02]. This notion builds on the century-old
+idea that extant species interact in a way similar to the way their
+ancestors did [@fahr13]. Yet it is considerably more restrictive than just
+phylogenetic conservation of species' interactions [@reze07], as it accounts
+for higher-order constraints. More explicitly, it is thought that communities
+that have assembled by successive divergence events should display phylogenetic
+congruence, that is (i) have similar phylogenetic trees and (ii) have species
+at matching positions in the trees that tend to interact [@page03].  On the
+other hand, many ecological and evolutionary processes that occur locally
+are expected to blur community-wide coevolutionary signal [@pois15]. One
+possible explanation is that interactions can display substantial turnover
+at ecologically relevant temporal and spatial scales [@pois12c]: the same
+two species can interact in different ways under the effect of local
+environmental contingencies, spatial mismatch in species phenologies,
+variations in population abundances, and chance events [@pois14].  It is
+unclear, however, whether these mechanisms influence how the coevolutionary
+signal within individual interactions should vary across spatial scales.
 
 To answer these questions, we study a dataset of interactions between
 rodents and their ectoparasites from Western to Eastern Europe [@kras12b]
@@ -63,7 +62,7 @@ represents a paradigmatic system in which species-species interactions are
 thought to be driven by macro-evolution and co-speciation events [@vern09],
 and coevolutionary signal is indeed significant at the continental level
 [@kras12a] ($p \leq 10^{-4}$; Methods Summary). Importantly, it also provides
-spatial replication and variability [@kras11] at a scale large enough to
+spatial replication and variability at a scale large enough to
 capture macro-ecological processes.
 
 As host-macroparasites interactions are hypothesized to be both ecologically
@@ -100,7 +99,7 @@ their total contribution to coevolution, their distribution across different
 networks will drive differences in overall coevolutionary signal.
 
 Interactions also ultimately differ in how frequently they vary when the
-species involved co-occur [@carstensen;@olit14]. Once more, the literature
+species involved co-occur [@cars14;@olit14]. Once more, the literature
 on host-parasite interactions usually assumes that the reason why some
 interactions are more frequent is because they reflect a significant past
 history of coevolution [@mora10]. If this were true, we should observe a
@@ -125,13 +124,13 @@ interactions and its applicability to ecological questions. Local networks
 show little to no signal of coevolution and the strength of coevolution
 between two species is a surprisingly poor predictor of how frequently
 they interact. In contrast to the frequent assumption that phylogenetic
-structure is a key driver of community structure [@cave09;@mouq12], these
-data reveal that this impact is actually minimal at ecologically relevant
-spatial scales. Despite all the above, individual interactions are able to
-maintain their coevolutionary signal even when the community they are woven
-into does not. Thinking more broadly, these discrepancies provide a clear
-roadmap for bridging the aforementioned gap between our appreciation of the
-role of coevolution and its empirically measurable outcomes.  Network structure
+structure is a key driver of community structure [@cave09], these data
+reveal that this impact is actually minimal at ecologically relevant spatial
+scales. Despite all the above, individual interactions are able to maintain
+their coevolutionary signal even when the community they are woven into does
+not. Thinking more broadly, these discrepancies provide a clear roadmap
+for bridging the aforementioned gap between our appreciation of the role
+of coevolution and its empirically measurable outcomes.  Network structure
 is the most parsimonious *mechanism* by which coevolution proceeds, not the
 imprint coevolution leaves on ecological communities.
 
