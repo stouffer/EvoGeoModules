@@ -56,7 +56,7 @@ unclear, however, whether these mechanisms influence how the coevolutionary
 signal within individual interactions should vary across spatial scales.
 
 To answer these questions, we study a dataset of interactions between
-rodents and their ectoparasites from Western to Eastern Europe [@kras12b]
+rodents and their ectoparasites from 51 sites across Western to Eastern Europe [@kras12b]
 (Methods Summary). This dataset is uniquely suited for this task as it
 represents a paradigmatic system in which species-species interactions are
 thought to be driven by macro-evolution and co-speciation events [@vern09],
@@ -66,39 +66,61 @@ spatial replication and variability at a scale large enough to
 capture macro-ecological processes.
 
 As host-macroparasites interactions are hypothesized to be both ecologically
-constrained and evolutionary conserved [@comb01], the phylogenetic congruence
-observed at the continental level provides the baseline for expectations in
+constrained and evolutionary conserved [@comb01], the congruence
+observed at the continental level sets the baseline for what would be expected in
 local communities. Of course, if ecological mechanisms reduce coevolutionary
 signal, we should detect coevolution at the continental scale but not
 locally. Noting that variation of interactions can decrease congruence, we
-analyse the local data at two different levels to test these hypotheses; we
-first use *regional* interaction data, which accounts for different species
-composition across sites, then the *local* interaction data, which also
+analyse the data at two different levels to test these hypotheses: 
+first, we use *regional* interaction data---which accounts for different species
+composition across sites--and second, we use the *local* interaction data---which also
 accounts for variation in the interactions between observed these species
-(Methods Summary). Out of 51 local networks, 35 show no signal of coevolution,
+(Methods Summary). Out of 51 sites, 35 show no signal of coevolution,
 11 show significant coevolutionary signal when using the regional interactions,
 and 12 show significant coevolutionary signal using the local interactions
-(see *Supp. Mat. 1* for network-level significance values). These results
+(see *Supp. Mat. 1* for network-level significance values).
+
+These results
 would appear to support the idea that macro-evolutionary processes such
 as co-diversification can have consequences at the macro-ecological level
 [@pric03] but may not in fact be detectable at finer spatial scales.
-
-This is particularly apparent when comparing the distribution of network-level
-coevolutionary signal at the local and regional scales, relative to the
-continental scale (Fig. 2A).  Yet this system-level difference says little
-about how individual interactions, on which most of the coevolutionary
-mechanisms purportedly act [@thom99], behaves. We show that regardless of the
-scale at which the system is observed, the distribution of the contribution
-of individual interactions to coevolution is conserved (Fig. 2B). This allows
-to understand why networks differ from the continental-level expectation:
+This is particularly apparent when comparing the degree of network-level
+coevolutionary signal observed at the local and regional scales to the same at the
+continental scale (Fig. 2A).
+<!--DBS: I suggest removing the previous sentence.-->
+On the other hand, system-level differences say little
+about the behavior of individual interactions, despite the fact most coevolutionary
+mechanisms <!--purportedly--> act at the interaction level [@thom99]. Intriguingly, we observe here that the distribution of 
+individual interactions' contributions to coevolution is strongly conserved, regardless of the
+scale at which the interactions are quantified (Fig. 2B). As such,
 networks with interactions that are important for coevolution at the
-continental scale have more coevolutionaty signal at the local and regional
-scale alike (Fig. 2C). This result shows that network-level property emerge
-from the properties of their interactions: because interactions differ in
-their total contribution to coevolution, their distribution across different
-networks will drive differences in overall coevolutionary signal.
+continental scale retain more coevolutionary signal at the local and regional
+scales alike (Fig. 2C). Because interactions differ in
+their total contribution to coevolution, their distribution across 
+networks is what actually drives differences in overall coevolutionary signal. Network-level coevolutionary signal emerges directly
+from the properties of interactions and is not a property of the network itself.
 
-Interactions also ultimately differ in how frequently they vary when the
+<!--
+DBS' suggestion for an alternative/re-ordered approach to the above paragraph:
+
+These results would appear to support the idea that macro-evolutionary
+processes such as co-diversification can have consequences at the macro-
+ecological level [@pric03] but may not in fact be detectable at finer spatial
+scales. On the other hand, system-level differences say little about the
+behavior of individual interactions, despite the fact most coevolutionary
+mechanisms act at the interaction level [@thom99]. As might be expected, we
+observe here that networks with interactions that are important for
+coevolution at the continental scale indeed have more coevolutionary signal at
+the local and regional scales alike (Fig. 2C). Intriguingly, we also find that
+the distribution of individual interactions' contributions to coevolution is
+strongly conserved, regardless of the scale at which the interactions are
+quantified (Fig. 2B). Because interactions differ in their total contribution
+to coevolution, this implies that their distribution across networks is what actually drives
+differences in overall coevolutionary signal. Network-level coevolutionary signal emerges directly from the properties of
+interactions and is not a property of the network itself.
+-->
+
+Beyond their contribution to coevolution, interactions also ultimately differ in how frequently they vary when the
 species involved co-occur [@cars14;@olit14]. Once more, the literature
 on host-parasite interactions usually assumes that the reason why some
 interactions are more frequent is because they reflect a significant past
@@ -109,6 +131,7 @@ continental scale (Methods Summary). Surprisingly, we find that neither is
 true here since interactions that are important for coevolution are not more
 conserved (Fig. 3).
 
+<!--DBS: I feel like the following sentence undersells how cool this result is. See my email for an explanation of why.-->
 Nonetheless, interactions that *are* observed at the local scale should
 retain their signal of contribution to coevolution because they involve
 species at matching positions in the phylogenetic trees. Indeed, we find
@@ -138,7 +161,7 @@ imprint coevolution leaves on ecological communities.
 
 We use data on observations of interactions between 121 species of rodents
 and 205 species of parasitic fleas in 51 locations across Europe [@kras12b]
-to build 51 species-species interaction networks.  Interactions were measured
+to build 51 species-species interaction networks. Interactions were measured
 by combing rodents for fleas, a method that gives high quality data as it has
 a high power of detection. To account for differential sampling effort and
 across site variations in abundance, we only study the networks' incidence
