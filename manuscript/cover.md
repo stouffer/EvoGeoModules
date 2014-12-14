@@ -19,21 +19,21 @@ antagonistic interactions---such as those between predators and their prey
 or parasites and their hosts---are considered to be particularly important
 because the "stakes" are high for both types of organisms involved.
 
-Over the past five years, a series of papers have laid the groundwork for
-the strong relationship between species' evolutionary history and interaction
-networks (*e.g.*, Rezende et al. *Nature* (2007), Gomez et al. *Nature* (2010),
-Stouffer et al. *Science* (2012)). In almost all cases, however, these studies
-have focused on phylogenetic conservation of species' interactions---the
-idea that closely-related species tend to interact with similar species.
+Over the past five years, a series of papers have laid the groundwork for the
+strong relationship between species' evolutionary history and interaction
+networks (*e.g.*, Rezende et al. *Nature* (2007), Gomez et al. *Nature*
+(2010), Stouffer et al. *Science* (2012)). In almost all cases, however, these
+studies have focused on phylogenetic conservation of species' interactions---
+the idea that closely-related species tend to interact with similar species.
 Notably, these studies all drew implicit or explicit parallels to the idea of
-coevolution, despite the fact that these mechanisms differ in that coevolution
-explicitely adresses higher-order constraints; any test of coevolution is
-therefore more stringent, and thus a more conclusive apparaisal of the role of
-evolutionary history on species-species interactions. To date, a comprehensive
-investigation of how coevolution acts on the structure of species-species
-interactions has been lacking. This is the gap that our manuscript fills,
-and, as such, we firmly believe that our present manuscript represents a
-crucially important step forward.
+coevolution, despite the fact that testing for coevolution explicitly imposes
+additional, higher-order constraints; any test of coevolution therefore
+provides a more rigorous appraisal of the role of evolutionary history on
+species-species interactions. Nevertheless, a comprehensive investigation of
+how coevolution acts on the structure of species-species interactions has been
+lacking. This is the gap that our manuscript fills, and, as such, we firmly
+believe that our present manuscript represents a crucially important step
+forward.
 
 In our study, we apply cutting-edge methods to quantify the coevolutionary
 signal in interaction networks from an unprecedented dataset of host-parasite
@@ -85,7 +85,7 @@ reviewers of this work:
 
 - Pr. Pedro Jordano, jordano@ebd.csic.es
 - Pr. Pierre Legendre, pierre.legendre@umontreal.ca
-- Dr. Scott L. Nuismer, snuismer@uidaho.edu
+- Pr. Scott L. Nuismer, snuismer@uidaho.edu
 - Pr. Rod Page, r.page@bio.gla.ac.uk
 
 Thank you for your consideration of our manuscript,   
