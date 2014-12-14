@@ -1,9 +1,9 @@
 library(paco)
 library(stringr)
+library(ape)
 library(igraph)
 library(betalink)
 library(doMC)
-library(ape)
 
 source("commons.r")
 
@@ -22,7 +22,7 @@ p_mat <- cophenetic(para_tree)[rownames(A), rownames(A)]
 
 
 cat("PACO on all data STARTED\n")
-D <- PACo(prepare_paco_data(H=h_mat, P=p_mat, HP=A), nperm=5000)
+D <- PACo(add_pcoord(prepare_paco_data(H=h_mat, P=p_mat, HP=t(A))), nperm=100)
 save(D, file="D.Rdata")
 cat("PACO on all data DONE\n")
 
@@ -30,10 +30,10 @@ local_paco <- function(n)
 {
    blues <- V(n)$name[degree(n, mode="out")>0]
    reds <- V(n)$name[degree(n, mode="in")>0]
-   reduced_A <- A[blues,reds]
-   local_A <- incidence(n)
-   regD <- PACo(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A), nperm=5000)
-   locD <- PACo(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A), nperm=5000)
+   reduced_A <- t(A[blues,reds])
+   local_A <- t(incidence(n))
+   regD <- PACo(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], reduced_A), nperm=100)
+   locD <- PACo(prepare_paco_data(H=h_mat[reds,reds], P=p_mat[blues,blues], local_A), nperm=100)
    output <- data.frame(loc=locD$gof$p, reg=regD$gof$p, loc_ss=locD$gof$ss, reg_ss=regD$gof$ss)
    return(output)
 }
