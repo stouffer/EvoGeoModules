@@ -202,7 +202,7 @@ on an early draft of this manuscript. Funding to TP and DBS was provided
 by a Marsden Fund Fast-Start grant (UOC-1101) and to DBS by a Rutherford
 Discovery Fellowship, both administered by the Royal Society of New Zealand.
 
-![Spatial distribution of coevolutionary signal across the 51 sites. For each location, we indicate whether or nor the structure of regional and local interaction networks is consistent with phylogenetic congruence. The color of the circle corresponds to regionally significant or nonsignificant (foo and bar, respectively) while the symbol within corresponds to locally significant or nonsignificant (Zoroaster's barsom and varza, respectively).](../figures/figure1.pdf)
+![Spatial distribution of coevolutionary signal across the 51 sites. For each location, we indicate whether or nor the structure of regional and local interaction networks is consistent with phylogenetic congruence. The color of the circle corresponds to regionally significant or nonsignificant (black and grey, respectively) while the color of the symbol within corresponds to locally significant or nonsignificant (black and grey, respectively).](../figures/figure1.pdf)
 
 ![Distribution of coevolutionary signal at the network and interaction level. **A** Networks at the local and regional scale show less coevolutionary signal than the network at the continental scale. **B** Interactions in the local, regional, and continental scale have equal contributions to coevolution. **C** Networks that have lower coevolutionary signal are made of interactions that contribute little to coevolution at the continental scale.](../figures/figure4.pdf)
 
