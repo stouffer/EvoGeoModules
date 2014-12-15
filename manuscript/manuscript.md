@@ -3,20 +3,20 @@ title: Coevolution leaves a stronger imprint on interactions than on community s
 author: Timothée Poisot and Daniel B. Stouffer
 ---
 
-**Coevolutionary dynamics act on both species and their interactions in
-ways that shape ecological communities. It remains unclear, however, how
-the structure of communities at larger spatial scales either influences or
-is influenced by local coevolutionary processes, and how mechanisms acting
-at these different scales feedback onto one another.  Here we show that,
-though species interactions vary substantially over a continental gradient,
-the coevolutionary significance of individual interactions is maintained
-across different scales. Notably, this occurs despite the fact that observed
-community variation at the local scale frequently tends to weaken or remove
-community-wide coevolutionary signal.  When considered in terms of the
-interplay between community ecology and coevolutionary theory, our results
-demonstrate that individual interactions are capable and likely to show a
-consistent signature of past coevolution even when woven into communities
-that do not.**
+**Coevolutionary dynamics act on both species and their interactions in ways
+that shape ecological communities [@thom09;@nuis13]. It remains unclear,
+however, how the structure of communities at larger spatial scales either
+influences or is influenced by local coevolutionary processes [@nuis03],
+and how mechanisms acting at these different scales feedback onto one
+another [@urba08]. Here we show that, although species interactions vary
+substantially over a continental gradient, the coevolutionary significance
+of individual interactions is maintained across different scales. Notably,
+this occurs despite the fact that observed community variation at the local
+scale frequently tends to weaken or remove community-wide coevolutionary
+signal. When considered in terms of the interplay between community ecology and
+coevolutionary theory, our results demonstrate that individual interactions
+are capable and likely to show a consistent signature of past coevolution
+even when woven into communities that do not.**
 
 Ecological interactions often exert important selective pressures on the
 species involved. For example, the phenologies of lodgepole pines and red
@@ -185,4 +185,4 @@ Discovery Fellowship, both administered by the Royal Society of New Zealand.
 
 ![Lack of a relationship between the spatial consistency of an interaction and its importance for coevolution in the continental network. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur.](../figures/figure3.pdf)
 
-![Relationship between continental and local contribution to coevolution. Each line corresponds to a location.](../figures/figure2.pdf)
+![Correlation (Pearson's statistic) between the interaction-level contribution to coevolutionary signal at the local and continental scales. All positive correlations are significant with $\alpha = 0.05$. The size of each dot represents the base 10 logarithm of the number of interactions (network size).](../figures/figure2.pdf)
