@@ -6,7 +6,7 @@ load("paco_fig2.Rdata")
 load("paco_fig1.Rdata")
 load("D.Rdata")
 
-pdf(width=10, file="../figures/figure4.pdf")
+pdf(width=12, file="../figures/figure4.pdf")
 par(mfcol=c(1,2), xaxs="i", yaxs="i",pty="s")
 
 
