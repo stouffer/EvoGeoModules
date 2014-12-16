@@ -19,13 +19,13 @@ are capable and likely to show a consistent signature of past coevolution
 even when woven into communities that do not.**
 
 Ecological interactions often exert important selective pressures on the
-species involved. For example, the phenologies of lodgepole pines and red
-crossbills respond spatially to the presence of squirrels [@benk03a] and palm
-species undergo changes in seed morphology in response to the extinction
-of bird dispersing their seeds [@gale13]. Given that interactions are
-distributed in similar ways across communities, at both the large [@jord03]
-or small [@stou07] scale, it can be argued that much ecological structure
-is the end result of evolutionary or coevolutionary dynamics between species
+species involved. For example, the phenologies of lodgepole pines and
+red crossbills respond spatially to the presence of squirrels [@benk03a]
+and palm species undergo changes in seed morphology in response to the
+extinction of bird dispersing their seeds [@gale13]. Given that interactions
+are distributed in similar ways across communities, at both the large or
+small scale [@jord03], it can be argued that much ecological structure is
+the end result of evolutionary or coevolutionary dynamics between species
 [@eklo11;@stou12]. Unfortunately, while the coevolutionary dynamic of pairs
 of interacting species has been well described at macro [@van73] and micro
 [@gand08] evolutionary timescales, most attempts to understand how they cascade
@@ -35,22 +35,22 @@ coevolutionary dynamics are often presented as a key driving force behind
 ecological structure across both time and space [@thom05], it is crucial to
 determine the scale at which they are both relevant and quantifiable.
 
-Historically, the evidence for coevolution in taxonomically diverse communities
-is quantified as the degree of matching between the phylogenies of two sets
-of interacting organisms [@lege02]. This notion builds on the century-old
-idea that extant species interact in a way similar to the way their
-ancestors did [@fahr13]. Yet it is considerably more restrictive than just
-phylogenetic conservation of species' interactions [@reze07], as it accounts
-for higher-order constraints. More explicitly, it is thought that communities
-that have assembled by successive divergence events should display phylogenetic
-congruence, that is (i) have similar phylogenetic trees and (ii) have species
-at matching positions in the trees that tend to interact [@page03].  On the
-other hand, many ecological and evolutionary processes that occur locally
-are expected to blur community-wide coevolutionary signal [@pois15]. One
-possible explanation is that interactions can display substantial turnover
-at ecologically relevant temporal and spatial scales [@pois12c]: the same
-two species can interact in different ways under the effect of local
-environmental contingencies, spatial mismatch in species phenologies,
+Historically, the evidence for coevolution in taxonomically diverse
+communities is quantified as the degree of matching between the phylogenies
+of two sets of interacting organisms [@lege02]. This notion builds on the
+century-old idea that extant species interact in a way similar to the way
+their ancestors did [@fahr13]. Yet it is considerably more restrictive than
+just phylogenetic conservation of species' interactions [@reze07], as it
+accounts for higher-order constraints. More explicitly, it is thought that
+communities that have assembled by successive divergence events should display
+phylogenetic congruence, that is (i) have similar phylogenetic trees and
+(ii) have species at matching positions in the trees that tend to interact
+[@page03].  On the other hand, many ecological and evolutionary processes
+that occur locally are expected to blur community-wide coevolutionary
+signal. One possible explanation is that interactions can display substantial
+turnover at ecologically relevant temporal and spatial scales [@pois12c]:
+the same two species can interact in different ways under the effect of
+local environmental contingencies, spatial mismatch in species phenologies,
 variations in population abundances, and chance events [@pois14].  It is
 unclear, however, whether these mechanisms influence how the coevolutionary
 signal within individual interactions should vary across spatial scales.
@@ -99,7 +99,7 @@ and is not a property of the network itself.
 
 Beyond their contribution to coevolution, interactions also ultimately
 differ in how frequently they vary when the species involved co-occur
-[@cars14;@olit14]. Once more, the literature on host-parasite interactions
+[@olit14]. Once more, the literature on host-parasite interactions
 usually assumes that the reason why some interactions are more frequent is
 because they reflect a significant past history of coevolution [@mora10]. If
 this were true, we should observe a significant, positive correlation
