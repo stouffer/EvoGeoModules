@@ -82,8 +82,8 @@ and 12 show significant coevolutionary signal using the local interactions
 (see *Supp. Mat. 1* for network-level significance values).
 
 These results would appear to support the idea that macro-evolutionary
-processes such as co-diversification can have consequences at the macro-ecological
-level [@pric03] but may not in fact be detectable at finer spatial
+processes such as co-diversification can have consequences at the
+macro-ecological level but may not in fact be detectable at finer spatial
 scales. On the other hand, system-level differences say little about the
 behaviour of individual interactions, despite the fact most coevolutionary
 mechanisms act at the interaction level [@thom99]. As might be expected,
@@ -183,8 +183,8 @@ Discovery Fellowship, both administered by the Royal Society of New Zealand.
 
 ![Spatial distribution of coevolutionary signal across the 51 sites. For each location, we indicate whether or not the structure of regional and local interaction networks is consistent with phylogenetic congruence. The colour of the circle corresponds to regionally significant or non-significant (black and grey, respectively) while the colour of the symbol within corresponds to locally significant or non-significant (black and grey, respectively).](../figures/figure1.pdf)
 
-![Distribution of coevolutionary signal at the network and interaction levels. **a**, Networks that have lower coevolutionary signal at the local or regional level are composed of interactions that on average contribute little to coevolution at the continental scale. **b**, Overall, interactions observed at the local, regional, and continental scale have equal contributions to coevolutionary signal.](../figures/figure4.pdf)
+![Distribution of coevolutionary signal at the network and interaction levels. **a**, Networks that have lower coevolutionary signal at the local or regional level are composed of interactions that on average contribute little to coevolution at the continental scale. Dashed lines are the cubic smoothing spline; the two levels of the same networks are linked by solid grey lines. **b**, Overall, interactions observed at the local, regional, and continental scale have equal contributions to coevolutionary signal. Probability density was smoothed using a Gaussian kernel density estimator. Raw probability densities are shown as semi-transparent bars.](../figures/figure4.pdf)
 
-![Spatial consistency of an interaction and its contribution to coevolutionary signal. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. There was no significant relationship between spatial consistency and an interaction's importance for coevolution in the continental network ($p = XXX$).](../figures/figure3.pdf)
+![Spatial consistency of an interaction and its contribution to coevolutionary signal. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. Although statistically significant, there was no meaningful relationship between spatial consistency and an interaction's importance for coevolution in the continental network ($R^2 \approx 0.01$, $\rho = -0.1$, $p \leq 10^{-5}$).](../figures/figure3.pdf)
 
 ![Correlation (Pearson's statistic) between the interaction-level contribution to coevolutionary signal at the local and continental scales. All positive correlations are significant with $\alpha = 0.05$. The size of each dot represents the base 10 logarithm of the number of interactions (network size).](../figures/figure2.pdf)

@@ -48,20 +48,32 @@ lines(smooth.spline(x=allm$mloc, y=LOC, df=3), lty=2, col=3)
 points(REG~mreg, allm, pch=19, col=2)
 points(LOC~mloc, allm, pch=19, col=3)
 legend("topright", fill=c(2,3), legend=c("Regional", "Local"), bty="n")
+legend("topleft", pch=NA, legend=c("a"), bty="n", text.font=2, cex=1.2)
 
+co = col2rgb(palette())/255
 
-plot(density(unique(fig2dat[,c("int","rvalue")])$rvalue, from=1e3, to=max(fig2dat$rvalue)), log="x",
+plot(density(unique(fig2dat[,c("int","rvalue")])$rvalue, from=1e3, to=max(fig2dat$rvalue)),
    xlab = "Interaction-level contribution to coevoluationary signal",
-   ylab = "Density",
-   col = 1,
-   xlim = c(1e3, 4e4),
+   ylab = "Probability density",
+   col = NA,
+   xlim = c(0, 3e4),
    ylim = c(0, 0.0002),
    main=""
 )
-lines(density(subset(fig2dat, type=="reg")$score, from=1e3, to=max(fig2dat$rvalue)),col=2)
-lines(density(subset(fig2dat, type=="loc")$score, from=1e3, to=max(fig2dat$rvalue)),col=3)
+
+hist(fig2dat$rvalue, col=rgb(co[1,1], co[2,1], co[3,1], alpha=0.3), add=T, freq=F, border=NA)
+hist(subset(fig2dat, type=="reg")$score, col=rgb(co[1,2], co[2,2], co[3,2], alpha=0.3), add=T, freq=F, border=NA)
+hist(subset(fig2dat, type=="loc")$score, col=rgb(co[1,3], co[2,3], co[3,3], alpha=0.3), add=T, freq=F, border=NA)
+
+lines(density(unique(fig2dat[,c("int","rvalue")])$rvalue, from=0, to=max(fig2dat$rvalue)), lwd=2, col=1)
+lines(density(subset(fig2dat, type=="reg")$score, from=0, to=max(fig2dat$rvalue)),col=2, lwd=2)
+lines(density(subset(fig2dat, type=="loc")$score, from=0, to=max(fig2dat$rvalue)),col=3, lwd=2)
+
+box()
+
 
 legend("topright", fill=c(1,2,3), legend=c("Continental", "Regional", "Local"), bty="n")
+legend("topleft", pch=NA, legend=c("b"), bty="n", text.font=2, cex=1.2)
 
 
 
