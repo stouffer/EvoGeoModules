@@ -110,12 +110,12 @@ Summary). Surprisingly, we find that neither is true here since interactions
 that are important for coevolution are not more conserved (Fig. 3).
 
 Ultimately, coevolutionary signal varies across scale because of the simultaneous variation
-of species' interactions *and* communities' phylogenetic tree structure. In a system characterised by substantial turnover, we would expect the contribution of each separate interaction to differ across scales
+of species' interactions *and* communities' phylogenetic tree structure. In a system like this that is characterised by substantial turnover, we would expect the contribution of each separate interaction to differ across scales
 as well. Instead, we observe here that interactions that contribute strongly to
 coevolutionary signal at the continental scale *also* show a significant
-tendency to contribute strongly at the local scale (Fig. 4). Remarkably,
-this result implies that the remnants of coevolution are still locally
-detectable in *individual interactions* even though coevolution fails to leave its
+tendency to contribute strongly at the local and regional scales ($p<0.05$ in XXX out of XXX networks), and this observation is independent of network-wide coevolutionary signal (Fig. 4). Remarkably,
+this implies that the remnants of coevolution are still locally
+detectable in *individual interactions* even though coevolution regularly fails to leave its
 imprint on most local networks.
 
 Overall, the results of our analyses demonstrate that there is a sizeable gap
@@ -185,4 +185,4 @@ Discovery Fellowship, both administered by the Royal Society of New Zealand.
 
 ![Spatial consistency of an interaction and its contribution to coevolutionary signal. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. There was no significant relationship between spatial consistency and an interaction's importance for coevolution in the continental network ($p = XXX$).](../figures/figure3.pdf)
 
-![Correlation (Pearson's statistic) between the interaction-level contribution to coevolutionary signal at the local and continental scales. All positive correlations are significant with $\alpha = 0.05$. The size of each dot represents the base 10 logarithm of the number of interactions (network size).](../figures/figure2.pdf)
+![A particular interaction's contribution to coevolutionary signal is maintained across scales. We show the Pearson's correlation between interaction-level coevolutionary signal at the continental scale and the same at local and regional scales. All positive correlations are significant at $\alpha = 0.05$, and the size of each dot is proportional to the size of the network.](../figures/figure2.pdf)
