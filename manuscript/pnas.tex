@@ -1,0 +1,123 @@
+%% PNAStwoS.tex
+%% Sample file to use for PNAS articles prepared in LaTeX
+%% For two column PNAS articles
+%% Version1: Apr 15, 2008
+%% Version2: Oct 04, 2013
+
+%% BASIC CLASS FILE
+\documentclass{pnastwo}
+
+%% ADDITIONAL OPTIONAL STYLE FILES Font specification
+
+%\usepackage{pnastwoF}
+
+
+
+%% OPTIONAL MACRO DEFINITIONS
+\def\s{\sigma}
+%%%%%%%%%%%%
+%% For PNAS Only:
+\url{www.pnas.org/cgi/doi/10.1073/pnas.0709640104}
+\copyrightyear{2008}
+\issuedate{Issue Date}
+\volume{Volume}
+\issuenumber{Issue Number}
+%\setcounter{page}{2687} %Set page number here if desired
+%%%%%%%%%%%%
+
+\begin{document}
+
+\title{$title$}
+
+\author{Roberta Graff\affil{1}{University of Cambridge, Cambridge,
+United Kingdom},
+Javier de Ruiz Garcia\affil{2}{Universidad de Murcia, Bioquimica y Biologia
+Molecular, Murcia, Spain},
+\and
+Franklin Sonnery\affil{2}{}}
+
+\contributor{Submitted to Proceedings of the National Academy of Sciences
+of the United States of America}
+
+%%%Newly updated.
+%%% If significance statement need, then can use the below command otherwise just delete it.
+\significancetext{RJSM and ACAC developed the concept of the study. RJSM conducted the analysis, data interpretation and drafted the manuscript. AGB contributed to the development of the statistical methods, data interpretation and drafting of the manuscript.}
+
+\maketitle
+
+\begin{article}
+\begin{abstract}
+   $abstract$
+\end{abstract}
+
+\keywords{monolayer | structure | x-ray reflectivity | molecular electronics}
+
+\abbreviations{SAM, self-assembled monolayer; OTS, octadecyltrichlorosilane}
+
+\end{article}
+
+\begin{figure}
+\centerline{\includegraphics[width=.4\textwidth]{figsamp.eps}}
+\caption{LKB1 phosphorylates Thr-172 of AMPK$\alpha$ \textit{in vitro}
+and activates its kinase activity.}\label{afoto}
+\end{figure}
+
+\begin{figure*}[ht]
+\begin{center}
+\centerline{\includegraphics[width=.7\textwidth]{figsamp.eps}}
+\caption{LKB1 phosphorylates Thr-172 of AMPK$\alpha$ \textit{in vitro}
+and activates its kinase activity.}\label{afoto2}
+\end{center}
+\end{figure*}
+
+\begin{table}[h]
+\caption{Repeat length of longer allele by age of onset class.
+This is what happens when the text continues.}
+\begin{tabular}{@{\vrule height 10.5pt depth4pt  width0pt}lrcccc}
+&\multicolumn5c{Repeat length}\\
+\noalign{\vskip-11pt}
+Age of onset,\\
+\cline{2-6}
+\vrule depth 6pt width 0pt years&\multicolumn1c{\it n}&Mean&SD&Range&Median\\
+\hline
+Juvenile, 2$-$20&40&60.15& 9.32&43$-$86&60\\
+Typical, 21$-$50&377&45.72&2.97&40$-$58&45\\
+Late, $>$50&26&41.85&1.56&40$-$45&42\tablenote{The no. of wells for all samples was 384. Genotypes were
+determined by mass spectrometric assay. The $m_t$ value indicates the
+average number of wells positive for the over represented allele.}
+\\
+\hline
+\end{tabular}
+\end{table}
+
+
+\begin{table*}[ht]
+\caption{Summary of the experimental results}
+\begin{tabular*}{\hsize}
+{@{\extracolsep{\fill}}rrrrrrrrrrrrr}
+\multicolumn{3}{l}{Parameters}&
+\multicolumn{5}{c}{Averaged Results}&
+\multicolumn{5}{c}{Comparisons}\cr
+\hline
+\multicolumn1c{$n$}&\multicolumn1c{$S^*_{MAX}$}&
+\multicolumn1c{$t_1$}&\multicolumn1c{\ $r_1$}&
+\multicolumn1c{\ $m_1$}&\multicolumn1c{$t_2$}&
+\multicolumn1c{$r_2$}&\multicolumn1c{$m_2$}
+&\multicolumn1c{$t_{lb}$}&\multicolumn1c{\ \ $t_1/t_2$}&
+$r_1/r_2$&$m_1/m_2$&
+$t_1/t_{lb}$\cr
+\hline
+10\tablenote{Stanford Synchrotron Radiation Laboratory (Stanford University,
+Stanford, CA)}&1\quad &4&.0007&4&4&.0020&4&4&1.000&.333&1.000&1.000\cr
+10\tablenote{$R_{\rm FREE}=R$ factor for the $\sim 5$\% of the randomly
+chosen unique ref\/lections not used in the ref\/inement.}&5\quad &50&.0008&8&50&.0020&12&49&.999&.417&.698&1.020\cr
+100\tablenote{Calculated for all observed data}&20\quad &2840975&.0423&95&2871117&.1083&521&---&
+.990&.390&.182&---\ \ \cr
+\hline
+\end{tabular*}
+\end{table*}
+
+
+\end{document}
+
+
