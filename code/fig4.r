@@ -41,7 +41,7 @@ mi = merge(mloc, mreg)
 colnames(mi) = c(".id", "mloc", "mreg")
 allm = merge(mi, fig1dat)
 
-plot(REG~mreg, allm, pch=NA, col=2, ylab = "Relative amount of coevolutionary signal", xlab="Average interaction-level contribution to coevolutionary signal", ylim=c(0, 0.3))
+plot(REG~mreg, allm, pch=NA, col=2, ylab = "Relative amount of coevolutionary signal", xlab="Average interaction-level contribution to coevolutionary signal", ylim=c(0, 0.3), xlim=rev(range(mreg)))
 segments(x0=allm$mreg, x1=allm$mloc, y0=REG, y1=LOC, col="lightgrey")
 lines(smooth.spline(x=allm$mreg, y=REG, df=3), lty=2, col=2)
 lines(smooth.spline(x=allm$mloc, y=LOC, df=3), lty=2, col=3)
@@ -56,7 +56,7 @@ plot(density(unique(fig2dat[,c("int","rvalue")])$rvalue, from=1e3, to=max(fig2da
    xlab = "Interaction-level contribution to coevoluationary signal",
    ylab = "Probability density",
    col = NA,
-   xlim = c(0, 3e4),
+   xlim = rev(c(0, 3e4)),
    ylim = c(0, 0.0002),
    main=""
 )
@@ -86,7 +86,3 @@ legend("topleft", pch=NA, legend=c("b"), bty="n", text.font=2, cex=1.2)
 
 
 dev.off()
-
-
-
-

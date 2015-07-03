@@ -132,7 +132,6 @@ coevolutionary signal is indeed significant at the continental level [@kras12a]
 ($p \leq 10^{-4}$; Methods). Importantly, it also provides spatial replication
 and variability at a scale large enough to capture macro-ecological processes.
 
-!{maps}
 
 As host-macroparasite interactions are hypothesized to be both ecologically
 constrained and evolutionary conserved [@comb01], the congruence observed at
@@ -166,7 +165,6 @@ actually drives differences in overall coevolutionary signal. Network-level
 coevolutionary signal emerges directly from the properties of interactions
 and is not a property of the network itself.
 
-!{contributions}
 
 Beyond their contribution to coevolution, interactions also ultimately
 differ in how frequently they vary when the species involved co-occur
