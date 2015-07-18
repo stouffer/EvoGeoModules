@@ -35,7 +35,7 @@ figure:
     file: ../figures/figure4.pdf
     wide: true
   - id: consistency
-    caption: Spatial consistency of an interaction and its contribution to coevolutionary signal. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. Although statistically significant, there was no biologically meaningful relationship between spatial consistency and an interaction's importance for coevolution in the continental network ($R^2 \approx 0.01$, $\rho = -0.1$, $p \leq 10^{-5}$)
+    caption: Spatial consistency of an interaction and its contribution to coevolutionary signal. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. Although statistically significant, there was no biologically meaningful relationship between spatial consistency and an interaction's importance for coevolution in the continental network ($R^2 \approx 0.01$, $\rho = -0.1$, $p \leq 10^{-5}$).
     file: ../figures/figure3.pdf
   - id: scales
     caption: The contribution to coevolutionary signal of the interaction between two species is maintained across scales. For every site, we show the Pearson's correlation between interaction-level coevolutionary signal in the continental network and the same in the local network. The size of each point is proportional to the size of the network, and all correlations are significant at $\alpha = 0.05$ except in the grey shaded area.
@@ -66,7 +66,7 @@ is quantified as the degree of matching between the phylogenies of two sets of
 interacting organisms [@lege02]. This notion builds on the century-old idea
 that extant species interact in a way similar to the way their ancestors did
 [@fahr13], but it is considerably more restrictive than just phylogenetic
-conservation of species' interactions [@reze07;@eklo11] because it additional
+conservation of species' interactions [@reze07; @eklo11] because of additional
 higher-order constraints. More explicitly, communities that have assembled by
 successive divergence events due to coevolution should display phylogenetic
 congruence, that is (i) have similar phylogenetic trees and (ii) have species
@@ -83,7 +83,7 @@ signal within individual interactions should vary across spatial scales.
 
 # Methods
 
-## Data source
+## Data source and pre-treatment
 
 We use data on observations of interactions between 121 species of rodents and
 205 species of parasitic fleas in 51 locations across Europe [@kras12b] to build
@@ -91,46 +91,64 @@ We use data on observations of interactions between 121 species of rodents and
 rodents for fleas, a method that gives high quality data as it has a high power
 of detection. To account for differential sampling effort and across site
 variations in abundance, we only study the networks' incidence matrices
-(presence and absence of interactions).
+(presence and absence of interactions). Previous analyses revealed that this
+dataset shows significant coevolutionary signal at the continental level
+[@kras12a; $p \leq 10^{-4}$, see Methods]. Importantly, it also provides spatial
+replication and variability [@cana14] at a scale large enough to capture
+macro-ecological processes. This dataset is uniquely suited for our analysis, as
+it represents a paradigmatic system in which species-species interactions are
+thought to be driven by macro-evolution and co-speciation events [@vern09].
 
-## Spatial scales
+The original dataset gives quantitative interaction strengths (expressed as an
+averaged number of parasites per species per host). Quantitative interactions
+strength, in this system, were shown to be affected to a very high degree by
+local variations in abundance across sampling locations [@cana14], and it
+therefore seems unlikely that they reflect macro-ecological processes. For this
+reason, we transform all quantitative matrices into bipartite incidence
+matrices, in which 1 represents the presence of an interaction, and 0 its
+absence.
 
-In our study, we define threes scales for the network data and analysis---continental,
-regional, and local. The continental scale is the aggregated
-"metanetwork" which includes all potential interactions between co-occurring
-species [@pois12c] (*i.e.*, all species and all their interactions across
-the 51 networks). Within each site, the regional scale is given by the list
-of observed species and all their possible interactions. Hence the regional
-networks are always a perfect subset of the continental network. The local
-scale includes only the interactions that were actually observed in the field
-at a given site. Therefore, the local and regional networks always include
-the same species, but the local network has only a subset (or, at most,
-an exact match) of the interactions in the regional network. The spatial
-consistency of every individual interaction is measured as the number of
-sites in which the two species involved co-occur.
+## Spatial scales and interaction spatial consistency
 
-## Phylogenetic analysis
+We define threes scales for the network data and their subsequent
+analysis---continental, regional, and local. The continental scale is the
+aggregated "metanetwork" which includes all documented interactions between
+species from the regional species pool [@pois12c]. Note that although they are
+reported as 0, we actually have no information about species pairs that have
+never co-occured.
 
-We quantified the coevolutionary signal in terms of the degree of matching
-between host and parasite phylogenies given knowledge of species interactions
-using the *PACO* method [@balb13], which is robust to variations in number
-of species. *PACO* provides measures of both the network-level congruence
-(*i.e.*, is the network coevolved?) and the interaction-level signal (*i.e.*,
-what is the contribution of each interaction to the overall coevolutionary
-signal?). Since it is a requirement of the methods we use here,
-the phylogenetic trees for hosts and parasites were rendered ultrametric
-(i.e., all species are at the same distance from the root).
+Within each site, the regional scale is given by the subset of metanetwork
+formed by the locally present species. Hence the regional networks are always a
+perfect subset of the continental network, and do not reflect whether species
+were actually observed to interact locally or not. By contrast, the local scale
+includes only the interactions that were actually observed in the field at a
+given site. Therefore, the local and regional networks always include the same
+species, but the local network has only a subset (or, at most, an exact match)
+of the interactions in the regional network.
+
+We define the spatial consistency of every interaction as the number of sites in
+which the two species involved co-occur. Note that, because of the co-occurence
+issue mentioned above, this measure is only defined for species that have been
+observed to *interact* at least once.
+
+## Measure of coevolutionary signal
+
+We quantify the strength of coevolutionary signal in terms of the degree of
+matching between host and parasite phylogenies, given knowledge of species
+interactions. We do so using the *PACo* method [@balb13], which is robust to
+variations in number of species and interactions. *PACo* provides measures of
+both the network-level congruence (*i.e.*, is the network coevolved?) and the
+interaction-level signal (*i.e.*, what is the contribution of each interaction
+to the overall coevolutionary signal?). Importantly, and by contrast to previous
+methods such as *ParaFit* [@lege02], *PACo* allows measuring the contribution of
+every interaction to the network-level signal even though the network shows no
+significant coevolutionary signal. As required by *PACo*, the phylogenetic trees
+for hosts and parasites were rendered ultrametric (*i.e.*, all species are at
+the same distance from the root).
 
 # Results
 
-To answer these questions, we study a dataset of interactions between rodents
-and their ectoparasites from 51 sites across Western to Eastern Europe
-[@kras12b] (Methods Summary). This dataset is uniquely suited for this task as
-it represents a paradigmatic system in which species-species interactions are
-thought to be driven by macro-evolution and co-speciation events [@vern09], and
-coevolutionary signal is indeed significant at the continental level [@kras12a]
-($p \leq 10^{-4}$; Methods). Importantly, it also provides spatial replication
-and variability at a scale large enough to capture macro-ecological processes.
+## Local and regional scale networks show no coevolutionary signal
 
 
 As host-macroparasite interactions are hypothesized to be both ecologically
@@ -147,6 +165,9 @@ accounts for variation in the interactions between observed these species
 show significant coevolutionary signal when using the regional interactions,
 and 12 show significant coevolutionary signal using the local interactions
 (see *Supp. Mat. 1* for network-level significance values; \autoref{maps}).
+
+## Coevolutionary signal is predicted by the contribution of interactions
+
 
 These results would appear to support the idea that macro-evolutionary
 processes such as co-diversification can have consequences at the
@@ -165,6 +186,8 @@ actually drives differences in overall coevolutionary signal. Network-level
 coevolutionary signal emerges directly from the properties of interactions
 and is not a property of the network itself.
 
+## Interactions contributing to coevolution are not more spatially consistent
+
 
 Beyond their contribution to coevolution, interactions also ultimately
 differ in how frequently they vary when the species involved co-occur
@@ -176,6 +199,9 @@ between the probability of observing an interaction and the importance
 of that interaction for coevolution at the continental scale (Methods
 Summary). Surprisingly, we find that neither is true here since interactions
 that are important for coevolution are not more conserved (Fig. 3).
+
+## The contribution of interactions to coevolution is consistent across scales
+
 
 Ultimately, coevolutionary signal varies across scale because of the
 simultaneous variation of species' interactions *and* communities'
@@ -215,16 +241,5 @@ Fernando Cagua for contributions to the code of the `paco` R package. Funding
 to TP and DBS was provided by a Marsden Fund Fast-Start grant (UOC-1101) and
 to DBS by a Rutherford Discovery Fellowship, both administered by the Royal
 Society of New Zealand.
-
-
-\clearpage
-
-![.](../figures/figure3.pdf)
-
-\clearpage
-
-![](../figures/figure2.pdf)
-
-\clearpage
 
 # References

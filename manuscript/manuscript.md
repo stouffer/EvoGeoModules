@@ -35,7 +35,7 @@ figure:
     file: ../figures/figure4.pdf
     wide: true
   - id: consistency
-    caption: Spatial consistency of an interaction and its contribution to coevolutionary signal. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. Although statistically significant, there was no biologically meaningful relationship between spatial consistency and an interaction's importance for coevolution in the continental network ($R^2 \approx 0.01$, $\rho = -0.1$, $p \leq 10^{-5}$)
+    caption: Spatial consistency of an interaction and its contribution to coevolutionary signal. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. Although statistically significant, there was no biologically meaningful relationship between spatial consistency and an interaction's importance for coevolution in the continental network ($R^2 \approx 0.01$, $\rho = -0.1$, $p \leq 10^{-5}$).
     file: ../figures/figure3.pdf
   - id: scales
     caption: The contribution to coevolutionary signal of the interaction between two species is maintained across scales. For every site, we show the Pearson's correlation between interaction-level coevolutionary signal in the continental network and the same in the local network. The size of each point is proportional to the size of the network, and all correlations are significant at $\alpha = 0.05$ except in the grey shaded area.
@@ -245,16 +245,5 @@ Fernando Cagua for contributions to the code of the `paco` R package. Funding
 to TP and DBS was provided by a Marsden Fund Fast-Start grant (UOC-1101) and
 to DBS by a Rutherford Discovery Fellowship, both administered by the Royal
 Society of New Zealand.
-
-
-\clearpage
-
-![.](../figures/figure3.pdf)
-
-\clearpage
-
-![](../figures/figure2.pdf)
-
-\clearpage
 
 # References
