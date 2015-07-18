@@ -5,10 +5,12 @@ import codecs
 import bibtexparser
 
 def di2bib(di):
-    b = "@"+di['type'].upper()+"{"+di['id']+","
+    b = "@"+di['type'].upper()+"{"+di['id']+",\n"
     for (k, v) in di.iteritems():
-        if k not in ['type', 'id', 'link', 'timestamp', 'urldate', 'abstract', 'doi', 'keywords', 'keyword', 'month', 'shorttitle', 'file']:
-            b += k+' = {'+v+'},\n'
+        if k not in ['type', 'id', 'link', 'timestamp', 'urldate', 'abstract', 'doi', 'keywords', 'keyword', 'month', 'shorttitle', 'file', 'copyright', 'issn']:
+            if k == 'collaborator':
+                k = 'author'
+            b += '\t' + k + ' = {'+v+'},\n'
     b += '}\n'
     return b
 

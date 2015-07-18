@@ -13,7 +13,7 @@ clean:
 	rm bib.keys
 
 bib.keys: $(SOURCE)
-	grep @[-:_a-zA-Z0-9]* $< -oh --color=never | sort  | uniq -u | sed 's/@//g' > $@
+	grep @[a-zA-Z0-9]* $< -oh --color=never | sort  | uniq | sed 's/@//g' > $@
 
 coevo.bib: bib.keys
 	python extractbib.py $< /home/tpoisot/.pandoc/default.bib $@
