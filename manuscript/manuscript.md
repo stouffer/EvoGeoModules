@@ -103,7 +103,8 @@ strength, in this system, were shown to be affected to a very high degree by
 local variations in abundance across sampling locations [@cana14], and it
 therefore seems unlikely that they reflect macro-ecological processes. For this
 reason, we transform all quantitative matrices into bipartite incidence
-matrices, in which the existence of an interaction is coded 1, 0 its absence.
+matrices, in which 1 represents the presence of an interaction, and 0 its
+absence.
 
 ## Spatial scales and interaction spatial consistency
 
@@ -112,7 +113,7 @@ analysis---continental, regional, and local. The continental scale is the
 aggregated "metanetwork" which includes all documented interactions between
 species from the regional species pool [@pois12c]. Note that although they are
 reported as 0, we actually have no information about species pairs that have
-never co-occured.
+never co-occured. 
 
 Within each site, the regional scale is given by the subset of metanetwork
 formed by the locally present species. Hence the regional networks are always a
@@ -128,17 +129,20 @@ which the two species involved co-occur. Note that, because of the co-occurence
 issue mentioned above, this measure is only defined for species that have been
 observed to *interact* at least once.
 
-## Phylogenetic analysis
+## Measure of coevolutionary signal
 
-We quantify the coevolutionary signal in terms of the degree of matching between
-host and parasite phylogenies, given knowledge of species interactions. We do so
-using the *PACO* method [@balb13], which is robust to variations in number of
-species. *PACO* provides measures of both the network-level congruence (*i.e.*,
-is the network coevolved?) and the interaction-level signal (*i.e.*, what is the
-contribution of each interaction to the overall coevolutionary signal?). Since
-it is a requirement of the methods we use here, the phylogenetic trees for hosts
-and parasites were rendered ultrametric (i.e., all species are at the same
-distance from the root).
+We quantify the strength of coevolutionary signal in terms of the degree of
+matching between host and parasite phylogenies, given knowledge of species
+interactions. We do so using the *PACo* method [@balb13], which is robust to
+variations in number of species and interactions. *PACo* provides measures of
+both the network-level congruence (*i.e.*, is the network coevolved?) and the
+interaction-level signal (*i.e.*, what is the contribution of each interaction
+to the overall coevolutionary signal?). Importantly, and by contrast to previous
+methods such as *ParaFit* [@lege02], *PACo* allows measuring the contribution of
+every interaction to the network-level signal even though the network shows no
+significant coevolutionary signal. As required by *PACo*, the phylogenetic trees
+for hosts and parasites were rendered ultrametric (*i.e.*, all species are at
+the same distance from the root).
 
 # Results
 
