@@ -95,7 +95,9 @@ variations in abundance, we only study the networks' incidence matrices
 dataset shows significant coevolutionary signal at the continental level
 [@kras12a; $p \leq 10^{-4}$, see Methods]. Importantly, it also provides spatial
 replication and variability [@cana14] at a scale large enough to capture
-macro-ecological processes.
+macro-ecological processes. This dataset is uniquely suited for our analysis, as
+it represents a paradigmatic system in which species-species interactions are
+thought to be driven by macro-evolution and co-speciation events [@vern09].
 
 The original dataset gives quantitative interaction strengths (expressed as an
 averaged number of parasites per species per host). Quantitative interactions
@@ -113,7 +115,7 @@ analysis---continental, regional, and local. The continental scale is the
 aggregated "metanetwork" which includes all documented interactions between
 species from the regional species pool [@pois12c]. Note that although they are
 reported as 0, we actually have no information about species pairs that have
-never co-occured. 
+never co-occured.
 
 Within each site, the regional scale is given by the subset of metanetwork
 formed by the locally present species. Hence the regional networks are always a
@@ -146,11 +148,7 @@ the same distance from the root).
 
 # Results
 
-To answer these questions, we study a dataset of interactions between rodents
-and their ectoparasites from 51 sites across Western to Eastern Europe
-[@kras12b] (Methods Summary). This dataset is uniquely suited for this task as
-it represents a paradigmatic system in which species-species interactions are
-thought to be driven by macro-evolution and co-speciation events [@vern09],
+## Local and regional scale networks show no coevolutionary signal
 
 !{maps}
 
@@ -169,6 +167,10 @@ show significant coevolutionary signal when using the regional interactions,
 and 12 show significant coevolutionary signal using the local interactions
 (see *Supp. Mat. 1* for network-level significance values; \autoref{maps}).
 
+## Coevolutionary signal is predicted by the contribution of interactions
+
+!{contributions}
+
 These results would appear to support the idea that macro-evolutionary
 processes such as co-diversification can have consequences at the
 macro-ecological level but may not in fact be detectable at finer spatial
@@ -186,7 +188,9 @@ actually drives differences in overall coevolutionary signal. Network-level
 coevolutionary signal emerges directly from the properties of interactions
 and is not a property of the network itself.
 
-!{contributions}
+## Interactions contributing to coevolution are not more spatially consistent
+
+!{consistency}
 
 Beyond their contribution to coevolution, interactions also ultimately
 differ in how frequently they vary when the species involved co-occur
@@ -198,6 +202,10 @@ between the probability of observing an interaction and the importance
 of that interaction for coevolution at the continental scale (Methods
 Summary). Surprisingly, we find that neither is true here since interactions
 that are important for coevolution are not more conserved (Fig. 3).
+
+## The contribution of interactions to coevolution is consistent across scales
+
+!{scales}
 
 Ultimately, coevolutionary signal varies across scale because of the
 simultaneous variation of species' interactions *and* communities'
