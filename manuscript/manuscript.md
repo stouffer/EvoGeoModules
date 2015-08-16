@@ -169,9 +169,19 @@ actually have no information about species pairs that have never co-occured;
 this is a common, but hard to correct, feature of spatially replicated datasets
 in which species occurrence vary [@mora15]. We finally define the spatial
 consistency of every interaction as the number of sites in which the two species
-involved co-occur. Note that, because of the co-occurence issue mentioned above,
-this measure is only defined for species that have been observed to *interact*
-at least once.
+involved co-occur, or simply
+
+\begin{equation}
+S_{ij} = \frac{L_{ij}}{C_{ij}}\,,
+\end{equation}
+
+the spatial consistency of an interaction $C_{ij}$ between species $i$ and $j$
+is measured by dividing the number of locations in which both are present
+($L_{ij}$) and the number of locations in which they interact ($L_{ij}$).
+Because $L_{ij} \in [0,C_{ij}]$, this measure takes values in $[0,1]$. Larger
+values reflect high spatial consistency. Note that, because of the co-occurence
+issue mentioned above, this measure is only defined for species that have been
+observed to *co-occur* at least once.
 
 ## Quantifying coevolutionary signal
 
