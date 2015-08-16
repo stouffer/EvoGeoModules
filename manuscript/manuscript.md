@@ -76,10 +76,10 @@ related to the shape of both trees at all depths [@cave09; @mouq12]: ancestral
 constraints create high phylogenetic inertia which carries forward to extant
 taxa [@vale10; @desd03; @dini08]. For this reason, although several systems have
 been described that exhibit matching phylogenetic structure, many deviate from
-this assumption for a variety of factors [see @pois15 for a review]. Detecting
-matching phylogenies for interacting clades nonetheless indicates that their
-coevolutionary history is long standing and is therefore suggestive that their
-extant ecological structure is an outcome of ancestral constraints.
+this assumption for a variety of factors. Detecting matching phylogenies for
+interacting clades nonetheless indicates that their coevolutionary history is
+long standing and is therefore suggestive that their extant ecological structure
+is an outcome of ancestral constraints.
 
 The considerations outlined above can be expressed as quantitative predictions.
 Communities that have assembled by successive divergence events due to
@@ -276,7 +276,7 @@ Remarkably, this result implies that the remnants of coevolution are still
 locally detectable in *individual interactions* even though coevolution
 regularly fails to leave its imprint on most local networks.
 
-# Discussion
+# Conclusions
 
 Overall, the results of our analyses demonstrate that there is a sizeable gap
 between our current understanding of coevolution as the basis of multi-species
