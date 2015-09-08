@@ -66,10 +66,9 @@ phenomena. This result implies that many network studies stand to benefit from a
 fundamental shift of focus from the networks themselves to the impact of their
 individual components.
 
-Our submission includes the main manuscript (1993 words with four embedded
-figures totalling five panels), a *Methods* section of 359 words, and one CSV
-file of Supplementary Information. All data and code used to produce the
-manuscript will be made available online.
+Our submission includes the main manuscript, and one CSV file of Supplementary
+Information. All data and code used to produce the manuscript will be made
+available online.
 
 Thank you for your consideration of our manuscript,
 

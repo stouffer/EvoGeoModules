@@ -29,22 +29,22 @@ figure:
   - id: maps
     caption: Spatial distribution of coevolutionary signal across the 51 sites. For each location, we indicate whether or not the structure of regional and local interaction networks is consistent with phylogenetic congruence. The colour of the circle corresponds to regionally significant or non-significant (black and grey, respectively) while the colour of the symbol within corresponds to locally significant or non-significant (black and grey, respectively).
     short: Spatial distribution.
-    file: ../figures/figure1.pdf
+    file: ../figures/f1.png
   - id: contributions
     caption: Distribution of coevolutionary signal at the network and interaction levels. **a**, Networks that have lower coevolutionary signal at the local or regional level are composed of interactions that on average contribute little to coevolution at the continental scale. Coevolutionary signal is presented relatively to the continental level coevolutionary signal. Dashed lines are a cubic smoothing spline, and the two levels of the same networks are linked by solid grey lines. **b**, Overall, interactions observed at the local, regional, and continental scale have roughly equivalent contributions to coevolutionary signal. Probability density was smoothed using a Gaussian kernel density estimator. Raw probability densities are shown as semi-transparent bars.
     short: Distribution of coevolutionary signal.
-    file: ../figures/figure4.pdf
+    file: ../figures/f4.png
     wide: true
   - id: consistency
     caption: Spatial consistency of an interaction and its contribution to coevolutionary signal. Note that because *PACo* gives low scores to interactions with a strong contribution to coevolution, the y axis is reversed. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. Although statistically significant, there was no biologically meaningful relationship between spatial consistency and an interaction's importance for coevolution in the continental network ($R^2 \approx 0.01$, $\rho = -0.1$, $p \leq 10^{-5}$).
-    file: ../figures/figure3.pdf
+    file: ../figures/f3.png
     short: Spatial consistency.
   - id: scales
     caption: The contribution to coevolutionary signal of the interaction between two species is maintained across scales. For every site, we show the Pearson's correlation between interaction-level coevolutionary signal in the continental network and the same in the local network. The size of each point is proportional to the size of the network, and all correlations are significant at $\alpha = 0.05$ except in the grey shaded area.
-    file: ../figures/figure2.pdf
+    file: ../figures/f2.png
     short: Conservation of contribution to coevolutionary signal.
     wide: true
-date: Work in progress.
+date: September 8, 2015
 abstract: Coevolutionary dynamics act on both species and their interactions in ways that shape ecological communities. It remains unclear, however, how the structure of communities at larger spatial scales influences or is influenced by local coevolutionary processes, and how mechanisms acting at these different scales feedback onto one another. Here we show that, although species interactions vary substantially over a continental gradient, the coevolutionary significance of individual interactions is maintained across different scales. Notably, this occurs despite the fact that observed community variation at the local scale frequently tends to weaken or remove community-wide coevolutionary signal. When considered in terms of the interplay between community ecology and coevolutionary theory, our results demonstrate that individual interactions are capable and likely to show a consistent signature of past coevolution even when woven into communities that do not.
 ---
 
