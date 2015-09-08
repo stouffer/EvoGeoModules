@@ -21,21 +21,22 @@ affiliation:
   - id: 3
     text: Québec Centre for Biodiversity Sciences, Montréal, Canada
 keyword:
-  - k: markdown
-  - k: pandoc
-  - k: LaTeX
+  - k: species interactions
+  - k: host-parasites
+  - k: phylogenetic congruence
+  - k: coevolution
 figure:
   - id: maps
     caption: Spatial distribution of coevolutionary signal across the 51 sites. For each location, we indicate whether or not the structure of regional and local interaction networks is consistent with phylogenetic congruence. The colour of the circle corresponds to regionally significant or non-significant (black and grey, respectively) while the colour of the symbol within corresponds to locally significant or non-significant (black and grey, respectively).
     short: Spatial distribution.
     file: ../figures/figure1.pdf
   - id: contributions
-    caption: Distribution of coevolutionary signal at the network and interaction levels. **a**, Networks that have lower coevolutionary signal at the local or regional level are composed of interactions that on average contribute little to coevolution at the continental scale. Dashed lines are a cubic smoothing spline, and the two levels of the same networks are linked by solid grey lines. **b**, Overall, interactions observed at the local, regional, and continental scale have roughly equivalent contributions to coevolutionary signal. Probability density was smoothed using a Gaussian kernel density estimator. Raw probability densities are shown as semi-transparent bars.
+    caption: Distribution of coevolutionary signal at the network and interaction levels. **a**, Networks that have lower coevolutionary signal at the local or regional level are composed of interactions that on average contribute little to coevolution at the continental scale. Coevolutionary signal is presented relatively to the continental level coevolutionary signal. Dashed lines are a cubic smoothing spline, and the two levels of the same networks are linked by solid grey lines. **b**, Overall, interactions observed at the local, regional, and continental scale have roughly equivalent contributions to coevolutionary signal. Probability density was smoothed using a Gaussian kernel density estimator. Raw probability densities are shown as semi-transparent bars.
     short: Distribution of coevolutionary signal.
     file: ../figures/figure4.pdf
     wide: true
   - id: consistency
-    caption: Spatial consistency of an interaction and its contribution to coevolutionary signal. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. Although statistically significant, there was no biologically meaningful relationship between spatial consistency and an interaction's importance for coevolution in the continental network ($R^2 \approx 0.01$, $\rho = -0.1$, $p \leq 10^{-5}$).
+    caption: Spatial consistency of an interaction and its contribution to coevolutionary signal. Note that because *PACo* gives low scores to interactions with a strong contribution to coevolution, the y axis is reversed. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. Although statistically significant, there was no biologically meaningful relationship between spatial consistency and an interaction's importance for coevolution in the continental network ($R^2 \approx 0.01$, $\rho = -0.1$, $p \leq 10^{-5}$).
     file: ../figures/figure3.pdf
     short: Spatial consistency.
   - id: scales
@@ -51,9 +52,11 @@ Ecological interactions often exert important selective pressures on the species
 involved. For example, the phenologies of lodgepole pines and red crossbills
 respond spatially to the presence of squirrels [@benk03a]. Palm species undergo
 changes in seed morphology in response to the extinction of bird dispersing
-their seeds [@gale13]. {==@tp Darwin's predicted species?==}. In addition,
-interactions, and the emergent structures they define, are distributed in
-similar ways across communities at both large or small scales [@jord03].
+their seeds [@gale13]. @krit91 relates the discovery of the moth *Xanthopan
+morganii*, with a proboscis famously over a foot long, which Darwin predicted
+would exist based on the phenology of local plant *Angraecum sesquipedale*. In
+addition, interactions, and the emergent structures they define, are distributed
+in similar ways across communities at both large or small scales [@jord03].
 Together, these observations suggest that much ecological structure could be the
 end result of (co)evolutionary dynamics between species [@eklo11; @stou12].
 Unfortunately, although the coevolutionary dynamics of pairs of interacting
@@ -87,7 +90,7 @@ coevolution should display phylogenetic congruence, that is (i) have similar
 phylogenetic trees and (ii) have species at matching positions in the trees that
 tend to interact [@page03]. Of course, this matching can be imperfect, as some
 interactions display substantial variability at ecologically relevant temporal
-and spatial scales [@pois12c; @olit14; @cars14; @troj15], and the same two
+and spatial scales [@pois12c; @olit15; @cars14; @troj15], and the same two
 species can interact in different ways under the effect of local environmental
 contingencies, spatial mismatch in species phenologies, variations in population
 abundances, and chance events [@pois15a]. Variability of interactions, however,
@@ -192,9 +195,11 @@ interactions (at varying spatial scales). We do so using the *PACo* method
 interactions. *PACo* provides measures of both the network-level congruence
 (*i.e.*, is the network coevolved?) and the interaction-level signal (*i.e.*,
 what is the contribution of each interaction to the overall coevolutionary
-signal?). Importantly, and by contrast to previous methods such as *ParaFit*
-[@lege02], *PACo* measures the contribution of every interaction to the
-network-level signal in a meaningful way even though the network shows no
+signal?). Strong values of the later metric reflect *low* contributions to
+coevolution -- interactions that contribute strongly to phylogenetic congruence
+have low *PACo* values. Importantly, and by contrast to previous methods such as
+*ParaFit* [@lege02], *PACo* measures the contribution of every interaction to
+the network-level signal in a meaningful way even though the network shows no
 significant coevolutionary signal. As required by *PACo*, the phylogenetic trees
 for hosts and parasites were rendered ultrametric (*i.e.*, all species are at
 the same distance from the root).
@@ -242,12 +247,10 @@ property of the network itself.
 
 !{consistency}
 
-{==@tp Add more references on int. variab.==}
-
 Beyond their contribution to coevolution, interactions also ultimately differ in
-how frequently they vary when the species involved co-occur [@olit14]. Once
-more, the literature on host-parasite interactions usually assumes that the
-reason why some interactions are more frequent is because they reflect a
+how frequently they vary when the species involved co-occur [@olit15; @cars14;
+@troj15]. Once more, the literature on host-parasite interactions assumes that
+the reason why some interactions are more frequent is because they reflect a
 significant past history of coevolution [@mora10]; the ecological constraints
 emerge from the evolutionary conservatism. If this were true, we should observe
 a significant, positive correlation between the probability of observing an
@@ -255,8 +258,7 @@ interaction and the importance of that interaction for coevolution at the
 continental scale. Surprisingly, we find that neither is true here since
 interactions that are important for coevolution are not more spatially
 consistent (Fig. 3). This implies that the spatial consistency of an interaction
-do not reflect its evolutionary past, but rather (extant) ecological processes
-**REF**.
+do not reflect its evolutionary past, but rather (extant) ecological processes.
 
 
 ## The contribution of interactions to coevolution is consistent across scales
