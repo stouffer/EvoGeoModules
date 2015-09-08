@@ -50,39 +50,41 @@ abstract: Coevolutionary dynamics act on both species and their interactions in 
 
 Ecological interactions often exert important selective pressures on the species
 involved. For example, the phenologies of lodgepole pines and red crossbills
-respond spatially to the presence of squirrels [@benk03a]. Likewise, palm species undergo
-changes in seed morphology in response to the extinction of bird dispersing
-their seeds [@gale13]. @krit91 relates the discovery of the moth *Xanthopan
-morganii*, with a proboscis famously over a foot long, which Darwin predicted
-would exist based on the phenology of local plant *Angraecum sesquipedale*. In
-addition, interactions, and the emergent structures they define, are distributed
-in similar ways across communities at both large or small scales [@jord03].
-Together, these observations suggest that much ecological structure could be the
-end result of (co)evolutionary dynamics between species [@eklo11; @stou12].
-Unfortunately, although the coevolutionary dynamics of pairs of interacting
-species have been well described at macro-evolutionary [@van73] and micro-evolutionary [@gand08]
-timescales, most attempts to understand how they cascade up to the
-levels of diversity of both species and interactions found within empirical
-communities have been inconclusive [@hemb14]. Moreover, coevolutionary dynamics
-are often presented as a key driving force behind ecological structure across
-both time and space [@thom94a; @thom05]; it is therefore crucial to determine
-the scale at which they are both relevant and quantifiable.
+respond spatially to the presence of squirrels [@benk03a]. Likewise, palm
+species undergo changes in seed morphology in response to the extinction of bird
+dispersing their seeds [@gale13]. @krit91 relates the discovery of the moth
+*Xanthopan morganii*, with a proboscis famously over a foot long, which Darwin
+predicted would exist based on the phenology of local plant *Angraecum
+sesquipedale*. In addition, interactions, and the emergent structures they
+define, are distributed in similar ways across communities at both large or
+small scales [@jord03]. Together, these observations suggest that much
+ecological structure could be the end result of (co)evolutionary dynamics
+between species [@eklo11; @stou12]. Unfortunately, although the coevolutionary
+dynamics of pairs of interacting species have been well described at
+macro-evolutionary [@van73] and micro-evolutionary [@gand08] timescales, most
+attempts to understand how they cascade up to the levels of diversity of both
+species and interactions found within empirical communities have been
+inconclusive [@hemb14]. Moreover, coevolutionary dynamics are often presented as
+a key driving force behind ecological structure across both time and space
+[@thom94a; @thom05]; it is therefore crucial to determine the scale at which
+they are both relevant and quantifiable.
 
 Historically, the evidence for coevolution in taxonomically diverse communities
 is quantified as the degree of matching between the phylogenies of two sets of
 interacting organisms [@lege02]. This notion builds on the century-old idea that
 extant species interact in a way similar to the way their ancestors did
-[@fahr13]. Note that testing these assumptions is related to, but markedly more
-restrictive than, testing for phylogenetic conservatism of species' interactions
-[@reze07; @eklo11]. This is because of additional, higher-order constraints
-related to the shape of both trees at all depths [@cave09; @mouq12]: ancestral
-constraints create high phylogenetic inertia which carries forward to extant
-taxa [@vale10; @desd03; @dini08]. For this reason, although several systems have
-been described that exhibit matching phylogenetic structure, many deviate from
-this assumption for a variety of factors. Detecting matching phylogenies for
-interacting clades nonetheless indicates that their coevolutionary history is
-long standing and is therefore suggestive that their extant ecological structure
-is an outcome of ancestral constraints and/or co-adaptation.
+[@fahr13; @nuis13; @guim11]. Note that testing these assumptions is related to,
+but markedly more restrictive than, testing for phylogenetic conservatism of
+species' interactions [@reze07; @eklo11]. This is because of additional,
+higher-order constraints related to the shape of both trees at all depths
+[@cave09; @mouq12]: ancestral constraints create high phylogenetic inertia which
+carries forward to extant taxa [@vale10; @desd03; @dini08]. For this reason,
+although several systems have been described that exhibit matching phylogenetic
+structure, many deviate from this assumption for a variety of factors. Detecting
+matching phylogenies for interacting clades nonetheless indicates that their
+coevolutionary history is long standing and is therefore suggestive that their
+extant ecological structure is an outcome of ancestral constraints and/or
+co-adaptation [@nuis14].
 
 The considerations outlined above can be expressed as quantitative predictions.
 Communities that have assembled by successive divergence events due to
@@ -93,11 +95,11 @@ interactions display substantial variability at ecologically relevant temporal
 and spatial scales [@pois12c; @olit15; @cars14; @troj15], and the same two
 species can interact in different ways under the effect of local environmental
 contingencies, spatial mismatch in species phenologies, variations in population
-abundances, and chance events \hilight{\small{\color{red}dbs} Add more references as in MEE paper.} [@pois15a]. Variability of interactions, however,
-does not predict (i) how the coevolutionary signal of pairwise interactions is kept or lost at
-the scale of the whole community nor (ii) whether or not this variability is
-related to changes in the amount of coevolutionary signal that can be detected
-locally.
+abundances, and chance events [@pois15a]. Variability of interactions, however,
+does not predict (i) how the coevolutionary signal of pairwise interactions is
+kept or lost at the scale of the whole community nor (ii) whether or not this
+variability is related to changes in the amount of coevolutionary signal that
+can be detected locally.
 
 In this manuscript, we analyze a large dataset of over 300 species of mamallian
 hosts and their ectoparasites, sampled throughout Eurasia, for which
@@ -249,32 +251,32 @@ Beyond their contribution to coevolution, interactions also ultimately differ in
 how frequently they vary when the species involved co-occur [@olit15; @cars14;
 @troj15]. Once more, the literature on host-parasite interactions assumes that
 the reason why some interactions are more frequent is because they reflect a
-significant past history of coevolution [@mora10]; that is, the ecological constraints
-emerge from the evolutionary conservatism. If this were true, we should observe
-a significant, positive correlation between the probability of observing an
-interaction and the importance of that interaction for coevolution at the
-continental scale. Surprisingly, we find that neither is true here since
-interactions that are important for coevolution are not more spatially
-consistent (Fig. 3). This implies that the spatial consistency of an interaction
-do not reflect its evolutionary past, but rather (extant) ecological processes.
+significant past history of coevolution [@guim07; @mora10]; that is, the
+ecological constraints emerge from the evolutionary conservatism. If this were
+true, we should observe a significant, positive correlation between the
+probability of observing an interaction and the importance of that interaction
+for coevolution at the continental scale. Surprisingly, we find that neither is
+true here since interactions that are important for coevolution are not more
+spatially consistent (Fig. 3). This implies that the spatial consistency of an
+interaction do not reflect its evolutionary past, but rather (extant) ecological
+processes.
 
 
 ## The contribution of interactions to coevolution is consistent across scales
 
 
 Ultimately, coevolutionary signal varies across scale because of the
-simultaneous variation of species' interactions *and* communities'
-phylogenetic tree structure. In a system characterised by substantial
-turnover \hilight{\small{\color{red}dbs} can we give a figure for amount of turnover here?},
-we would expect the contribution of each separate interaction to differ
-across scales as well. Instead, we observe here that interactions that
-contribute strongly to coevolutionary signal at the continental scale *also*
-show a significant tendency to contribute strongly at the local ($p<0.05$ for
-positive correlations in 48 out of 51 networks) and regional (in 47 out of 51
-networks), and this observation is independent of network-wide coevolutionary
-signal (Fig. 4).  Remarkably, this result implies that the remnants of
-coevolution are still locally detectable in *individual interactions* even
-though coevolution regularly fails to leave its imprint on most local networks.
+simultaneous variation of species' interactions *and* communities' phylogenetic
+tree structure. In a system characterised by substantial turnover we would
+expect the contribution of each separate interaction to differ across scales as
+well. Instead, we observe here that interactions that contribute strongly to
+coevolutionary signal at the continental scale *also* show a significant
+tendency to contribute strongly at the local ($p<0.05$ for positive correlations
+in 48 out of 51 networks) and regional (in 47 out of 51 networks), and this
+observation is independent of network-wide coevolutionary signal (Fig. 4).
+Remarkably, this result implies that the remnants of coevolution are still
+locally detectable in *individual interactions* even though coevolution
+regularly fails to leave its imprint on most local networks.
 
 # Conclusions
 
