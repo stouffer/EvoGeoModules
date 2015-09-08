@@ -1,6 +1,6 @@
 ---
 title: Coevolution leaves a stronger imprint on interactions than on community structure
-short: Coevolution in space
+short: Host-parasite coevolution in space
 bibliography: coevo.bib
 author:
   - family: Poisot
@@ -50,7 +50,7 @@ abstract: Coevolutionary dynamics act on both species and their interactions in 
 
 Ecological interactions often exert important selective pressures on the species
 involved. For example, the phenologies of lodgepole pines and red crossbills
-respond spatially to the presence of squirrels [@benk03a]. Palm species undergo
+respond spatially to the presence of squirrels [@benk03a]. Likewise, palm species undergo
 changes in seed morphology in response to the extinction of bird dispersing
 their seeds [@gale13]. @krit91 relates the discovery of the moth *Xanthopan
 morganii*, with a proboscis famously over a foot long, which Darwin predicted
@@ -60,8 +60,8 @@ in similar ways across communities at both large or small scales [@jord03].
 Together, these observations suggest that much ecological structure could be the
 end result of (co)evolutionary dynamics between species [@eklo11; @stou12].
 Unfortunately, although the coevolutionary dynamics of pairs of interacting
-species have been well described at macro [@van73] and micro [@gand08]
-evolutionary timescales, most attempts to understand how they cascade up to the
+species have been well described at macro-evolutionary [@van73] and micro-evolutionary [@gand08]
+timescales, most attempts to understand how they cascade up to the
 levels of diversity of both species and interactions found within empirical
 communities have been inconclusive [@hemb14]. Moreover, coevolutionary dynamics
 are often presented as a key driving force behind ecological structure across
@@ -82,7 +82,7 @@ been described that exhibit matching phylogenetic structure, many deviate from
 this assumption for a variety of factors. Detecting matching phylogenies for
 interacting clades nonetheless indicates that their coevolutionary history is
 long standing and is therefore suggestive that their extant ecological structure
-is an outcome of ancestral constraints.
+is an outcome of ancestral constraints and/or co-adaptation.
 
 The considerations outlined above can be expressed as quantitative predictions.
 Communities that have assembled by successive divergence events due to
@@ -93,8 +93,8 @@ interactions display substantial variability at ecologically relevant temporal
 and spatial scales [@pois12c; @olit15; @cars14; @troj15], and the same two
 species can interact in different ways under the effect of local environmental
 contingencies, spatial mismatch in species phenologies, variations in population
-abundances, and chance events [@pois15a]. Variability of interactions, however,
-does not predict (i) how the signal of pairwise interactions is kept or lost at
+abundances, and chance events {==@dbs Add more references as in MEE paper.==} [@pois15a]. Variability of interactions, however,
+does not predict (i) how the coevolutionary signal of pairwise interactions is kept or lost at
 the scale of the whole community nor (ii) whether or not this variability is
 related to changes in the amount of coevolutionary signal that can be detected
 locally.
@@ -105,7 +105,7 @@ phylogenetic relationships are known. Using a Procrustean approach to quantify
 the strength of coevolutionary signal [@balb13], we show that locally sampled
 communities rarely show strong evidence of coevolution despite the fact that the
 overall system does at the continental scale. We then provide evidence to
-support the claim that the amount of coevoluationary signal within a local
+support the conclusion that the amount of coevoluationary signal within a local
 community is predictable based on the importance of interactions for
 coevolutions in the *regional* network. We finally show that the contribution of
 these interactions to coevolution is invariant across scales, and is unrelated
@@ -131,25 +131,29 @@ paradigmatic system in which interspecific interactions are thought to be driven
 by macro-evolution and co-speciation events [@comb01; @vern09];
 
 The original dataset gives quantitative interaction strengths (expressed as an
-averaged number of parasites per species per host). Quantitative interactions
-strength, in this system, were shown to be affected to a very high degree by
+averaged number of parasites per species per host). In this system, quantitative interaction
+strengths were shown to be affected to a very high degree by
 local variations in abundance across sampling locations [@cana14], and it
-therefore seems unlikely that they reflect macro-ecological processes. To
-account for differential sampling effort (which cannot readily be quantified)
-and across site variations in abundance (which do not pertain to
-macro-evolutionary proccesses), we only study the networks' bipartite incidence
-matrices (presence and absence of infection of hosts by the parasites).
+therefore seems unlikely that they reflect macro-ecological processes. Therefore, to
+account for differential sampling effort---which cannot readily be quantified---and
+across site variations in abundance---which do not pertain to macro-evolutionary
+proccesses---we only study the networks' bipartite incidence
+matrices (that is, presence and absence of infection of hosts by the parasites).
 
 ## Spatial scales and interaction spatial consistency
 
-Noting that variation of interactions across locations (which can be caused by
-local ecological mechanisms, as opposed to reflecting evolutionary dynamics) can
-decrease congruence, we analyze the data at three different levels: the
-continental level dataset (the aggregated "metanetwork" which includes all
-documented interactions between species from the regional species pool,
-@pois12c), and two location-level scales, henceforth *regional* and *local*.
+Noting that variation of interactions across locations---which can be
+caused by local ecological mechanisms, as opposed to reflecting evolutionary
+dynamics---can decrease congruence, we analyze the data at three different
+levels which we will refer to as continental, regional, and local. Notably,
+the continental level summarizes the complete dataset whereas both the
+regional and local levels are location-specific scales.
 
-First, we use *regional* interaction data; this accounts for different species
+The first, *continental* interaction data consists of the aggregated "metanetwork"
+which includes all documented interactions between species from the regional
+species pool [@pois12c].
+
+The second, *regional* interaction data accounts for different species
 composition across sites, specifically by testing whether sampling from the
 regional species pool affects coevolutionary signal. Within each site, the
 regional scale is given by the subset of the metanetwork formed by the locally
@@ -159,37 +163,34 @@ always a perfect subset of the continental network, and do not reflect whether
 species were actually observed to interact locally or not, but whether they
 *can* interact at all.
 
-Second, we use the *local* interaction data; this, in addition to encompassing
-the above, also accounts for variation in the interactions between observed
-species. By contrast to the regional scale, the local scale includes only the
-interactions that were actually observed in the field at a given site.
-Therefore, the local and regional networks always include the same species, but
-the local network has only a subset (or, at most, an exact match) of the
-interactions in the regional network.
+The third, *local* interaction data also accounts for variation in the
+interactions between observed species, in addition to encompassing the
+above. In contrast to the regional scale, the local scale includes only
+the interactions that were actually observed in the field at a given site.
+Therefore, the local and regional networks always include the same species,
+but the local network has only a subset (or, at most, an exact match) of
+the interactions in the regional network.
 
-Note that although they are reported as 0 (*i.e.* having no interactions), we
-actually have no information about species pairs that have never co-occured;
-this is a common, but hard to correct, feature of spatially replicated datasets
-in which species occurrence vary [@mora15]. We finally define the spatial
-consistency of every interaction as the number of sites in which the two species
-involved co-occur, or simply
-
+We finally define the spatial consistency of every interaction as the number
+of sites in which the two species involved co-occur, or simply
 \begin{equation}
 S_{ij} = \frac{L_{ij}}{C_{ij}}\,,
 \end{equation}
-
-the spatial consistency of an interaction $C_{ij}$ between species $i$ and $j$
-is measured by dividing the number of locations in which both are present
-($L_{ij}$) and the number of locations in which they interact ($L_{ij}$).
-Because $L_{ij} \in [0,C_{ij}]$, this measure takes values in $[0,1]$. Larger
-values reflect high spatial consistency. Note that, because of the co-occurence
-issue mentioned above, this measure is only defined for species that have been
-observed to *co-occur* at least once.
+the spatial consistency of an interaction $C_{ij}$ between species $i$
+and $j$ is measured by dividing the number of locations in which both
+are present ($L_{ij}$) and the number of locations in which they interact
+($L_{ij}$).  Because $L_{ij} \in [0,C_{ij}]$, this measure takes values in
+$[0,1]$. Larger values reflect high spatial consistency.  Note that although
+they are reported as 0 (*i.e.* having no interactions), we actually have no
+information about species pairs that have never co-occured; this is a common,
+but hard to correct, feature of spatially replicated datasets in which species
+occurrence varies [@mora15]. Therefore, the values of $S_{ij}$ can only be
+defined for species that have been observed to *co-occur* at least once.
 
 ## Quantifying coevolutionary signal
 
 We quantify the strength of coevolutionary signal in terms of the degree of
-matching between host and parasite phylogenies, given knowledge of species
+matching between host and parasite phylogenies, given knowledge of extant species
 interactions (at varying spatial scales). We do so using the *PACo* method
 [@balb13], which is robust to variations in both number of species and
 interactions. *PACo* provides measures of both the network-level congruence
@@ -198,8 +199,8 @@ what is the contribution of each interaction to the overall coevolutionary
 signal?). Strong values of the later metric reflect *low* contributions to
 coevolution -- interactions that contribute strongly to phylogenetic congruence
 have low *PACo* values. Importantly, and by contrast to previous methods such as
-*ParaFit* [@lege02], *PACo* measures the contribution of every interaction to
-the network-level signal in a meaningful way even though the network shows no
+*ParaFit* [@lege02], *PACo* also can also quantify the contribution of every interaction to the
+network-level signal even in cases where the entire network shows no
 significant coevolutionary signal. As required by *PACo*, the phylogenetic trees
 for hosts and parasites were rendered ultrametric (*i.e.*, all species are at
 the same distance from the root).
@@ -251,7 +252,7 @@ Beyond their contribution to coevolution, interactions also ultimately differ in
 how frequently they vary when the species involved co-occur [@olit15; @cars14;
 @troj15]. Once more, the literature on host-parasite interactions assumes that
 the reason why some interactions are more frequent is because they reflect a
-significant past history of coevolution [@mora10]; the ecological constraints
+significant past history of coevolution [@mora10]; that is, the ecological constraints
 emerge from the evolutionary conservatism. If this were true, we should observe
 a significant, positive correlation between the probability of observing an
 interaction and the importance of that interaction for coevolution at the
@@ -266,33 +267,34 @@ do not reflect its evolutionary past, but rather (extant) ecological processes.
 !{scales}
 
 Ultimately, coevolutionary signal varies across scale because of the
-simultaneous variation of species' interactions *and* communities' phylogenetic
-tree structure. In a system characterised by substantial turnover, we would
-expect the contribution of each separate interaction to differ across scales as
-well. Instead, we observe here that interactions that contribute strongly to
-coevolutionary signal at the continental scale *also* show a significant
-tendency to contribute strongly at the local ($p<0.05$ for positive correlations
-in 48 out of 51 networks) and regional (in 47 out of 51 networks), and this
-observation is independent of network-wide coevolutionary signal (Fig. 4).
-Remarkably, this result implies that the remnants of coevolution are still
-locally detectable in *individual interactions* even though coevolution
-regularly fails to leave its imprint on most local networks.
+simultaneous variation of species' interactions *and* communities'
+phylogenetic tree structure. In a system characterised by substantial
+turnover {==@dbs can we give a figure for amount of turnover here?==},
+we would expect the contribution of each separate interaction to differ
+across scales as well. Instead, we observe here that interactions that
+contribute strongly to coevolutionary signal at the continental scale *also*
+show a significant tendency to contribute strongly at the local ($p<0.05$ for
+positive correlations in 48 out of 51 networks) and regional (in 47 out of 51
+networks), and this observation is independent of network-wide coevolutionary
+signal (Fig. 4).  Remarkably, this result implies that the remnants of
+coevolution are still locally detectable in *individual interactions* even
+though coevolution regularly fails to leave its imprint on most local networks.
 
 # Conclusions
 
 Overall, the results of our analyses demonstrate that there is a sizeable gap
-between our current understanding of coevolution as the basis of multi-species
+between our current understanding of host-parasite coevolution as the basis of multi-species
 interactions and its applicability to ecological questions. Local networks show
 little to no signal of coevolution and the strength of coevolution between two
 species is a surprisingly poor predictor of how frequently they interact. In
 contrast to the frequent assumption that phylogenetic structure is a key driver
 of community structure [@cave09], these data reveal that this impact is actually
-minimal at ecologically relevant spatial scales. Despite all the above,
-individual interactions are able to maintain their coevolutionary signal even
+minimal at ecologically relevant spatial scales. And yet, despite all the above,
+individual interactions are somehow able to maintain their coevolutionary signal even
 when the community they are woven into does not. Thinking more broadly, these
-discrepancies provide a clear roadmap for bridging the aforementioned gap
+discrepancies provide a clear roadmap for bridging the gap
 between our appreciation of the role of coevolution and its empirically
-measurable outcomes.  Network structure is the most parsimonious *mechanism* by
+measurable outcomes: network structure is the most parsimonious *mechanism* by
 which coevolution proceeds, not the imprint coevolution leaves on ecological
 communities.
 
