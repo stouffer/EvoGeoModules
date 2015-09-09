@@ -174,6 +174,15 @@ $date$
 $endif$
 
 $if(draft)$
+$if(titlepage)$
+$for(titlepage)$
+$titlepage.l$\\
+$endfor$
+\vskip 1em
+$endif$
+$endif$
+
+$if(draft)$
 \clearpage
 \doublespacing
 $endif$

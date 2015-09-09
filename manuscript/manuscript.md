@@ -2,6 +2,7 @@
 title: Coevolution leaves a stronger imprint on interactions than on community structure
 short: Host-parasite coevolution in space
 bibliography: coevo.bib
+csl: ecology-letters.csl
 author:
   - family: Poisot
     given: Timothée
@@ -46,6 +47,9 @@ figure:
     wide: true
 date: September 8, 2015
 abstract: Coevolutionary dynamics act on both species and their interactions in ways that shape ecological communities. It remains unclear, however, how the structure of communities at larger spatial scales influences or is influenced by local coevolutionary processes, and how mechanisms acting at these different scales feedback onto one another. Here we show that, although species interactions vary substantially over a continental gradient, the coevolutionary significance of individual interactions is maintained across different scales. Notably, this occurs despite the fact that observed community variation at the local scale frequently tends to weaken or remove community-wide coevolutionary signal. When considered in terms of the interplay between community ecology and coevolutionary theory, our results demonstrate that individual interactions are capable and likely to show a consistent signature of past coevolution even when woven into communities that do not.
+titlepage:
+  - l: "Abstract: 134 words; Main text: 3120 words; 4 figures; no table; 38 references." 
+  - l: "Authorship: TP and DBS conceived the study; TP performed the analysis; TP and DBS wrote the paper."
 ---
 
 Ecological interactions often exert important selective pressures on the species
