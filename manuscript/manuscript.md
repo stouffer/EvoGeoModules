@@ -217,14 +217,15 @@ method [@balb13], which is robust to variations in both number of species and
 interactions. *PACo* provides measures of both the network-level congruence
 (*i.e.*, is the network coevolved?) and the interaction-level signal (*i.e.*,
 what is the contribution of each interaction to the overall coevolutionary
-signal?). Strong values of the later metric reflect *low* contributions to
-coevolution -- interactions that contribute strongly to phylogenetic congruence
-have low *PACo* values. Importantly, and by contrast to previous methods such
-as *ParaFit* [@lege02], *PACo* also can also quantify the contribution of
-every interaction to the network-level signal even in cases where the entire
-network shows no significant coevolutionary signal. As required by *PACo*,
-the phylogenetic trees for hosts and parasites were rendered ultrametric
-(*i.e.*, all species are at the same distance from the root).
+signal?). Strong values of the later metric reflect *low* contributions
+to coevolution -- interactions that contribute strongly to phylogenetic
+congruence have low *PACo* values. Importantly, and by contrast to previous
+methods such as *ParaFit* [@lege02], *PACo* also can be used to meaningfully
+quantify the contribution of every interaction to the network-level signal
+even in cases where the entire network shows no significant coevolutionary
+signal. As required by *PACo*, the phylogenetic trees for hosts and parasites
+were rendered ultrametric (*i.e.*, all species are at the same distance from
+the root).
 
 !{maps}
 

@@ -23,7 +23,7 @@ for doc in docs:
                     my_regex = r"^!\{" + re.escape(f['id']) + r"\}$"
                     if re.search(my_regex, line, re.IGNORECASE):
                         mfig = True
-                        print line
+                        print(line)
                         if TYPE == 'preprint':
                             ftype = "figure"
                             fwidth = "\\columnwidth"
