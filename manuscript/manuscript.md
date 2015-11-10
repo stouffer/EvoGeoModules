@@ -48,7 +48,7 @@ figure:
 date: September 8, 2015
 abstract: Coevolutionary dynamics act on both species and their interactions in ways that shape ecological communities. It remains unclear, however, how the structure of communities at larger spatial scales influences or is influenced by local coevolutionary processes, and how mechanisms acting at these different scales feedback onto one another. Here we show that, although species interactions vary substantially over a continental gradient, the coevolutionary significance of individual interactions is maintained across different scales. Notably, this occurs despite the fact that observed community variation at the local scale frequently tends to weaken or remove community-wide coevolutionary signal. When considered in terms of the interplay between community ecology and coevolutionary theory, our results demonstrate that individual interactions are capable and likely to show a consistent signature of past coevolution even when woven into communities that do not.
 titlepage:
-  - l: "Abstract: 134 words; Main text: 3120 words; 4 figures; no table; 38 references." 
+  - l: "Abstract: 134 words; Main text: 3120 words; 4 figures; no table; 38 references."
   - l: "Authorship: TP and DBS conceived the study; TP performed the analysis; TP and DBS wrote the paper."
 ---
 
@@ -89,6 +89,21 @@ matching phylogenies for interacting clades nonetheless indicates that their
 coevolutionary history is long standing and is therefore suggestive that their
 extant ecological structure is an outcome of ancestral constraints and/or
 co-adaptation [@nuis14].
+
+Nevertheless, it is important to note that there is more to co-evolution than
+simply observing matching phylogenies, or than observing phylogenetic structure
+of species interactions. At a *large* scale (*i.e.* both temporal, spatial,
+and organizational), true coevolution addresses both of these dimensions:
+measures of coevolution yield a positive signal when (i) phylogenetic trees are
+congruent (ii) based on the observation that species at similar positions in
+both trees interact. This line of thinking does more than building on extent
+interactions: because of the branching nature of trees, it ensures that this
+congruence informed by interactions is true at all phylogenetic depths. How
+different *methods* to measure coevolution deal with this structure varies,
+but their commonality is that they address macro-evolutionary questions on the
+basis of macro-evolutionary structures. Although this is somehow different
+from *micro*-coevolution (*i.e.* within and between populations at reduced
+temporal and spatial scales), this is no less an instance of coevolution.
 
 The considerations outlined above can be expressed as quantitative predictions.
 Communities that have assembled by successive divergence events due to
@@ -182,9 +197,9 @@ of sites in which the two species involved co-occur, or simply
 \begin{equation}
 S_{ij} = \frac{L_{ij}}{C_{ij}}\,,
 \end{equation}
-the spatial consistency of an interaction $C_{ij}$ between species $i$
+the spatial consistency of an interaction $S_{ij}$ between species $i$
 and $j$ is measured by dividing the number of locations in which both
-are present ($L_{ij}$) and the number of locations in which they interact
+are present ($C_{ij}$) and the number of locations in which they interact
 ($L_{ij}$).  Because $L_{ij} \in [0,C_{ij}]$, this measure takes values in
 $[0,1]$. Larger values reflect high spatial consistency.  Note that although
 they are reported as 0 (*i.e.* having no interactions), we actually have no
@@ -196,20 +211,20 @@ defined for species that have been observed to *co-occur* at least once.
 ## Quantifying coevolutionary signal
 
 We quantify the strength of coevolutionary signal in terms of the degree of
-matching between host and parasite phylogenies, given knowledge of extant species
-interactions (at varying spatial scales). We do so using the *PACo* method
-[@balb13], which is robust to variations in both number of species and
+matching between host and parasite phylogenies, given knowledge of extant
+species interactions (at varying spatial scales). We do so using the *PACo*
+method [@balb13], which is robust to variations in both number of species and
 interactions. *PACo* provides measures of both the network-level congruence
 (*i.e.*, is the network coevolved?) and the interaction-level signal (*i.e.*,
 what is the contribution of each interaction to the overall coevolutionary
 signal?). Strong values of the later metric reflect *low* contributions to
 coevolution -- interactions that contribute strongly to phylogenetic congruence
-have low *PACo* values. Importantly, and by contrast to previous methods such as
-*ParaFit* [@lege02], *PACo* also can also quantify the contribution of every interaction to the
-network-level signal even in cases where the entire network shows no
-significant coevolutionary signal. As required by *PACo*, the phylogenetic trees
-for hosts and parasites were rendered ultrametric (*i.e.*, all species are at
-the same distance from the root).
+have low *PACo* values. Importantly, and by contrast to previous methods such
+as *ParaFit* [@lege02], *PACo* also can also quantify the contribution of
+every interaction to the network-level signal even in cases where the entire
+network shows no significant coevolutionary signal. As required by *PACo*,
+the phylogenetic trees for hosts and parasites were rendered ultrametric
+(*i.e.*, all species are at the same distance from the root).
 
 !{maps}
 
@@ -279,7 +294,7 @@ tree structure. In a system characterised by substantial turnover we would
 expect the contribution of each separate interaction to differ across scales as
 well. Instead, we observe here that interactions that contribute strongly to
 coevolutionary signal at the continental scale *also* show a significant
-tendency to contribute strongly at the local ($p<0.05$ for positive correlations
+tendency to contribute strongly at the local ($p < 0.05$ for positive correlations
 in 48 out of 51 networks) and regional (in 47 out of 51 networks), and this
 observation is independent of network-wide coevolutionary signal (Fig. 4).
 Remarkably, this result implies that the remnants of coevolution are still
