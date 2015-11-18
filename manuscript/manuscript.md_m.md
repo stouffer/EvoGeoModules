@@ -2,7 +2,7 @@
 title: Coevolution leaves a stronger imprint on interactions than on community structure
 short: Host-parasite coevolution in space
 bibliography: coevo.bib
-csl: ecology-letters.csl
+csl: prsb.csl
 author:
   - family: Poisot
     given: Timothée
@@ -46,7 +46,7 @@ figure:
     short: Conservation of contribution to coevolutionary signal.
     wide: true
 date: September 8, 2015
-abstract: Coevolutionary dynamics act on both species and their interactions in ways that shape ecological communities. It remains unclear, however, how the structure of communities at larger spatial scales influences or is influenced by local coevolutionary processes, and how mechanisms acting at these different scales feedback onto one another. Here we show that, although species interactions vary substantially over a continental gradient, the coevolutionary significance of individual interactions is maintained across different scales. Notably, this occurs despite the fact that observed community variation at the local scale frequently tends to weaken or remove community-wide coevolutionary signal. When considered in terms of the interplay between community ecology and coevolutionary theory, our results demonstrate that individual interactions are capable and likely to show a consistent signature of past coevolution even when woven into communities that do not.
+abstract: Coevolutionary dynamics act on both species and their interactions in ways that shape ecological communities. It remains unclear, however, how the structure of communities at larger spatial scales influences or is influenced by local coevolutionary processes, and how mechanisms acting at these different scales feedback onto one another. Here we show that, although species interactions vary substantially over a continental gradient, the coevolutionary significance of individual interactions is maintained across different scales. Notably, this occurs despite the fact that observed community variation at the local scale frequently tends to weaken or remove community-wide coevolutionary signal. When considered in terms of the interplay between community ecology and coevolutionary theory, our results demonstrate that individual interactions are capable and indeed likely to show a consistent signature of past coevolution even when woven into communities that do not.
 titlepage:
   - l: "Abstract: 134 words; Main text: 3120 words; 4 figures; no table; 38 references."
   - l: "Authorship: TP and DBS conceived the study; TP performed the analysis; TP and DBS wrote the paper."
@@ -68,7 +68,7 @@ dynamics of pairs of interacting species have been well described at
 macro-evolutionary [@van73] and micro-evolutionary [@gand08] timescales, most
 attempts to understand how they cascade up to the levels of diversity of both
 species and interactions found within empirical communities have been
-inconclusive [@hemb14]. Moreover, coevolutionary dynamics are often presented as
+inconclusive [@hemb14]. Notwithstanding, coevolutionary dynamics are often presented as
 a key driving force behind ecological structure across both time and space
 [@thom94a; @thom05]; it is therefore crucial to determine the scale at which
 they are both relevant and quantifiable.
@@ -90,20 +90,22 @@ coevolutionary history is long standing and is therefore suggestive that their
 extant ecological structure is an outcome of ancestral constraints and/or
 co-adaptation [@nuis14].
 
-Nevertheless, it is important to note that there is more to co-evolution than
-simply observing matching phylogenies, or than observing phylogenetic structure
-of species interactions. At a *large* scale (*i.e.* both temporal, spatial,
-and organizational), true coevolution addresses both of these dimensions:
-measures of coevolution yield a positive signal when (i) phylogenetic trees are
-congruent (ii) based on the observation that species at similar positions in
-both trees interact. This line of thinking does more than building on extent
-interactions: because of the branching nature of trees, it ensures that this
-congruence informed by interactions is true at all phylogenetic depths. How
-different *methods* to measure coevolution deal with this structure varies,
-but their commonality is that they address macro-evolutionary questions on the
-basis of macro-evolutionary structures. Although this is somehow different
-from *micro*-coevolution (*i.e.* within and between populations at reduced
-temporal and spatial scales), this is no less an instance of coevolution.
+Nevertheless, it is important to note that there is more to co-evolution
+than simply observing matching phylogenies or than observing phylogenetic
+structure of species interactions [@john07]. At a *large* scale (*i.e.*
+both temporal, spatial, and organizational), true coevolution addresses
+both of these dimensions simultaneously: measures of coevolution yield a
+positive signal when (i) phylogenetic trees are congruent (ii) based on the
+observation that species at similar positions in both trees interact. This
+line of thinking does more than building on extent interactions; because of
+the branching nature of trees, it ensures that the congruence informed by
+interactions is true at *all* phylogenetic depths [@nieb10]. How different
+methods to measure coevolution deal with this structure varies, but at least
+one common thread is that they address macro-evolutionary questions on the
+basis of macro-evolutionary structures [@pric03]. Although this is somehow
+different from *micro*-coevolution (*i.e.* within and between populations
+at reduced temporal and spatial scales), this is no less an instance of
+coevolution.
 
 The considerations outlined above can be expressed as quantitative predictions.
 Communities that have assembled by successive divergence events due to

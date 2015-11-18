@@ -2,7 +2,7 @@
 title: Coevolution leaves a stronger imprint on interactions than on community structure
 short: Host-parasite coevolution in space
 bibliography: coevo.bib
-csl: ecology-letters.csl
+csl: prsb.csl
 author:
   - family: Poisot
     given: Timothée
@@ -102,7 +102,7 @@ the branching nature of trees, it ensures that the congruence informed by
 interactions is true at *all* phylogenetic depths [@nieb10]. How different
 methods to measure coevolution deal with this structure varies, but at least
 one common thread is that they address macro-evolutionary questions on the
-basis of macro-evolutionary structures [@price03]. Although this is somehow
+basis of macro-evolutionary structures [@pric03]. Although this is somehow
 different from *micro*-coevolution (*i.e.* within and between populations
 at reduced temporal and spatial scales), this is no less an instance of
 coevolution.
