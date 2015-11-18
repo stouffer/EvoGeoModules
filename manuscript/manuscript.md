@@ -90,21 +90,22 @@ coevolutionary history is long standing and is therefore suggestive that their
 extant ecological structure is an outcome of ancestral constraints and/or
 co-adaptation [@nuis14].
 
-Nevertheless, it is important to note that there is more to co-evolution than
-simply observing matching phylogenies or than observing phylogenetic structure
-of species interactions. At a *large* scale (*i.e.* both temporal, spatial,
-and organizational), true coevolution addresses both of these dimensions
-simultaneously: measures of coevolution yield a positive signal when (i)
-phylogenetic trees are congruent (ii) based on the observation that species at
-similar positions in both trees interact. This line of thinking does more than
-building on extent interactions; because of the branching nature of trees,
-it ensures that the congruence informed by interactions is true at *all*
-phylogenetic depths. How different methods to measure coevolution deal
-with this structure varies, but at least one common thread is that they
-address macro-evolutionary questions on the basis of macro-evolutionary
-structures. Although this is somehow different from *micro*-coevolution
-(*i.e.* within and between populations at reduced temporal and spatial scales),
-this is no less an instance of coevolution.
+Nevertheless, it is important to note that there is more to co-evolution
+than simply observing matching phylogenies or than observing phylogenetic
+structure of species interactions [@john07]. At a *large* scale (*i.e.*
+both temporal, spatial, and organizational), true coevolution addresses
+both of these dimensions simultaneously: measures of coevolution yield a
+positive signal when (i) phylogenetic trees are congruent (ii) based on the
+observation that species at similar positions in both trees interact. This
+line of thinking does more than building on extent interactions; because of
+the branching nature of trees, it ensures that the congruence informed by
+interactions is true at *all* phylogenetic depths [@nieb10]. How different
+methods to measure coevolution deal with this structure varies, but at least
+one common thread is that they address macro-evolutionary questions on the
+basis of macro-evolutionary structures [@price03]. Although this is somehow
+different from *micro*-coevolution (*i.e.* within and between populations
+at reduced temporal and spatial scales), this is no less an instance of
+coevolution.
 
 The considerations outlined above can be expressed as quantitative predictions.
 Communities that have assembled by successive divergence events due to
