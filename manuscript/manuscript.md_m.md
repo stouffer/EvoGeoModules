@@ -2,7 +2,7 @@
 title: Coevolution leaves a stronger imprint on interactions than on community structure
 short: Host-parasite coevolution in space
 bibliography: coevo.bib
-csl: prsb.csl
+csl: amnat.csl
 author:
   - family: Poisot
     given: Timothée
@@ -52,26 +52,27 @@ titlepage:
   - l: "Authorship: TP and DBS conceived the study; TP performed the analysis; TP and DBS wrote the paper."
 ---
 
-Ecological interactions often exert important selective pressures on the species
-involved. For example, the phenologies of lodgepole pines and red crossbills
-respond spatially to the presence of squirrels [@benk03a]. Likewise, palm
-species undergo changes in seed morphology in response to the extinction of bird
-dispersing their seeds [@gale13]. @krit91 relates the discovery of the moth
-*Xanthopan morganii*, with a proboscis famously over a foot long, which Darwin
-predicted would exist based on the phenology of local plant *Angraecum
-sesquipedale*. In addition, interactions, and the emergent structures they
-define, are distributed in similar ways across communities at both large or
-small scales [@jord03]. Together, these observations suggest that much
-ecological structure could be the end result of (co)evolutionary dynamics
-between species [@eklo11; @stou12]. Unfortunately, although the coevolutionary
-dynamics of pairs of interacting species have been well described at
-macro-evolutionary [@van73] and micro-evolutionary [@gand08] timescales, most
-attempts to understand how they cascade up to the levels of diversity of both
-species and interactions found within empirical communities have been
-inconclusive [@hemb14]. Notwithstanding, coevolutionary dynamics are often presented as
-a key driving force behind ecological structure across both time and space
-[@thom94a; @thom05]; it is therefore crucial to determine the scale at which
-they are both relevant and quantifiable.
+Ecological interactions often exert important selective pressures on the
+species involved. For example, the phenologies of lodgepole pines and red
+crossbills respond spatially to the presence of squirrels [@benk03a]. Likewise,
+palm species undergo changes in seed morphology in response to the extinction
+of bird dispersing their seeds [@gale13]. Interactions can be lost, too,
+when phenologies of the species involved shift [@raff15]. @krit91 relates the
+discovery of the moth *Xanthopan morganii*, with a proboscis famously over a
+foot long, which Darwin predicted would exist based on the phenology of local
+plant *Angraecum sesquipedale*. In addition, interactions, and the emergent
+structures they define, are distributed in similar ways across communities at
+both large or small scales [@jord03]. Together, these observations suggest
+that much ecological structure could be the end result of (co)evolutionary
+dynamics between species [@eklo11; @stou12]. Unfortunately, although the
+coevolutionary dynamics of pairs of interacting species have been well
+described at macro-evolutionary [@van73] and micro-evolutionary [@gand08]
+timescales, most attempts to understand how they cascade up to the levels of
+diversity of both species and interactions found within empirical communities
+have been inconclusive [@hemb14]. Notwithstanding, coevolutionary dynamics
+are often presented as a key driving force behind ecological structure across
+both time and space [@thom94a; @thom05]; it is therefore crucial to determine
+the scale at which they are both relevant and quantifiable.
 
 Historically, the evidence for coevolution in taxonomically diverse communities
 is quantified as the degree of matching between the phylogenies of two sets of
@@ -105,7 +106,14 @@ one common thread is that they address macro-evolutionary questions on the
 basis of macro-evolutionary structures [@pric03]. Although this is somehow
 different from *micro*-coevolution (*i.e.* within and between populations
 at reduced temporal and spatial scales), this is no less an instance of
-coevolution.
+coevolution. To a certain extent, micro-coevolution (*i.e.* reciprocal
+selection over ecologically relevant timescales) *proceeds* from existing
+co-phylogenetic structure. For how are species entangled in interactions,
+if not by their previous evolutionary history? And although matching
+phylogenies are not expected to result from micro-evolutionary processes
+[@poisotchapter], there is no valid ground to reject matching phylogenies
+with matching interactions as proof of a shared evolutionary history, which
+we will henceforth refer to as *coevolution*.
 
 The considerations outlined above can be expressed as quantitative predictions.
 Communities that have assembled by successive divergence events due to
@@ -269,19 +277,21 @@ property of the network itself.
 ## Interactions contributing to coevolution are not more spatially consistent
 
 
-Beyond their contribution to coevolution, interactions also ultimately differ in
-how frequently they vary when the species involved co-occur [@olit15; @cars14;
-@troj15]. Once more, the literature on host-parasite interactions assumes that
-the reason why some interactions are more frequent is because they reflect a
-significant past history of coevolution [@guim07; @mora10]; that is, the
-ecological constraints emerge from the evolutionary conservatism. If this were
-true, we should observe a significant, positive correlation between the
-probability of observing an interaction and the importance of that interaction
-for coevolution at the continental scale. Surprisingly, we find that neither is
-true here since interactions that are important for coevolution are not more
-spatially consistent (Fig. 3). This implies that the spatial consistency of an
-interaction do not reflect its evolutionary past, but rather (extant) ecological
-processes.
+Beyond their contribution to coevolution, interactions also ultimately
+differ in how frequently they vary when the species involved co-occur
+[@olit15; @cars14; @troj15]. This can happen, for example, when one of
+the partner is able to forage for optimal resources [@betts15]. Once more,
+the literature on host-parasite interactions assumes that the reason why
+some interactions are more frequent is because they reflect a significant
+past history of coevolution [@guim07; @mora10]; that is, the ecological
+constraints emerge from the evolutionary conservatism. If this were true, we
+should observe a significant, positive correlation between the probability
+of observing an interaction and the importance of that interaction for
+coevolution at the continental scale. Surprisingly, we find that neither
+is true here since interactions that are important for coevolution are not
+more spatially consistent (Fig. 3). This implies that the spatial consistency
+of an interaction do not reflect its evolutionary past, but rather (extant)
+ecological processes.
 
 
 ## The contribution of interactions to coevolution is consistent across scales
@@ -302,21 +312,21 @@ regularly fails to leave its imprint on most local networks.
 
 # Conclusions
 
-Overall, the results of our analyses demonstrate that there is a sizeable gap
-between our current understanding of host-parasite coevolution as the basis of multi-species
-interactions and its applicability to ecological questions. Local networks show
-little to no signal of coevolution and the strength of coevolution between two
-species is a surprisingly poor predictor of how frequently they interact. In
-contrast to the frequent assumption that phylogenetic structure is a key driver
-of community structure [@cave09], these data reveal that this impact is actually
-minimal at ecologically relevant spatial scales. And yet, despite all the above,
-individual interactions are somehow able to maintain their coevolutionary signal even
-when the community they are woven into does not. Thinking more broadly, these
-discrepancies provide a clear roadmap for bridging the gap
-between our appreciation of the role of coevolution and its empirically
-measurable outcomes: network structure is the most parsimonious *mechanism* by
-which coevolution proceeds, not the imprint coevolution leaves on ecological
-communities.
+Overall, the results of our analyses demonstrate that there is a sizeable
+gap between our current understanding of host-parasite coevolution as the
+basis of multi-species interactions and its applicability to ecological
+questions. Local networks show little to no signal of coevolution and the
+strength of coevolution between two species is a surprisingly poor predictor
+of how frequently they interact. In contrast to the frequent assumption that
+phylogenetic structure is a key driver of community structure [@cave09], these
+data reveal that this impact is actually minimal at ecologically relevant
+spatial scales. And yet, despite all the above, individual interactions are
+somehow able to maintain their coevolutionary signal even when the community
+they are woven into does not. Thinking more broadly, these discrepancies
+provide a clear roadmap for bridging the gap between our appreciation of
+the role of coevolution and its empirically measurable outcomes: network
+structure is the most parsimonious *mechanism* by which coevolution proceeds,
+not the imprint coevolution leaves on ecological communities.
 
 **Acknowledgements.** We thank Juan Antonio Balbuena for discussions about the
 *PACo* method, and members of the Stouffer and Tylianakis groups for comments
