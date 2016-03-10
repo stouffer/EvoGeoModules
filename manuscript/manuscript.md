@@ -81,18 +81,18 @@ extant species interact in a way similar to the way their ancestors did
 [@fahr13; @nuis13; @guim11]. Note that testing these assumptions is related to,
 but markedly more restrictive than, testing for phylogenetic conservatism of
 species' interactions [@reze07; @eklo11]. This is because of additional,
-higher-order constraints related to the shape of both trees at all depths
+higher-order constraints related to the shape of both trees at *all* depths
 [@cave09; @mouq12]: ancestral constraints create high phylogenetic inertia which
-carries forward to extant taxa [@vale10; @desd03; @dini08]. For this reason,
-although several systems have been described that exhibit matching phylogenetic
-structure, many deviate from this assumption for a variety of factors. Detecting
-matching phylogenies for interacting clades nonetheless indicates that their
-coevolutionary history is long standing and is therefore suggestive that their
+carries forward to extant taxa [@vale10; @desd03; @dini08]. 
+Consequently, many of the systems that have been described as exhibiting matching phylogenetic
+structure ultimately deviate from this last constraint, for a variety of factors. Nonetheless, detecting
+matching phylogenies for interacting clades indicates that their
+shared evolutionary history is long standing and is therefore suggestive that their
 extant ecological structure is an outcome of ancestral constraints and/or
 co-adaptation [@nuis14].
 
-Nevertheless, it is important to note that there is more to co-evolution
-than simply observing matching phylogenies or than observing phylogenetic
+It is important to note further that there is more to coevolution
+than simply observing matching phylogenies or phylogenetic
 structure of species interactions [@john07]. At a *large* scale (*i.e.*
 both temporal, spatial, and organizational), true coevolution addresses
 both of these dimensions simultaneously: measures of coevolution yield a
@@ -101,21 +101,21 @@ observation that species at similar positions in both trees interact. This
 line of thinking does more than building on extent interactions; because of
 the branching nature of trees, it ensures that the congruence informed by
 interactions is true at *all* phylogenetic depths [@nieb10]. How different
-methods to measure coevolution deal with this structure varies, but at least
-one common thread is that they address macro-evolutionary questions on the
+statistical or comparative methods to measure coevolution deal with this structure varies, but at least
+one common thread is that they strive to address macro-evolutionary questions on the
 basis of macro-evolutionary structures [@pric03]. Although this is somehow
 different from *micro*-coevolution (*i.e.* within and between populations
 at reduced temporal and spatial scales), this is no less an instance of
 coevolution. To a certain extent, micro-coevolution (*i.e.* reciprocal
 selection over ecologically relevant timescales) *proceeds* from existing
-co-phylogenetic structure. For how are species entangled in interactions,
-if not by their previous evolutionary history? And although matching
-phylogenies are not expected to result from micro-evolutionary processes
-[@poisotchapter], there is no valid ground to reject matching phylogenies
-with matching interactions as proof of a shared evolutionary history, which
+co-phylogenetic structure, for how are species entangled in interactions,
+if not by their previous evolutionary history? Moreover, while matching
+phylogenies are not always expected to result from micro-evolutionary processes
+[@poisotchapter], there is also no unambiguous evidence with which to reject the notion that matching phylogenies
+with matching interactions provides at least preliminary evidence of a shared evolutionary history, which
 we will henceforth refer to as *coevolution*.
 
-The considerations outlined above can be expressed as quantitative predictions.
+Importantly, the considerations outlined above can be expressed as quantitative predictions.
 Communities that have assembled by successive divergence events due to
 coevolution should display phylogenetic congruence, that is (i) have similar
 phylogenetic trees and (ii) have species at matching positions in the trees that
