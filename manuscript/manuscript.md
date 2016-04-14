@@ -46,7 +46,7 @@ figure:
     short: Conservation of contribution to coevolutionary signal.
     wide: true
 date: November 26, 2015
-abstract: Both species and their interactions are affected by changes that occur at macro-evolutionary time-scales, and shape both ecological communities and their phylogenetic structure. But because extent ecological community structure is contingent upon random chance, environmental filters, and local effects, it is unclear how much macro-ecological signal local communities should retain. Here we show that, in a host--parasite system where species interactions vary substantially over a continental gradient, the macro-ecological significance of individual interactions is maintained across different scales. Notably, this occurs despite the fact that observed community variation at the local scale frequently tends to weaken or remove community-wide phylogenetic signal. When considered in terms of the interplay between community ecology and coevolutionary theory, our results demonstrate that individual interactions are capable and indeed likely to show a consistent signature of past evolutionary history even when woven into communities that do not.
+abstract: Both species and their interactions are affected by changes that occur at macro-evolutionary time-scales, and shape both ecological communities and their phylogenetic structure. Of course, extant ecological community structure is also contingent upon random chance, environmental filters, and local effects; it is therefore unclear how much macro-ecological signal local communities should retain. Here we show that, in a host--parasite system where species interactions vary substantially over a continental gradient, the macro-ecological significance of individual interactions is maintained across different scales. Notably, this occurs despite the fact that observed community variation at the local scale frequently tends to weaken or remove community-wide phylogenetic signal. When considered in terms of the interplay between community ecology and coevolutionary theory, our results demonstrate that individual interactions are capable and indeed likely to show a consistent signature of past evolutionary history even when woven into communities that do not.
 titlepage:
   - l: "Abstract: 134 words; Main text: 3120 words; 4 figures; no table; 38 references."
   - l: "Authorship: TP and DBS conceived the study; TP performed the analysis; TP and DBS wrote the paper."
@@ -93,22 +93,22 @@ that their extant ecological structure is an outcome of ancestral constraints
 and/or co-adaptation [@nuis14].
 
 It is important to note further that discovering matching phylogenies do not
-mean that coevolutionary dynamics *sensu* *e.g* @thom99 took place at any
+mean that coevolutionary dynamics (*sensu* *e.g* @thom99) took place at any
 time. In fact, coevolution is not expected to necessarily result in matching
 phylogenies, nor are matching phylogenies only produced through coevolution
 [@poisotchapter]. It follows that community-level measures of phylogenetic
 signal, while they *do* quantify how closely interactions are a product of
 phylogeny, do not allow to draw conclusions on coevolution. Nevertheless,
-*interaction*-level measures are useful, in that, when expressed as the
-contribution of interactions to the overall signal, allow to *compare* the
+*interaction*-level measures are useful given that, when expressed as the
+contribution of interactions to the overall signal, they allow us to *compare* the
 importance of interactions across replicated communities. Communities from
 the same regional pool vary because (i) the local species pool is at best a
 subset of the regional species pool and (ii) the local interactions are at
 best a subset of the interactions in the regional community [@pois15a]. This
-involves that (i) the phylogenetic signal in the regional pool will be
+implies that (i) the phylogenetic signal in the regional pool will be
 different from the signal in the local communities, and (ii) the phylogenetic
 signal across local communities will differ. Species sampling and variability
-of interactions, however, does no predict (i) how the coevolutionary signal
+of interactions, however, do not predict (i) how the cophylogenetic signal
 of pairwise interactions is kept or lost at the scale of the whole community
 nor (ii) whether or not this variability is related to changes in the amount
 of phylogenetic signal that can be detected locally.
