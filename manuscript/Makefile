@@ -41,4 +41,3 @@ $(OUTPUT): $(MARKED)
 	cp ../figures/*pdf figures/
 	pandoc $< -o $@ $(PFLAGS) --template plmt/plmt.tex
 	rm $(MARKED)
-
