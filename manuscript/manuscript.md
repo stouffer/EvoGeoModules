@@ -206,9 +206,9 @@ but hard to correct, feature of spatially replicated datasets in which species
 occurrence varies [@mora15]. Therefore, the values of $S_{ij}$ can only be
 defined for species that have been observed to *co-occur* at least once.
 
-## Quantifying macro-evolutionary signal
+## Quantifying co-phylogenetic matching
 
-We quantify the strength of macro-evolutionary signal in terms of the degree of
+We quantify the strength of co-phylogenetic matching in terms of the degree of
 matching between host and parasite phylogenies, given knowledge of extant
 species interactions (at varying spatial scales). We do so using the *PACo*
 method [@balb13], which is robust to variations in both number of species and
@@ -274,7 +274,7 @@ selection to maintain pairs of species at matching positions in the phylogenies,
 the local networks should have a higher degree of phylogenetic matching (through
 the filtering acting against species pairs at dissimilar positions).
 
-## co-phylogenetic matching is predicted by the contribution of interactions
+##Co-phylogenetic matching is predicted by the contribution of interactions
 
 !{contributions}
 
@@ -294,7 +294,7 @@ actually drives differences in overall co-phylogenetic matching. Network-level
 co-phylogenetic matching emerges directly from the properties of interactions and
 is not a property of the network itself.
 
-## Interactions contributing to co-phylogenetic matching are not more spatially consistent
+## Interactions contributing to co-phylogenetic matching are marginally more spatially consistent
 
 !{consistency}
 
@@ -305,12 +305,19 @@ partner is able to forage for optimal resources [@betts15]. Once more, the
 literature on host-parasite interactions assumes that the reason why some
 interactions are more frequent is because they reflect a significant past
 history of coevolution [@guim07; @mora10]; that is, the ecological constraints
-emerge from the evolutionary conservatism. If this were true, we should observe
-a significant, positive correlation between the probability of observing an
-interaction and the importance of that interaction for co-phylogenetic matching
-at the continental scale. Surprisingly, we find that neither is true here since
-interactions that are important for co-phylogenetic matching are not more
-spatially consistent (Fig. 3). This implies that the spatial consistency of an
+emerge from the evolutionary conservatism. Using a weighted Pearson's
+correlation between the interaction frequency, interaction contribution to
+co-phylogenetic matching, and the number of observations of each interaction as
+the weight, we observe that this is marginally true ($\rho \approx -0.11$. $t
+\approx -5.09$ with weights; $\rho \approx -0.10$, $t \approx -4.6$ without;
+both significant at $\alpha = 0.05$). Results are presented in Fig. 3. The
+*negative* correlation comes from the fact that high interaction-level values in
+PACo means *low* contribution to co-phylogenetic signal. Nevertheless, this
+result ought to be tempered by the fact that the $R^2$ of both regressions is
+close to $0.01$; the association between spatial consistency and contribution to
+co-phylogenetic signal, albeit statistically significant, explains so little
+variance of either quantities that it can safely be disregarded when drawing
+biological interpretations. This implies that the spatial consistency of an
 interaction do not reflect its evolutionary past, but rather (possibly) extant
 ecological processes.
 
