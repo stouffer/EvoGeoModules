@@ -25,29 +25,28 @@ keyword:
   - k: species interactions
   - k: host-parasites
   - k: phylogenetic congruence
-  - k: not coevolution
 figure:
   - id: maps
-    caption: Spatial distribution of coevolutionary signal across the 51 sites. For each location, we indicate whether or not the structure of regional and local interaction networks is consistent with phylogenetic congruence. The colour of the circle corresponds to regionally significant or non-significant (black and grey, respectively) while the colour of the symbol within corresponds to locally significant or non-significant (black and grey, respectively).
+    caption: Spatial distribution of co-phylogenetic matching across the 51 sites. For each location, we indicate whether or not the structure of regional and local interaction networks is consistent with phylogenetic congruence. The colour of the circle corresponds to regionally significant or non-significant (black and grey, respectively) while the colour of the symbol within corresponds to locally significant or non-significant (black and grey, respectively).
     short: Spatial distribution.
     file: figure1.pdf
   - id: contributions
-    caption: Distribution of coevolutionary signal at the network and interaction levels. **a**, Networks that have lower coevolutionary signal at the local or regional level are composed of interactions that on average contribute little to coevolution at the continental scale. Coevolutionary signal is presented relatively to the continental level coevolutionary signal. Dashed lines are a cubic smoothing spline, and the two levels of the same networks are linked by solid grey lines. **b**, Overall, interactions observed at the local, regional, and continental scale have roughly equivalent contributions to coevolutionary signal. Probability density was smoothed using a Gaussian kernel density estimator. Raw probability densities are shown as semi-transparent bars.
-    short: Distribution of coevolutionary signal.
+    caption: Distribution of co-phylogenetic matching at the network and interaction levels. **a**, Networks that have lower co-phylogenetic matching at the local or regional level are composed of interactions that on average contribute little to co-phylogenetic matching at the continental scale. co-phylogenetic matching is presented relatively to the continental level co-phylogenetic matching. Dashed lines are a cubic smoothing spline, and the two levels of the same networks are linked by solid grey lines. **b**, Overall, interactions observed at the local, regional, and continental scale have roughly equivalent contributions to co-phylogenetic matching. Probability density was smoothed using a Gaussian kernel density estimator. Raw probability densities are shown as semi-transparent bars.
+    short: Distribution of co-phylogenetic matching.
     file: figure4.pdf
     wide: true
   - id: consistency
-    caption: Spatial consistency of an interaction and its contribution to coevolutionary signal. Note that because *PACo* gives low scores to interactions with a strong contribution to coevolution, the y axis is reversed. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. Although statistically significant, there was no biologically meaningful relationship between spatial consistency and an interaction's importance for coevolution in the continental network ($R^2 \approx 0.01$, $\rho = -0.1$, $p \leq 10^{-5}$).
+    caption: Spatial consistency of an interaction and its contribution to co-phylogenetic matching. Note that because *PACo* gives low scores to interactions with a strong contribution to co-phylogenetic matching, the y axis is reversed. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. Although statistically significant, there was no biologically meaningful relationship between spatial consistency and an interaction's importance for co-phylogenetic matching in the continental network ($R^2 \approx 0.01$, $\rho = -0.1$, $p \leq 10^{-5}$).
     file: figure3.pdf
     short: Spatial consistency.
   - id: relative
     caption: The regional and local networks have the same relative amount of co-phylogenetic matching. The values presented are the z-scores of the PACo statistic for the entire network, with the 1:1 relationship added.
     file: figureLocReg.pdf
-    short: Conservation of contribution to coevolutionary signal.
+    short: Conservation of contribution to co-phylogenetic matching.
   - id: scales
-    caption: The contribution to coevolutionary signal of the interaction between two species is maintained across scales. For every site, we show the Pearson's correlation between interaction-level coevolutionary signal in the continental network and the same in the local network. The size of each point is proportional to the size of the network, and all correlations are significant at $\alpha = 0.05$ except in the grey shaded area.
+    caption: The contribution to co-phylogenetic matching of the interaction between two species is maintained across scales. For every site, we show the Pearson's correlation between interaction-level co-phylogenetic matching in the continental network and the same in the local network. The size of each point is proportional to the size of the network, and all correlations are significant at $\alpha = 0.05$ except in the grey shaded area.
     file: figure2.pdf
-    short: Conservation of contribution to coevolutionary signal.
+    short: Conservation of contribution to co-phylogenetic matching.
     wide: true
 date: November 26, 2015
 abstract: Both species and their interactions are affected by changes that occur at evolutionary time-scales, and shape both ecological communities and their phylogenetic structure. But because extent ecological community structure is contingent upon random chance, environmental filters, and local effects, it is unclear how much ecological signal local communities should retain. Here we show that, in a host--parasite system where species interactions vary substantially over a continental gradient, the ecological significance of individual interactions is maintained across different scales. Notably, this occurs despite the fact that observed community variation at the local scale frequently tends to weaken or remove community-wide phylogenetic signal. When considered in terms of the interplay between community ecology and coevolutionary theory, our results demonstrate that individual interactions are capable and indeed likely to show a consistent signature of past evolutionary history even when woven into communities that do not.
@@ -315,51 +314,54 @@ spatially consistent (Fig. 3). This implies that the spatial consistency of an
 interaction do not reflect its evolutionary past, but rather (possibly) extant
 ecological processes.
 
-## The contribution of interactions to coevolution is consistent across scales
+## The contribution of interactions to co-phylogenetic matching is consistent across scales
 
 !{scales}
 
-Ultimately, coevolutionary signal varies across scale because of the
+Ultimately, co-phylogenetic matching varies across scale because of the
 simultaneous variation of species' interactions *and* communities' phylogenetic
 tree structure. In a system characterised by substantial turnover we would
 expect the contribution of each separate interaction to differ across scales as
 well. Instead, we observe here that interactions that contribute strongly to
-coevolutionary signal at the continental scale *also* show a significant
+co-phylogenetic matching at the continental scale *also* show a significant
 tendency to contribute strongly at the local ($p < 0.05$ for positive
 correlations in 48 out of 51 networks) and regional (in 47 out of 51 networks),
-and this observation is independent of network-wide coevolutionary signal
+and this observation is independent of network-wide co-phylogenetic matching
 \autoref{scales}. Remarkably, this result implies that the remnants of
-coevolution are still locally detectable in *individual interactions* even
-though coevolution regularly fails to leave its imprint on most local networks.
+co-phylogenetic inertia are still locally detectable in *individual
+interactions* even though shared evolutionary history regularly fails to leave
+its imprint on most local networks.
 
 # Conclusions
 
 Overall, the results of our analyses demonstrate that there is a sizeable gap
-between our current understanding of host-parasite coevolution as the basis of
-multi-species interactions and its applicability to ecological questions. Our
-results suggest that, while the continental-scale system might show a strong
-signal of past coevolution (which was also reported, through different analyses,
-by other studies of this system), the quasi-entirety of this signal is lost when
-species and their interactions are filtered to assemble local communities. That
-there is no further loss of signal from the regional to the local scale strongly
-suggests that the loss of signal from the continental to regional scale is due
-to species sampling, that proceeds independantly of the evolutionary history of
-species pairs. It would seem that local species pools are driven more by the
-interaction between abiotic conditions and species tolerance, than they are by
-potential species interactions.
+between our current understanding of host-parasite co-evolution as the basis of
+multi-species interactions, its phylogenetic consequences, and their
+applicability to ecological questions. Our results suggest that, while the
+continental-scale system might show a strong signal of past coevolution (which
+was also reported, through different analyses, by other studies of this system),
+the quasi-entirety of this signal is lost when species and their interactions
+are filtered to assemble local communities. That there is no further loss of
+signal from the regional to the local scale strongly suggests that the loss of
+signal from the continental to regional scale is due to species sampling, that
+proceeds independantly of the evolutionary history of species pairs. It would
+seem that local species pools are driven more by the interaction between abiotic
+conditions and species tolerance, than they are by potential species
+interactions.
 
-Local networks show little to no signal of coevolution and the strength of
-coevolution between two species is a surprisingly poor predictor of how
-frequently they interact. In contrast to the frequent assumption that
-phylogenetic structure is a key driver of community structure [@cave09], these
-data reveal that this impact is actually minimal at ecologically relevant
-spatial scales. And yet, despite all the above, individual interactions are
-somehow able to maintain their coevolutionary signal even when the community
-they are woven into does not. Thinking more broadly, these discrepancies provide
-a clear roadmap for bridging the gap between our appreciation of the role of
-coevolution and its empirically measurable outcomes: network structure is the
-most parsimonious *mechanism* by which coevolution proceeds, not the imprint
-coevolution leaves on ecological communities.
+Local networks show little to no signal of co-phylogenetic matching, and the
+strength of co-phylogenetic matching that can be ascribed to the interactions
+between two species is a surprisingly poor predictor of how frequently they
+interact. In contrast to the frequent assumption that phylogenetic structure is
+a key driver of community structure [@cave09], these data reveal that this
+impact is actually minimal at ecologically relevant spatial scales. And yet,
+despite all the above, individual interactions are somehow able to maintain
+their co-phylogenetic matching even when the community they are woven into does
+not. Thinking more broadly, these discrepancies provide a clear roadmap for
+bridging the gap between our appreciation of the role of coevolution and its
+empirically measurable outcomes: network structure is the most parsimonious
+*mechanism* by which coevolution proceeds, not the imprint coevolution leaves on
+ecological communities.
 
 **Acknowledgements.** We thank Juan Antonio Balbuena for discussions about the
 *PACo* method, and members of the Stouffer and Tylianakis groups for comments
