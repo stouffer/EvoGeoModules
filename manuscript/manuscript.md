@@ -1,5 +1,5 @@
 ---
-title: Interactions retain the cophylogenetic signal that communities lost
+title: Interactions retain the co-phylogenetic matching that communities lost
 short: Host-parasite cophylogeny in space
 bibliography: coevo.bib
 csl: plmt/plab.csl
@@ -50,7 +50,7 @@ figure:
     short: Conservation of contribution to coevolutionary signal.
     wide: true
 date: November 26, 2015
-abstract: Both species and their interactions are affected by changes that occur at macro-evolutionary time-scales, and shape both ecological communities and their phylogenetic structure. But because extent ecological community structure is contingent upon random chance, environmental filters, and local effects, it is unclear how much macro-ecological signal local communities should retain. Here we show that, in a host--parasite system where species interactions vary substantially over a continental gradient, the macro-ecological significance of individual interactions is maintained across different scales. Notably, this occurs despite the fact that observed community variation at the local scale frequently tends to weaken or remove community-wide phylogenetic signal. When considered in terms of the interplay between community ecology and coevolutionary theory, our results demonstrate that individual interactions are capable and indeed likely to show a consistent signature of past evolutionary history even when woven into communities that do not.
+abstract: Both species and their interactions are affected by changes that occur at evolutionary time-scales, and shape both ecological communities and their phylogenetic structure. But because extent ecological community structure is contingent upon random chance, environmental filters, and local effects, it is unclear how much ecological signal local communities should retain. Here we show that, in a host--parasite system where species interactions vary substantially over a continental gradient, the ecological significance of individual interactions is maintained across different scales. Notably, this occurs despite the fact that observed community variation at the local scale frequently tends to weaken or remove community-wide phylogenetic signal. When considered in terms of the interplay between community ecology and coevolutionary theory, our results demonstrate that individual interactions are capable and indeed likely to show a consistent signature of past evolutionary history even when woven into communities that do not.
 titlepage:
   - l: "Abstract: 134 words; Main text: 3120 words; 4 figures; no table; 38 references."
   - l: "Authorship: TP and DBS conceived the study; TP performed the analysis; TP and DBS wrote the paper."
@@ -97,25 +97,25 @@ that their extant ecological structure is an outcome of ancestral constraints
 and/or co-adaptation [@nuis14].
 
 It is important to note further that discovering matching phylogenies do not
-mean that coevolutionary dynamics *sensu* *e.g* @thom99 took place at any
-time. In fact, coevolution is not expected to necessarily result in matching
+mean that coevolutionary dynamics *sensu* *e.g* @thom99 took place at any time.
+In fact, coevolution is not expected to necessarily result in matching
 phylogenies, nor are matching phylogenies only produced through coevolution
 [@poisotchapter]. It follows that community-level measures of phylogenetic
 signal, while they *do* quantify how closely interactions are a product of
 phylogeny, do not allow to draw conclusions on coevolution. Nevertheless,
 *interaction*-level measures are useful, in that, when expressed as the
 contribution of interactions to the overall signal, allow to *compare* the
-importance of interactions across replicated communities. Communities from
-the same regional pool vary because (i) the local species pool is at best a
-subset of the regional species pool and (ii) the local interactions are at
-best a subset of the interactions in the regional community [@pois15a]. This
-involves that (i) the phylogenetic signal in the regional pool will be
-different from the signal in the local communities, and (ii) the phylogenetic
-signal across local communities will differ. Species sampling and variability
-of interactions, however, does no predict (i) how the coevolutionary signal
-of pairwise interactions is kept or lost at the scale of the whole community
-nor (ii) whether or not this variability is related to changes in the amount
-of phylogenetic signal that can be detected locally.
+importance of interactions across replicated communities. Communities from the
+same regional pool vary because (i) the local species pool is at best a subset
+of the regional species pool and (ii) the local interactions are at best a
+subset of the interactions in the regional community [@pois15a]. This implies
+that (i) the phylogenetic signal in the regional pool will be different from the
+signal in the local communities, and (ii) the phylogenetic signal across local
+communities will differ. Species sampling and variability of interactions,
+however, does no predict (i) how the phylogenetic signal of pairwise
+interactions is kept or lost at the scale of the whole community nor (ii)
+whether or not this variability is related to changes in the amount of
+phylogenetic signal that can be detected locally.
 
 In this manuscript, we analyze a large dataset of over 300 species of mamallian
 hosts and their ectoparasites, sampled throughout Eurasia, for which
@@ -140,7 +140,7 @@ We use data on observations of interactions between 121 species of rodents and
 51 species-species interaction networks. Interactions were measured by combing
 rodents for fleas, a method that gives high quality data as it has a high power
 of detection. Previous analyses revealed that this dataset shows significant
-coevolutionary signal at the continental level [@kras12a]. Importantly, it also
+co-phylogenetic matching at the continental level [@kras12a]. Importantly, it also
 provides spatial replication and variability [@cana14] at a scale large enough
 to capture macro-ecological processes. This dataset is uniquely suited for our
 analysis, as it represents a thorough spatial and taxonomic sampling of a
@@ -173,7 +173,7 @@ species pool [@pois12c].
 
 The second, *regional* interaction data accounts for different species
 composition across sites, specifically by testing whether sampling from the
-regional species pool affects coevolutionary signal. Within each site, the
+regional species pool affects co-phylogenetic matching. Within each site, the
 regional scale is given by the subset of the metanetwork formed by the locally
 present species (properly speaking, the induced subgraph of the metanetwork
 induced from the nodes of the local network). Hence the regional networks are
@@ -217,12 +217,12 @@ interactions. *PACo* provides measures of both the network-level congruence
 (*i.e.*, is there phylogenetic signal in the species interactions across the
 entire network?) and the interaction-level signal (*i.e.*, what is the
 contribution of each interaction to the overall signal?). Strong values of the
-later metric reflect *low* contributions to coevolution -- interactions that
-contribute strongly to phylogenetic congruence have low *PACo* values.
-Importantly, and by contrast to previous methods such as *ParaFit* [@lege02],
-*PACo* also can be used to meaningfully quantify the contribution of every
-interaction to the network-level signal even in cases where the entire network
-shows no significant phylogenetic signal. As required by *PACo*, the
+later metric reflect *low* contributions to co-phylogenetic matching --
+interactions that contribute strongly to phylogenetic congruence have low *PACo*
+values. Importantly, and by contrast to previous methods such as *ParaFit*
+[@lege02], *PACo* also can be used to meaningfully quantify the contribution of
+every interaction to the network-level signal even in cases where the entire
+network shows no significant phylogenetic signal. As required by *PACo*, the
 phylogenetic trees for hosts and parasites were rendered ultrametric (*i.e.*,
 all species are at the same distance from the root).
 
@@ -252,14 +252,15 @@ As host-macroparasite interactions are hypothesized to be ecologically
 constrained, as a result of their being evolutionary conserved [@comb01], the
 congruence observed at the continental level sets the baseline for what would be
 expected in local communities. Of course, if ecological mechanisms reduce
-coevolutionary signal, we should detect coevolution at the continental scale but
-not locally. Out of 51 sites, 35 show no signal of coevolution at all, 11 show
-significant coevolutionary signal when using the regional interactions, and 12
-show significant coevolutionary signal using the local interactions (see *Supp.
-Mat. 1* for network-level significance values; \autoref{maps}). These results
-support the idea that macro-evolutionary processes, such as co-diversification,
-can have consequences at the macro-ecological level but may not in fact be
-detectable at finer spatial scales.
+co-phylogenetic matching, we should detect this signal at the continental scale
+but not locally. Out of 51 sites, 35 show no signal of co-phylogenetic matching
+at all, 11 show significant co-phylogenetic matching when using the regional
+interactions, and 12 show significant co-phylogenetic matching using the local
+interactions (see *Supp. Mat. 1* for network-level significance values;
+\autoref{maps}). These results support the idea that macro-evolutionary
+processes, such as co-diversification, can have consequences at the
+macro-ecological level but may not in fact be detectable at finer spatial
+scales.
 
 ## Local and regional scale networks have the same relative co-phylogenetic matching
 
@@ -274,7 +275,7 @@ selection to maintain pairs of species at matching positions in the phylogenies,
 the local networks should have a higher degree of phylogenetic matching (through
 the filtering acting against species pairs at dissimilar positions).
 
-## Co-phylogenetic matching is predicted by the contribution of interactions
+## co-phylogenetic matching is predicted by the contribution of interactions
 
 !{contributions}
 
@@ -282,38 +283,37 @@ On the other hand, system-level differences say little about the behavior of
 individual interactions. Despite the fact most coevolutionary mechanisms act at
 the interaction level [@thom99], most *measures* of it are expressed at the
 community level. We observe here that networks with interactions that are
-important for coevolution at the continental scale indeed have more
-coevolutionary signal at the local and regional scales alike (Fig. 2A).
+important for co-phylogenetic matching at the continental scale indeed have more
+co-phylogenetic matching at the local and regional scales alike (Fig. 2A).
 Intriguingly, we also find that the distribution of individual interactions'
-contributions to coevolution is strongly conserved, regardless of the scale at
-which the interactions are quantified (Fig. 2B). Because interactions differ in
-their total contribution to coevolution, this implies that their distribution
-across networks (*i.e.* whether the local network is a sampling of strongly
-contributing, or weakly contributing, interactions) is what actually drives
-differences in overall coevolutionary signal. Network-level coevolutionary
-signal emerges directly from the properties of interactions and is not a
-property of the network itself.
+contributions to co-phylogenetic matching is strongly conserved, regardless of the
+scale at which the interactions are quantified (Fig. 2B). Because interactions
+differ in their total contribution to co-phylogenetic matching, this implies that
+their distribution across networks (*i.e.* whether the local network is a
+sampling of strongly contributing, or weakly contributing, interactions) is what
+actually drives differences in overall co-phylogenetic matching. Network-level
+co-phylogenetic matching emerges directly from the properties of interactions and
+is not a property of the network itself.
 
 ## Interactions contributing to co-phylogenetic matching are not more spatially consistent
 
 !{consistency}
 
-Beyond their contribution to coevolution, interactions also ultimately
-differ in how frequently they vary when the species involved co-occur
-[@olit15; @cars14; @troj15]. This can happen, for example, when one of
-the partner is able to forage for optimal resources [@betts15]. Once more,
-the literature on host-parasite interactions assumes that the reason why
-some interactions are more frequent is because they reflect a significant
-past history of coevolution [@guim07; @mora10]; that is, the ecological
-constraints emerge from the evolutionary conservatism. If this were true, we
-should observe a significant, positive correlation between the probability
-of observing an interaction and the importance of that interaction for
-coevolution at the continental scale. Surprisingly, we find that neither
-is true here since interactions that are important for coevolution are not
-more spatially consistent (Fig. 3). This implies that the spatial consistency
-of an interaction do not reflect its evolutionary past, but rather (extant)
+Beyond their contribution to co-phylogenetic matching, interactions also
+ultimately differ in how frequently they vary when the species involved co-occur
+[@olit15; @cars14; @troj15]. This can happen, for example, when one of the
+partner is able to forage for optimal resources [@betts15]. Once more, the
+literature on host-parasite interactions assumes that the reason why some
+interactions are more frequent is because they reflect a significant past
+history of coevolution [@guim07; @mora10]; that is, the ecological constraints
+emerge from the evolutionary conservatism. If this were true, we should observe
+a significant, positive correlation between the probability of observing an
+interaction and the importance of that interaction for co-phylogenetic matching
+at the continental scale. Surprisingly, we find that neither is true here since
+interactions that are important for co-phylogenetic matching are not more
+spatially consistent (Fig. 3). This implies that the spatial consistency of an
+interaction do not reflect its evolutionary past, but rather (possibly) extant
 ecological processes.
-
 
 ## The contribution of interactions to coevolution is consistent across scales
 
