@@ -20,3 +20,16 @@ legend("topleft", c("Significant", "Non significant"), pch=1, bty="n", col=c("bl
 box()
 
 dev.off()
+
+z = function(x){return((x-mean(x))/sd(x))}
+
+pdf(file="../figures/figureLocReg.pdf")
+par(asp=1)
+
+plot(z(loc_ss)~z(reg_ss), fig1dat, pch=19,
+  xlab="Relative cophylogenetic signal (regional)", ylab="Relative cophylogenetic signal (local)")
+abline(h=0, lty=2, col="grey")
+abline(v=0, lty=2, col="grey")
+abline(a=0, b=1, col="darkgrey")
+
+dev.off()
