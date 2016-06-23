@@ -216,9 +216,9 @@ interactions. *PACo* provides measures of both the network-level congruence
 (*i.e.*, is there phylogenetic signal in the species interactions across the
 entire network?) and the interaction-level signal (*i.e.*, what is the
 contribution of each interaction to the overall signal?). Strong values of the
-later metric reflect *low* contributions to co-phylogenetic matching --
+latter metric reflect *low* contributions to co-phylogenetic matching --
 interactions that contribute strongly to phylogenetic congruence have low *PACo*
-values. Importantly, and by contrast to previous methods such as *ParaFit*
+values. Importantly, and in contrast to previous methods such as *ParaFit*
 [@lege02], *PACo* also can be used to meaningfully quantify the contribution of
 every interaction to the network-level signal even in cases where the entire
 network shows no significant phylogenetic signal. As required by *PACo*, the
@@ -282,15 +282,15 @@ On the other hand, system-level differences say little about the behavior of
 individual interactions. Despite the fact most coevolutionary mechanisms act at
 the interaction level [@thom99], most *measures* of it are expressed at the
 community level. We observe here that networks with interactions that are
-important for co-phylogenetic matching at the continental scale indeed have more
-co-phylogenetic matching at the local and regional scales alike (Fig. 2A).
+important for co-phylogenetic matching at the continental scale are also important for
+co-phylogenetic matching at the local and regional scales as well (Fig. 2A).
 Intriguingly, we also find that the distribution of individual interactions'
 contributions to co-phylogenetic matching is strongly conserved, regardless of the
 scale at which the interactions are quantified (Fig. 2B). Because interactions
 differ in their total contribution to co-phylogenetic matching, this implies that
-their distribution across networks (*i.e.* whether the local network is a
-sampling of strongly contributing, or weakly contributing, interactions) is what
-actually drives differences in overall co-phylogenetic matching. Network-level
+their distribution across networks (*i.e.* whether the local network contains a sample of
+strongly contributing, or weakly contributing, interactions) is what
+actually drives differences in overall co-phylogenetic matching. As such, network-level
 co-phylogenetic matching emerges directly from the properties of interactions and
 is not a property of the network itself.
 
@@ -310,15 +310,14 @@ correlation between the interaction frequency, interaction contribution to
 co-phylogenetic matching, and the number of observations of each interaction as
 the weight, we observe that this is marginally true ($\rho \approx -0.11$. $t
 \approx -5.09$ with weights; $\rho \approx -0.10$, $t \approx -4.6$ without;
-both significant at $\alpha = 0.05$). Results are presented in Fig. 3. The
-*negative* correlation comes from the fact that high interaction-level values in
+both significant at $\alpha = 0.05$). Results are presented in Fig. 3. Recall that the
+*negative* correlation here arises from the fact that high interaction-level values in
 PACo means *low* contribution to co-phylogenetic signal. Nevertheless, this
 result ought to be tempered by the fact that the $R^2$ of both regressions is
-close to $0.01$; the association between spatial consistency and contribution to
-co-phylogenetic signal, albeit statistically significant, explains so little
-variance of either quantities that it can safely be disregarded when drawing
-biological interpretations. This implies that the spatial consistency of an
-interaction do not reflect its evolutionary past, but rather (possibly) extant
+close to $0.01$. Consequently, the association between spatial consistency and contribution to
+co-phylogenetic signal, while statistically significant, explains so little
+variance of either quantities that it is likely of negligible biological importance. This implies that the spatial consistency of an
+interaction does not reflect its evolutionary past, but rather (possibly) extant
 ecological processes.
 
 ## The contribution of interactions to co-phylogenetic matching is consistent across scales
