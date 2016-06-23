@@ -326,7 +326,7 @@ ecological processes.
 
 Ultimately, co-phylogenetic matching varies across scale because of the
 simultaneous variation of species' interactions *and* communities' phylogenetic
-tree structure. In a system characterised by substantial turnover we would
+tree structure. In a system characterised by substantial turnover, we would
 expect the contribution of each separate interaction to differ across scales as
 well. Instead, we observe here that interactions that contribute strongly to
 co-phylogenetic matching at the continental scale *also* show a significant
