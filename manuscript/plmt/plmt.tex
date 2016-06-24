@@ -1,5 +1,5 @@
 $if(draft)$\documentclass[12pt]{article}$endif$
-$if(preprint)$\documentclass[10pt,twocolumn]{article}$endif$
+$if(preprint)$\documentclass[9pt,twocolumn]{article}$endif$
 
 \usepackage{xcolor}
 \usepackage{ccicons}
@@ -11,11 +11,7 @@ $if(preprint)$\documentclass[10pt,twocolumn]{article}$endif$
 \input{plmt/plmt-pgf.tex}
 
 \usepackage[hidelinks]{hyperref}
-\usepackage[utf8]{inputenc}
-
 \usepackage{etoolbox}
-
-
 \usepackage{graphicx}
 \usepackage{adjustbox}
 
@@ -25,45 +21,15 @@ $if(preprint)$\documentclass[10pt,twocolumn]{article}$endif$
 % Code highlight and colors
 \input{plmt/plmt-code.tex}
 
-
 \usepackage{caption}
 \captionsetup{font={small, sf}, labelfont={bf, color=meta}, format=plain, indention=4mm,labelsep=quad}
 
 % Spacing
 \usepackage{setspace}
 
-\usepackage{soul}
-\setstcolor{del}
-\setul{0.2pt}{1pt}
-\setulcolor{hlh}
+\input{"plmt/plmt-marks.tex"}
 
-\newcommand\edmark[1]{\small\color{meta}\bfseries\sffamily #1}
-
-\newcommand\add[2][]{%
-\ifstrempty{#1}{%
-    \textcolor{add}{#2}%
-}{%
-    \textcolor{add}{#2 \edmark{#1}}%
-}%
-}
-
-\newcommand\remove[2][]{%
-\ifstrempty{#1}{%
-    \textcolor{meta}{\st{#2}}%
-}{%
-    \textcolor{meta}{\st{#2} \edmark{#1}}%
-}%
-}
-
-\newcommand\note[2][]{%
-\ifstrempty{#1}{%
-    \textcolor{accent}{[\small\sffamily #2]}%
-}{%
-    \textcolor{accent}{[\small\sffamily #2 -- \edmark{#1}]}%
-}%
-}
-
-\newcommand{\hilight}[1]{\ul{#1}}
+\usepackage{booktabs}
 
 $if(preprint)$
 \setcounter{secnumdepth}{0}
@@ -83,11 +49,16 @@ $endif$
 \titleformat{\subsubsection}[runin]%
 {\itshape\color{accent}\rmfamily}{\mdseries{\small\upshape \thesubsubsection}}{0.6em}{}[\quad\quad]
 
+% Geometry block
 \usepackage[letterpaper]{geometry}
-$if(draft)$\geometry{margin=2.5cm}$endif$
+
+$if(draft)$
+\geometry{margin=2.5cm}
+$endif$
+
 $if(preprint)$
 \geometry{margin=1.8cm}
-\setlength{\columnsep}{7.5mm}
+\setlength{\columnsep}{5.5mm}
 $endif$
 
 $if(preprint)$
@@ -104,12 +75,10 @@ $endif$
 $if(draft)$
 \usepackage{lineno}
 \linenumbers
+\usepackage{endfloat}
 $endif$
 
-
-
-\providecommand{\tightlist}{%
-	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \begin{document}
 
@@ -124,16 +93,16 @@ $endif$
 $if(title)$
 
 $if(draft)$%
-{\Large\bfseries\sffamily $title$}
+{\Large\bfseries\sffamily $title$ }
 \vskip 2em
 $endif$
 
 $if(preprint)$
 \begin{tikzpicture}[remember picture,overlay]
 \node[yshift=-8cm] at (current page.north west)
-{\begin{tikzpicture}[remember picture, overlay]
-\draw[bg, fill=bg] (0,0) rectangle
-(\paperwidth,8cm);
+{
+\begin{tikzpicture}[remember picture, overlay]
+\draw[bg, fill=bg] (0,0) rectangle (\paperwidth,8cm);
 \end{tikzpicture}
 };
 \node[
@@ -141,10 +110,6 @@ $if(preprint)$
     xshift=1.9cm,
     anchor=west,
     text width=15cm] at (current page.north west){\sffamily\huge\mdseries\baselineskip=22pt {\color{meta}$title$}\par};
-%\node[
-    %yshift=-7.8cm,
-    %xshift=-0.3cm,
-    %anchor=south east] at (current page.north east){\includegraphics[width=8em]{plmt/logo}};
 \end{tikzpicture}
 \vskip 8cm
 $endif$
@@ -197,10 +162,12 @@ $endif$
 $endif$
 
 $if(date)$
-{\sffamily\small
-\color{accent}Date 
-\color{meta}$date$
-}\vskip 1em
+{
+  \sffamily\small
+  \color{accent}Date
+  \color{meta} $date$
+}
+\vskip 1em
 $endif$
 
 $if(draft)$
@@ -229,25 +196,5 @@ $endif$
 $endif$
 
 $body$
-
-$if(draft)$
-\singlespacing
-
-$if(figure)$
-\clearpage
-\listoffigures
-\clearpage
-$for(figure)$
-\begin{figure}[p!]
-  \centering
-  \includegraphics[width=\textwidth]{figures/$figure.file$}
-	\caption$if(figure.short)$[$figure.short$]$endif${$figure.caption$}
-	\label{$figure.id$}
-\end{figure}
-\cleardoublepage
-$endfor$
-$endif$
-
-$endif$
 
 \end{document}
