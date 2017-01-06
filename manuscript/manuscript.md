@@ -66,7 +66,7 @@ whether or not this variability is related to changes in the amount of
 phylogenetic signal that can be detected locally.
 
 In this manuscript, we analyze a large dataset of over 300 species of
-mamallian hosts and their ectoparasites, sampled throughout Eurasia, for
+mammalian hosts and their ectoparasites, sampled throughout Eurasia, for
 which phylogenetic relationships are known. Using a Procrustean approach
 to quantify the strength of mathcing between host and parasite trees
 [@balb13], we show that locally sampled communities rarely show strong
