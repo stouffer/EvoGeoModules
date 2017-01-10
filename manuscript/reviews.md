@@ -8,7 +8,7 @@ I believe the final reviewer's comments were useful. The second reason is
 due to me and my schedule, and not due to the Oikos editorial process.
 
 > We would like to thank both the subject editor and the reviewers for their
-in depth, constructive comments. Reviews of this quality are worth waiting for.
+in-depth, constructive comments. Reviews of this quality are worth waiting for.
 
 Your manuscript entitled "Interactions retain the co-phylogenetic matching
 that communities lost" has now been seen by 2 referees, whose comments are
@@ -25,7 +25,7 @@ improved before we move forward this ms. Specifically, reviewers feel
 details about the *PACo* routine, we have expanded the text, specifically at
 **x** and **y**. We are confident that these additions will greatly clarify
 how *PACo* operates, and how it frames the interpretation of the results. We
-have also clarified the description of other methodological points, but
+have also clarified the description of other methodological points, even if
 the phylogenetic analyses seemed to be the main source of strife for both
 reviewers.
 
@@ -34,16 +34,15 @@ spatial scales. For example, as mentioned by one of the reviewers, how well
 matching at the local scale reflects matching at the regional scale rather
 than the absolute signal itself
 
-> We have done so in the methods (see **x**), and during the discussion of
-the results as well (see **y**). Note that this does not affect our results.
+> We have done so both in the methods (see **x**) and during the discussion of
+the results (see **y**). Note that this does not affect our results.
 
 - the interpretation of the analysis need to be sharpened, otherwise the
 ms. is going to be quite difficult to understand for the Oikos reader.
 
-> We apologize for overestimating either the mastery of the Oikos reader,
-or more likely, our own writing skills. We have expanded on the discussion
+> We apologize for overestimating our own ability to describe a complex subject as concisely as possible. We have expanded on the discussion
 and implication of the results at several places (**x**, **y**, **z**) in the
-"Results and Discussion" section, and hope that it will make for a better read.
+"Results and Discussion" section, and hope that it will make for a better and clearer read for the novice and expert alike.
 
 My major concern is that both reviewers mention explicitly problems with the
 clarity of the methods. For example one of the reviewers explicitly states
@@ -103,7 +102,7 @@ following.
 > We have expanded the first paragraph of the results to describe the
 predictions in more detail (**x**). We do hope that this makes the cartoon
 unnecessary, though we are not vehemently opposed to adding it should the
-reviewer or editor request it.
+reviewer or editor request it be added to the revised version of the manuscript.
 
 I also had trouble grasping the PACo method (lines 130-142). It seems that
 this is the method all the analyses are based on, so explaining it clearly
@@ -128,18 +127,17 @@ our interpretation? For example, do the results carry more weight if
 "significant" sites are not close to one another?
 
 > We understand where this comment comes from, and agree with the underlying
-idea. We respectfully decline to address it, because doing so would require
-data to say something about the diversification history of this system, and
-we are not confident in the fact that the current data allow to investigate
-this question. Different locations can have phylogenetic matching for various
-reasons. The site in the United Kingdom has probably been less connected
-to the rest of the system, for example. Note also that the sampling is not
-spatially planned in a way to address this question. We feel that a discussion
-of what spatial autocorrelation would mean would be too speculative.
+idea. Unfortunately, different locations can have phylogenetic matching for a variety of
+reasons and we wish not to speculate to deeply on the diversification history of this system.
+What's more, we are not confident that the current data allow to investigate
+this question to sufficient depth. For example, the site in the United Kingdom has *probably* been less connected
+to the rest of the system, but we cannot be certain this is the case. In addition, the sampling was also not
+spatially planned in a way to address this question rigorously. In the end, we feel that a discussion
+of what spatial autocorrelation would mean would be too speculative for our liking. While we acknowledge that it is an interesting avenue for future study, we respectfully decline to address it here and hope that the reviewer is sympathetic to this decision.
 
 Lines 183 and 185: That should be Fig 3AB, not Fig 2AB.
 
-> This is correct, and had been modified.
+> This is correct, and had been modified accordingly.
 
 In Figure 1, it is hard to distinguish open from closed circles. Using
 different shapes would help.
@@ -154,16 +152,18 @@ Perhaps line 133 is saying that this isn't the case, but again, I don't
 really know what PACo is doing.
 
 > As we mention in the manuscript, the local and regional networks have the
-same species, so changes in richness has to be ruled out as an explanation
+exact same species, so changes in richness has to be ruled out as an explanation
 for this scale transition. From the continental to regional scale, this is
 indeed possible, although Fig. 3B shows that this does not affect contribution
 at the interaction scale.
+
+XXX DBS question for TP about above: But isn't the effective sample size for PACo the number of interactions, and this *does* change between the local and regional networks? XXX
 
 Lines 233-235: This feels like over-reaching. This work has assessed,
 at best, this particular host-parasite interaction, not "potential species
 interactions" as a whole.
 
-> We have toned this sentence down.
+> Valid point. We have toned this sentence down.
 
 # Reviewer 2
 
@@ -191,11 +191,13 @@ frame our reading of the results. We respectfully decline the invitation to
 re-frame this paper more explicitly within the context of community assembly,
 which does not seem germane to our narrative.
 
+XXX DBS to TP: Could we throw them a bone and at least add something about community assembly to the discussion? XXX
+
 36-38: I had some difficulty understanding the ‘cascade up’ part of
 this sentence. I think you’re trying to get a lack of predictability,
 but I’m a bit lost on the specifics.
 
-> This is indeed correct, and we clarified it.
+> The reviewer is indeed correct, and we have clarified this distinction in the revised version.
 
 54: does
 
@@ -211,21 +213,20 @@ perspective), regions would correspond to distinct environmental areas with
 little movement between areas. The definition used here seems to be largely
 separate from an ecological definition of a region.
 
-> We have clarified this part (**x**). The definition put forth by the
-reviewer is correct in some context, but does not apply to our problematic --
-we feel that our use of continental/regional/local is appropriate, and have
-therefore kept the wording as it is.
+> We have sought to clarify this part in the revised manuscript (**x**). Though we agree that definition put forth by the
+reviewer is correct in some context, it does not apply to the phenomena that we are aiming to quantify because XXX and YYY. As such, we feel that our use of continental/regional/local is more appropriate and accurate, and have
+therefore opted to keep the wording as it is.
 
 146-148: Since the interaction described here is an antagonistic one I’m
-not sure how community assembly would favor co-occurrence.Where does the
+not sure how community assembly would favor co-occurrence. Where does the
 selection come in? If it’s just that specialist parasites can only occur
 on the suitable host I would refer to that as environmental filtering.
 
-> Parasites need hosts, so we expect a positive association within a pair. We
-have clarified this notion (**x**), and removed the word selection, which
-can be problematic if interpreted strictly as natural selection (which was
-not the case here, but we thank the reviewer for pointing out this possible
-semiotic issue).
+> Parasites fundamentally need hosts to survive, so we expect a positive association within a pair. We
+have clarified this notion in the text (**x**), and also removed the word selection, which
+can be problematic if interpreted strictly as natural selection. Though this was
+not the case here, we thank the reviewer for pointing out this possible
+point of confusion.
 
 148 on the contrary?
 
@@ -237,9 +238,8 @@ ecological mechanism? Perhaps abiotic variance or something related to
 community assembly would be a better term to differentiate between historical
 processes and factors that influence local assembly.
 
-> We do not think that most people would typically equate interactions to
-an ecological mechanism. Regardless, we have modified the text (**x**) to
-clarify that we discuss mechanisms of filtering at this point. This does
+> Thank you again for highlight this potential ambiguity. To better highlight what we meant, we have modified the text (**x**) to
+clarify that we are discussing mechanisms of filtering at this point. The reviewer will notice that this does
 indeed include abiotic variance.
 
 162-166: It’s not clear to me how these results are to be taken. What
@@ -254,7 +254,7 @@ between scales local and regional scales ‘significantly different’
 the meaning of absolute values of the output is not easy to interpret
 biologically. That being said, the fact that the amount of co-phylogenetic
 signal can be doubled when moving from the local to the regional network
-(Fig. 3A) is evidence of biological relevance.
+(Fig. 3A) is evidence of biological relevance. XXX We have attempted to make the logic of this point easier to follow in the revised manuscript (**x**). XXX
 
 173-174: I think there is a word missing here
 
@@ -272,11 +272,10 @@ specific issue in this sentence.
 
 207-210: Is this result significant (statistically)?
 
-> As mentioned in the manuscript, yes.
+> XXX We now state this explicitly in the manuscript to avoid future readers asking the same question. XXX
 
 Fig. 1: The colors do not provide good contrast. It is not really possible
 to see patterns because of the poor color choices. Also the quality of this
 image is not good.
 
-> We have re-uploaded the figures. Although apologetic, we refuse to take
-responsibility for the caprices of the journal software.
+> We have re-uploaded high-resolution versions of the figures. Unfortunately, some to all of the decrease in image quality is related to the journal software for creating the PDF for review.
