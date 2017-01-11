@@ -351,23 +351,23 @@ between our current understanding of host-parasite co-evolution as the
 basis of multi-species interactions, its phylogenetic consequences, and
 their applicability to ecological questions. Our results suggest that, while
 the continental-scale system might show a strong signal of past coevolution
-(which was also reported, through different analyses, by other studies of
-this system), the quasi-entirety of this signal is lost when species and
-their interactions are filtered to assemble local communities. That there
-is no further loss of signal from the regional to the local scale strongly
-suggests that the loss of signal from the continental to regional scale
-is due to species sampling in a manner that proceeds independently of the
-evolutionary history of species pairs. Because regional and local networks
-have the same species, the difference between them stems for the loss
-of some species interactions locally. It would therefore seem that local
-species pools in this system are driven more by the interaction between
-abiotic conditions and species tolerance than they are by potential species
-interactions. Taking a step back, this result suggests that while a shared
-phylogenetic history is a strong structuring force at the scale of the species
-pool, its influence is overridden by other factors during species filtering
-and community assembly. This does beg for future investigation of whether
-the importance of phylogenetic history decays at smaller spatial scale in
-host-parasite assemblages.
+through significantly matching phylogenies (which was also reported, through
+different analyses, by other studies of this system), the quasi-entirety
+of this signal is lost when species and their interactions are filtered to
+assemble local communities. That there is no further loss of signal from the
+regional to the local scale strongly suggests that the loss of signal from
+the continental to regional scale is due to species sampling in a manner that
+proceeds independently of the evolutionary history of species pairs. Because
+regional and local networks have the same species, the difference between
+them stems for the loss of some species interactions locally. It would
+therefore seem that local species pools in this system are driven more by the
+interaction between abiotic conditions and species tolerance than they are
+by potential species interactions. Taking a step back, this result suggests
+that while a shared phylogenetic history is a strong structuring force at
+the scale of the species pool, its influence is overridden by other factors
+during species filtering and community assembly. This does beg for future
+investigation of whether the importance of phylogenetic history decays at
+smaller spatial scale in host-parasite assemblages.
 
 Local networks show little to no signal of co-phylogenetic matching, and the
 strength of co-phylogenetic matching that can be ascribed to the interactions
@@ -379,9 +379,9 @@ yet, despite all the above, individual interactions are somehow able to
 maintain their co-phylogenetic matching even when the community they are
 woven into does not. Thinking more broadly, these discrepancies provide a
 clear roadmap for bridging the gap between our appreciation of the role of
-coevolution and its empirically measurable outcomes: network structure is
-the most parsimonious *mechanism* by which coevolution proceeds, not the
-imprint coevolution leaves on ecological communities.
+shared evolutionary history and its empirically measurable outcomes: network
+structure is the most parsimonious *mechanism* by which coevolution proceeds,
+not the imprint potential coevolution leaves on ecological communities.
 
 **Acknowledgements.** We thank Juan Antonio Balbuena for discussions about the
 *PACo* method, and members of the Stouffer and Tylianakis groups for comments

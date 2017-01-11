@@ -2,8 +2,9 @@ SOURCE=manuscript.md
 TYPE=draft# alt. value: preprint
 TITLE=cophylogeny
 MARKED= plmt/$(TITLE)_temp.md
+EXT=pdf
 PFLAGS= --variable=$(TYPE) --filter pandoc-citeproc
-OUTPUT= $(TITLE)_$(TYPE)_version.pdf
+OUTPUT= $(TITLE)_$(TYPE)_version.$(EXT)
 BIB=default.json
 
 TABLES = $(wildcard tables/*.md)
