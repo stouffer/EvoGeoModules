@@ -9,10 +9,6 @@ load("D.Rdata")
 pdf(width=12, file="../figures/figure4.pdf")
 par(mfcol=c(1,2), xaxs="i", yaxs="i",pty="s")
 
-
-
-
-
 LOC = fig1dat$loc_ss / max(D$gof$ss)
 REG = fig1dat$reg_ss / max(D$gof$ss)
 
