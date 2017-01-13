@@ -2,7 +2,7 @@
 title: Interactions retain the co-phylogenetic matching that communities lost
 short: Host-parasite cophylogeny in space
 bibliography: coevo.bib
-csl: plmt/plab.csl
+csl: plmt/oikos.csl
 author:
   - family: Poisot
     given: Timothée

@@ -1,0 +1,43 @@
+\begin{figure}
+[bt]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/figure1.pdf}
+    \caption[Spatial distribution.]{Spatial distribution of co-phylogenetic matching across the 51 sites. For each location, we indicate whether or not the structure of regional and local interaction networks is consistent with phylogenetic congruence. The colour of the circle corresponds to regionally significant or non-significant (black and grey, respectively) while the colour of the symbol within corresponds to locally significant or non-significant (black and grey, respectively).}
+    \label{maps}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+[bt]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/figureLocReg.pdf}
+    \caption[Conservation of contribution to co-phylogenetic matching.]{The regional and local networks show the same relative amount of co-phylogenetic matching. The values presented are the z-scores of the PACo statistic for the entire network, with the 1:1 relationship indicated by the solid line.}
+    \label{relative}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure*}[bt]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure4.pdf}
+    \caption[Distribution of co-phylogenetic matching.]{Distribution of co-phylogenetic matching at the network and interaction levels. **a**, Networks that have lower co-phylogenetic matching at the local or regional level are composed of interactions that on average contribute little to co-phylogenetic matching at the continental scale. co-phylogenetic matching is presented relatively to the continental level co-phylogenetic matching. Dashed lines are a cubic smoothing spline, and the two levels of the same networks are linked by solid grey lines. **b**, Overall, interactions observed at the local, regional, and continental scale have roughly equivalent contributions to co-phylogenetic matching. Probability density was smoothed using a Gaussian kernel density estimator. Raw probability densities are shown as semi-transparent bars.}
+    \label{contributions}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure}
+[bt]
+    \centering
+    \includegraphics[width=\columnwidth]{figures/figure3.pdf}
+    \caption[Spatial consistency.]{Spatial consistency of an interaction and its contribution to co-phylogenetic matching. Note that because *PACo* gives low scores to interactions with a strong contribution to co-phylogenetic matching, the y axis is reversed. Spatial consistency is defined as the probability of observing an interaction between two species given that they were observed to co-occur. Although statistically significant, there was no biologically meaningful relationship between spatial consistency and an interaction's importance for co-phylogenetic matching in the continental network ($R^2 \approx 0.01$, $\rho = -0.1$, $p \leq 10^{-5}$).}
+    \label{consistency}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure*}[bt]
+    \centering
+    \includegraphics[width=\textwidth]{figures/figure2.pdf}
+    \caption[Conservation of contribution to co-phylogenetic matching.]{The contribution to co-phylogenetic matching of the interaction between two species is maintained across scales. For every site (ranked on the x axis), we show the Pearson's correlation between interaction-level values of co-phylogenetic matching in the continental network and the same in the local network. The size of each point is proportional to the size of the network, and correlations for all sites are significant at $\alpha = 0.05$ except for those falling in the grey shaded area.}
+    \label{scales}
+\end{figure*}
+\efloatseparator
+ 
