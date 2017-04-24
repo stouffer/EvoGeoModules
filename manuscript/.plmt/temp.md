@@ -1,14 +1,11 @@
-\widowpenalty10000
-\clubpenalty10000
-
 Ecological interactions often exert important selective pressures on the species
 involved. For example, the phenologies of lodgepole pines and red crossbills
 respond spatially to the presence of squirrels [@benk03rsc]. Likewise, palm
-species undergo changes in seed morphology in response to the extinction of bird
-dispersing their seeds [@gale13feb; @john17blc]. Interactions can be lost, too,
-when phenologies of the species involved shift [@raff15psf]. Interactions are,
-in fact, so important that the existence of a species has been inferred by the
-fact that another species bore traits that matched no other known species:
+species undergo changes in seed morphology in response to the extinction of
+birds dispersing their seeds [@gale13feb; @john17blc]. Interactions can be lost,
+too, when phenologies of the species involved shift [@raff15psf]. Interactions
+are, in fact, so important that the existence of a species has been inferred by
+the fact that another species bore traits that matched no other known species:
 @krit91dmh relates the discovery of the moth *Xanthopan morganii*, with a
 proboscis famously over a foot long, which Darwin predicted would exist based
 solely on the phenology of local plant *Angraecum sesquipedale*. In addition,
@@ -39,8 +36,10 @@ carry forward to extant taxa [@vale10cpr; @desd03qps; @dini08mgc]. In a way, the
 true measure of phylogenetic signal of interactions should depend not only on
 how they are conserved within the tree of the species establishing them (*e.g.*
 parasites or pollinators), but also how these interactions at matched to the
-tree of the species receiving them (*e.g.* hosts or plants). Consequently, many
-of the systems that have been described as exhibiting significant phylogenetic
+tree of the species receiving them (*e.g.* hosts or plants). This is true
+whether or not the species complex are coevolving: in fact, neutral interactions
+can yield perfectly matching co-phylogenies [@pois152wc]. Consequently, many of
+the systems that have been described as exhibiting significant phylogenetic
 structure of interactions ultimately deviate from this last constraint, and this
 can occur for a variety of factors that stem from how other species evolved and
 established, lost, or maintained interactions throughout their joint
@@ -122,28 +121,31 @@ refer to as continental, regional, and local. Notably, the continental level
 summarizes the complete dataset whereas both the regional and local levels are
 location-specific scales.
 
-The first, *continental* interaction data consists of the aggregated
-"metanetwork" which includes all documented interactions between species from
-the regional species pool [@pois12dsi].
+*Continental* interaction data consists of the aggregated "metanetwork" which
+includes all documented interactions between species from the regional species
+pool [@pois12dsi]. For every location, we further define two scales of
+analysis.
 
-The second, *regional* interaction data accounts for different species
-composition across sites, specifically by testing whether sampling from the
-regional species pool affects co-phylogenetic matching. Within each site, the
-regional scale is given by the subset of the metanetwork formed by the locally
-present species (*i.e.*, the local species and their continental interactions;
-properly speaking, the induced subgraph of the metanetwork induced from the
-nodes of the local network). Hence the regional networks are always a perfect
-subset of the continental network, and do not reflect whether species were
-actually observed to interact locally or not, but whether they *can* interact at
-all. This *regional* network is thus a baseline estimate derived from
-interactions within the species pool and measures the effect of species sampling
-on co-phylogenetic matching.
+First, *regional* interaction data accounts for different species composition
+across sites: the species that have been observed locally interact as they would
+do in the *continental* network, *i.e.* if interactions did not vary across
+space. This allows testing whether sampling from the regional species pool
+affects co-phylogenetic matching, regardless of the distribution of
+interactions. Within each site, the regional scale is given by the subset of the
+metanetwork formed by the locally present species (properly speaking, the
+induced subgraph of the metanetwork induced from the nodes of the local
+network). Hence the regional networks are always a perfect subset of the
+continental network, and do not reflect whether species were actually observed
+to interact locally or not, but whether they *can* interact at all. This
+*regional* network is thus a baseline estimate derived from interactions within
+the species pool and measures the effect of species sampling on co-phylogenetic
+matching.
 
-The third, *local* interaction data also accounts for variation in the
-interactions between observed species, in addition to encompassing the above. In
-contrast to the regional scale, the local scale only includes the interactions
-that were actually observed in the field at a given site. Therefore, the local
-and regional networks always include the same species, but the local network has
+Second, *local* interaction data are the actual observations at this location:
+the identity of the present species, and the way they interact. In addition to
+capturing the dissimilarity of species composition across sites, this allows
+measuring the effect of interaction turnover across space. The local and
+regional networks always include the same species, but the local network has
 only a subset (or, at most, an exact match) of the interactions in the regional
 network.
 
@@ -264,17 +266,16 @@ not in fact be detectable at finer spatial scales.
 
 ## Local and regional scale networks have the same relative co-phylogenetic matching
 
-![The regional and local networks show the same relative amount of co-phylogenetic matching. The values presented are the z-scores of the PACo statistic for the entire network, with the 1:1 relationship indicated by the solid line.\label{relative}](figures/figureLocReg.pdf){width=80%}
+![The regional and local networks show the same relative amount of co-phylogenetic matching. The values presented are the z-scores of the PACo statistic for the entire network, with the 1:1 relationship indicated by the solid line.\label{relative}](figures/figureLocReg.pdf){width=100%}
 
 When we compared the relative degree of co-phylogenetic matching in the local
 and regional communities (\autoref{relative}), we see that the relationship
 between the two is approximately linear (95% confidence interval for the
 correlation coefficient $0.914$--$0.971$). This fits with the hypothesis of
-local networks being assembled by a random sampling from regional networks: in
-the presence of some driver to maintain pairs of species at matching positions
-in the phylogenies, the local networks should instead have a higher degree of
-co-phylogenetic matching through a filter that acts against species pairs at
-dissimilar positions.
+local networks being assembled by a random sampling from regional networks: if
+interactions between species at matching positions in both trees are maintained
+by the same set of drivers, then this should be reflected in the local networks
+by a higher degree of cophylogenetic matching.
 
 ## Co-phylogenetic matching is predicted by the contribution of interactions
 
@@ -357,16 +358,16 @@ communities. That there is no further loss of signal from the regional to the
 local scale strongly suggests that the loss of signal from the continental to
 regional scale is due to species sampling in a manner that proceeds
 independently of the evolutionary history of species pairs. Because regional and
-local networks have the same species, the difference between them stems for the
+local networks have the same species, the difference between them stems from the
 loss of some species interactions locally. It would therefore seem that local
-species pools in this system are driven more by the interaction between abiotic
-conditions and species tolerance than they are by potential species
-interactions. Taking a step back, this result suggests that while a shared
-phylogenetic history is a strong structuring force at the scale of the species
-pool, its influence is overridden by other factors during species filtering and
-community assembly. This does beg for future investigation of whether the
-importance of phylogenetic history decays at smaller spatial scale in
-host-parasite assemblages.
+species pools in this system are also driven by the interaction between abiotic
+conditions and species tolerance, in addition to potential species interactions.
+Taking a step back, this result suggests that while a shared phylogenetic
+history is a strong structuring force at the scale of the species pool, its
+influence is overridden by other factors during species filtering and community
+assembly. This does beg for future investigation of whether the importance of
+phylogenetic history decays at smaller spatial scale in host-parasite
+assemblages.
 
 Local networks show little to no signal of co-phylogenetic matching, and the
 strength of co-phylogenetic matching that can be ascribed to the interactions
@@ -389,7 +390,5 @@ are indebted to Matt Hutchinson and Fernando Cagua for contributions to the
 code of the `paco` R package. Funding to TP and DBS was provided by a Marsden
 Fund Fast-Start grant (UOC-1101) and to DBS by a Rutherford Discovery
 Fellowship, both administered by the Royal Society of New Zealand.
-
-\cleardoublepage
 
 # References

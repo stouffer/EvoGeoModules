@@ -1,15 +1,14 @@
-\documentclass[12pt,serif]{article}
+\documentclass[11pt,serif]{article}
 
 \input{.plmt/plmt.tex}
 
 \geometry{margin=2.5cm}
 
-\usepackage{lineno}
+\usepackage[right]{lineno}
 \linenumbers
 \usepackage{endfloat}
 
 \begin{document}
-
 
 \thispagestyle{empty}
 
@@ -36,9 +35,7 @@ $endif$
 $if(affiliation)$
 \small
 $for(affiliation)$
-\textbf{$affiliation.id$}: $affiliation.text$\\
-$endfor$
-\bigskip
+\textbf{$affiliation.id$}\quad $affiliation.text$\\ $endfor$
 \normalsize
 $endif$
 

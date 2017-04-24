@@ -4,9 +4,12 @@ BIB=references.json
 CSL=.plmt/plab.csl
 MARKED= ./.plmt/temp.md
 PFLAGS= --filter pandoc-citeproc
-TAG=submitted
+TAG=revised
+AS=preprint
 
-PHONY: all
+PHONY: all diff
+
+diff: diff_$(AS)_from_$(TAG).pdf
 
 all: $(FILE)_preprint.pdf $(FILE)_draft.pdf $(FILE).odt
 
@@ -41,13 +44,16 @@ revised.md:
 	mv $(SOURCE) $@
 	mv temp.md $(SOURCE)
 
-diff.pdf: revised.md
-	make SOURCE=$< EXT=tex TITLE=old OUTPUT=old.tex
-	make SOURCE=$(SOURCE) EXT=tex TITLE=new OUTPUT=new.tex
-	latexdiff -t CTRADITIONAL old.tex new.tex > diff.tex
+diff_$(AS)_from_$(TAG).pdf: revised.md
+	node .plmt/critic.js $< oldmk.md
+	pandoc oldmk.md -o old.tex $(PFLAGS) --template ./.plmt/templates/$(AS).template .metadata.yaml --bibliography $(BIB) --csl $(CSL)
+	pandoc $(MARKED) -o new.tex $(PFLAGS) --template ./.plmt/templates/$(AS).template .metadata.yaml --bibliography $(BIB) --csl $(CSL)
+	latexdiff -t UNDERLINE old.tex new.tex > diff.tex
 	latexmk -pdf diff.tex
 	latexmk -c
 	pdf2ps diff.pdf diff.ps
 	ps2pdf13 diff.ps diff.pdf
 	rm diff.ps
 	rm {old,new,diff}.tex
+	mv diff.pdf $@
+	rm oldmk.md
