@@ -524,6 +524,8 @@ measure, but rather be defined for each interaction ({@eq:linktunover}). When
 this is the case, we report no relationship between the probability of
 interaction, and its contribution to phylogenetic signal ({@fig:consistency}).
 
+{>>paragraph on stability and turnover of interactions<<}
+
 Local networks show little to no signal of co-phylogenetic matching, and the
 strength of co-phylogenetic matching that can be ascribed to the interactions
 between two species is a surprisingly poor predictor of how frequently they
