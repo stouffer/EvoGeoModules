@@ -49,4 +49,5 @@ affiliation:
       Canada
   - id: 3
     text: 'Québec Centre for Biodiversity Sciences, Montréal, Canada'
+cleveref: true
 ...

@@ -12,6 +12,16 @@
 \usepackage{graphicx}
 \usepackage{adjustbox}
 
+\makeatletter
+\def\ScaleIfNeeded{%
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
 % Fonts
 \input{.plmt/plmt-fonts.tex}
 
@@ -19,16 +29,17 @@
 \input{.plmt/plmt-code.tex}
 
 \usepackage[nooneline]{caption}
-\captionsetup{font={small}, labelfont={bf}, format=plain, indention=2mm, labelsep=quad}
+\captionsetup{font={small}, labelfont={bf}, format=plain, indention=4mm, labelsep=quad}
 
 % Spacing
 \usepackage{setspace}
-\setlength{\parskip}{0pt}
-\setlength{\parindent}{1.1em}
+\setlength{\parskip}{1.em}
+\setlength{\parindent}{0em}
 
 \input{.plmt/plmt-marks.tex}
 
 \usepackage{booktabs, tabularx, longtable}
+\usepackage{csquotes}
 
 % Geometry block
 \usepackage[letterpaper]{geometry}
@@ -36,6 +47,3 @@
 \providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \renewcommand\UrlFont{\color{s3}\rmfamily\bfseries}
-
-\setlength{\parskip}{1em}
-\setlength{\parindent}{0pt}

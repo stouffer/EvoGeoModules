@@ -17,27 +17,26 @@
 \vskip 5em
 
 $if(author)$
+\begin{flushleft}
 $for(author)$
 $if(author.orcid)$
 \href{http://orcid.org/$author.orcid$}{$author.given$ $author.family$}
 $else$
-$author.given$ $author.family$
+\mbox{$author.given$ $author.family$}
 $endif$
-{
 $if(author.affiliations)$
-$for(author.affiliations)$$author.affiliations$$sep$,$endfor$
+~\emph{$for(author.affiliations)$$author.affiliations$$sep$,$endfor$}
 $endif$
-$sep$\\
+$sep$\quad
 $endfor$
+\end{flushleft}
 \bigskip
 $endif$
 
 $if(affiliation)$
 \small
 $for(affiliation)$
-\textbf{$affiliation.id$}\quad $affiliation.text$\\ $endfor$
-\normalsize
-$endif$
+\textbf{$affiliation.id$}:~$affiliation.text$$sep$;\quad$endfor$\normalsize$endif$
 
 \vfill
 
