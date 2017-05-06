@@ -38,21 +38,24 @@ how they are conserved within the tree of the species establishing them (*e.g.*
 parasites or pollinators), but also how these interactions at matched to the
 tree of the species receiving them (*e.g.* hosts or plants). This is true
 whether or not the species complex are coevolving: in fact, neutral interactions
-can yield perfectly matching co-phylogenies [@pois152wc]. Consequently, many of
+can yield perfectly matching co-phylogenies [@pois15wce]. Consequently, many of
 the systems that have been described as exhibiting significant phylogenetic
 structure of interactions ultimately deviate from this last constraint, and this
 can occur for a variety of factors that stem from how other species evolved and
 established, lost, or maintained interactions throughout their joint
-evolutionary history. Nonetheless, detecting matching phylogenies for
-interacting clades indicates that their shared evolutionary history is long
-standing and is therefore suggestive that their extant ecological structure is
-an outcome of ancestral constraints and/or co-adaptation [@nuis15pri].
+evolutionary history (in addition to the fact that species may have different
+impacts on one another, *i.e.* the effect of any interaction on the
+community-level cophylogenetic signal is not expected to be equal). Nonetheless,
+detecting matching phylogenies for interacting clades indicates that their
+shared evolutionary history is long standing and is therefore suggestive that
+their extant ecological structure is an outcome of ancestral constraints and/or
+co-adaptation [@nuis15pri].
 
 It is important to note further that discovering matching phylogenies does not
 mean that coevolutionary dynamics---*sensu* @thom99rmc---took place at any time.
 In fact, coevolution is not expected to necessarily result in matching
 phylogenies nor are matching phylogenies only produced through coevolution
-[@pois152wc]. It follows that community-level measures of phylogenetic signal,
+[@pois15wce]. It follows that community-level measures of phylogenetic signal,
 while they *do* quantify how closely interactions are a product of phylogeny, do
 not allow us to draw conclusions on coevolution. Nevertheless, interaction-level
 measures are useful, in that, when expressed as the contribution of interactions
@@ -291,7 +294,7 @@ degree of cophylogenetic matching.
 
 
 
-![Distribution of co-phylogenetic matching at the network and interaction levels. **a**, Networks that have lower co-phylogenetic matching at the local or regional level are composed of interactions that on average contribute little to co-phylogenetic matching at the continental scale. co-phylogenetic matching is presented relatively to the continental level co-phylogenetic matching. Dashed lines are a cubic smoothing spline, and the two levels of the same networks are linked by solid grey lines. **b**, Overall, interactions observed at the local, regional, and continental scale have roughly equivalent contributions to co-phylogenetic matching. Probability density was smoothed using a Gaussian kernel density estimator. Raw probability densities are shown as semi-transparent bars.](figure/contributions-1.pdf){#fig:contributions width=100%}
+![Distribution of co-phylogenetic matching at the network and interaction levels. **a**, Networks that have lower co-phylogenetic matching at the local or regional level are composed of interactions that on average contribute little to co-phylogenetic matching at the continental scale. Co-phylogenetic matching is presented relatively to the continental level co-phylogenetic matching. Dashed lines are a cubic smoothing spline, and the two levels of the same networks are linked by solid grey lines. **b**, Overall, interactions observed at the local, regional, and continental scale have roughly equivalent contributions to co-phylogenetic matching. Probability density was smoothed using a Gaussian kernel density estimator. Raw probability densities are shown as semi-transparent bars. Interaction-level contributions are unitless, and lower values represent stronger signal.](figure/contributions-1.pdf){#fig:contributions width=100%}
 
 On the other hand, system-level differences say little about the behavior of
 individual interactions. Despite the fact most coevolutionary mechanisms act at
@@ -302,14 +305,14 @@ important for co-phylogenetic matching at the local and regional scales as well
 ($\rho = 0.95$; {@fig:contributions}A). Intriguingly, we also find that the
 distribution of individual interactions' contributions to co-phylogenetic
 matching is strongly conserved, regardless of the scale at which the
-interactions are quantified ({@fig:contributions}B). Because interactions
-differ between each other in terms of their total contribution to
-co-phylogenetic matching, this implies that their distribution across networks
-(*i.e.* whether the local network contains a sample of strongly contributing, or
-weakly contributing, interactions) is what actually drives differences in
-overall co-phylogenetic matching. As such, network-level co-phylogenetic
-matching emerges directly from the properties of interactions and is not a
-property of the network itself.
+interactions are quantified ({@fig:contributions}B). Because interactions differ
+between each other in terms of their total contribution to co-phylogenetic
+matching, this implies that their distribution across networks (*i.e.* whether
+the local network contains a sample of strongly contributing, or weakly
+contributing, interactions) is what actually drives differences in overall
+co-phylogenetic matching. As such, network-level co-phylogenetic matching
+emerges directly from the properties of interactions and is not a property of
+the network itself.
 
 ## Interactions contributing to co-phylogenetic matching are marginally more spatially consistent
 
@@ -399,19 +402,63 @@ measure, but rather be defined for each interaction ({@eq:linktunover}). When
 this is the case, we report no relationship between the probability of
 interaction, and its contribution to phylogenetic signal ({@fig:consistency}).
 
+The lack of a relationship between interaction probability (which represents
+their ecological stability) and their contribution to the cophylogenetic process
+(which can be a proxy of their evolutionary stability) draws into the question
+of the long-term stability of interactions. Specifically, the existence of
+interactions with strong cophylogenetic contribution, but low probability, is
+puzzling. It is tempting to hypothesize that these interactions were once strong
+enough to drive (co-)speciation, but are now decaying due either to the fact
+that the host/parasite pair has been disrupted, or under the action of
+ecological processes. @janz11err show that parasites can frequently acquire
+hosts that are not closely related to their initial host. This phenomenon,
+dubbed the "parasite paradox", can be responsible for a large number of
+diversification events, as parasites will be introduced to a novel environment
+when exposed to a novel host. The acquisition of novel hosts proceeds primarily
+from ecological contacts between distantly related species. This emphasizes the
+need to account for the spatial structure of species interactions in these
+studies -- because all species do not co-occur at all places, the potential for
+ecological contact with novel hosts varies across space. Ideally, reconstruction
+of the ancestral range of the species can shed some light on whether acquisiton
+of distantly related species happened, and where.
+
 Local networks show little to no signal of co-phylogenetic matching, and the
 strength of co-phylogenetic matching that can be ascribed to the interactions
 between two species is a surprisingly poor predictor of how frequently they
 interact. In contrast to the frequent assumption that phylogenetic structure is
 a key driver of community structure [@cave09mce], these data reveal that this
-impact is actually minimal at ecologically relevant spatial scales. And yet,
-despite all the above, individual interactions are somehow able to maintain
-their co-phylogenetic matching even when the community they are woven into does
-not. Thinking more broadly, these discrepancies provide a clear roadmap for
-bridging the gap between our appreciation of the role of shared evolutionary
-history and its empirically measurable outcomes: network structure is the most
-parsimonious *mechanism* by which coevolution proceeds, not the imprint
-potential coevolution leaves on ecological communities.
+impact is actually minimal at ecologically relevant spatial scales, even in
+system where phylogenetic structure would be expected to have a profoundly
+strong role. And yet, despite all the above, individual interactions are somehow
+able to maintain their co-phylogenetic matching even when the community they are
+woven into does not. Thinking more broadly, these discrepancies provide a clear
+roadmap for bridging the gap between our appreciation of the role of shared
+evolutionary history and its empirically measurable outcomes: network structure
+is the most parsimonious *mechanism* by which coevolution proceeds, not the
+imprint potential coevolution leaves on ecological communities.
+
+Finally, we would like to acknowledge some limitations in the data.
+Host-parasite evolutions usually follows a number of canonical coevolutionary
+scenarios [@page03ttp]: true cospeciation, wherein the two speciation events are
+simultaneous; pseudo- or delayed-cospeciations, wherein one of the speciations
+happens after the other; host-shift, wherein the parasite acquires a new host
+(and can subsequently lose the previous one, undergo speciation, or maintain its
+ability to use it); finally, host range expansion, in which the parasite
+acquires a novel host. When the likelihood of both host and parasite extinctions
+events are added to these model, the variety of outcomes is considerable.
+@dev07wch shows that host-switch like events can result in matching trees, and
+so one could argue that the continental-level signal of tree matching can emerge
+from numerous host-shift events [although the results of @kras12psm do not
+support this scenario]. Because separating true cospeciation events from all
+other situations is difficult without time-calibrated trees, @dev13cvh suggest
+that the number of cospeciation event is inflated by cophenetic methods like
+*PACo* or *ParaFit* [although @lope01mpf reported an increased number of
+cospeciations when accounting for time of speciation events]. This re-inforces
+the need for high-quality phylogeny data calibrated for communities in which the
+interactions are known. Not only will this help make more robust inference about
+the evolution of networks [@eklo16pcf], it will also help use informations on
+species interactions embedded within networks to help understand coevoluationary
+dynamics.
 
 **Acknowledgements.** We thank Juan Antonio Balbuena for discussions about the
 *PACo* method, and members of the Stouffer and Tylianakis groups for comments

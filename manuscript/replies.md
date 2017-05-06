@@ -6,13 +6,16 @@ The language and the interpretations are still too narrow. The reviewer suggest
 a more general discussion of what this data set says about the stability of
 species interactions to cause a co-phylogenetic signal.
 
-> TODO
+> We have greatly expanded the discussion, following yours and the reviewers'
+comments.
 
 I follow the reviewer's comment and suggest additional elements to strengthen
 the ms. -- note that the discussion is too short (only one page!) and it should
 be expanded at least to another page.
 
-> We have expanded the discussion (xx, yy) by ...
+> We have expanded the discussion, by adding a paragraph (**x**) comparing our
+results to a recent study in mutualistic systems, and by discussing how they fit
+in the discussion about the turnover of interactions in space and time (**x**).
 
 There are several ways to expand it. For example, methods used here do not
 mention a whole branch of tangled trees methods to study potential mechanisms of
@@ -24,7 +27,9 @@ Cospeciation-switching, and mixed patterns with cospeciations, duplications and
 switches) -- Can authors discuss a bit more about such (or other) potential
 hypothesis underlying the observed patterns of co-phylogenetic matching?
 
-> TODO
+> We appreciate the suggestion, and have added a paragraph in the discusion
+(**x**) to highlight how the addition of time in the phylogenies can rule some
+of these scenarios apart.
 
 What are the mechanisms decoupling the local and the continental scale patterns
 of the cophylogenetic signal? Check for example a neutral model that predict
@@ -52,7 +57,8 @@ to fill the big gap between the small-scale biological processes and ecological
 interactions for predicting large-scale associations between host and parasites
 as reflected in the phylogenies.
 
-> Discuss, but this is speculative
+> We have added a discussion of these mechanisms in the paragraph on the
+stability of species interactions (**x**).
 
 ## Reviewer 2
 
@@ -74,7 +80,8 @@ shape and is well-worthy of publication.
 that a keystone species could have powerful interactions that shape the
 evolution of a number of different taxa.
 
-> Discuss.
+> We have added a discussion of this (**x**), emphasizing that interactions can
+have different effects.
 
 Line 94: I get that this means 51 local sites.  How were regions were
 delineated?
@@ -85,7 +92,11 @@ delineated?
 be considered co-evolutionary from a phylogenetic perspective (at the
 continental scale)?
 
-> No idea how to adress this.
+> It would be difficult to express this as a percentage -- in a sense, the
+*evolutionary events* could be considered to contribute or not to the
+coevolutionary dynamics. In the absence of time-resolved trees (see new
+paragraph in **x**), it is difficult to address this point, and we would rather
+not speculate about this.
 
 220-223: I had a lot of trouble understanding this.  Would this be correct?: …if
 some driver acts to maintain the interaction between pairs of species at
@@ -102,7 +113,7 @@ higher degree of co-phylogenetic matching.
 regional scales). Hard to say about the relative importance of drivers in an
 absolute sense.
 
-> Fixeed.
+> Fixed.
 
 290: Assuming that the signal of co-phylogenetic signal is considerable in this
 data at the continental scale (see comment for lines 203-206) I think you could
@@ -113,15 +124,15 @@ interactions over long timescales.  We assume these interactions were once
 strong enough to drive speciation and now they are no longer strong enough to
 overcome local ecological processes.”
 
-> TODO
+> We thank the reviewer for this comment. We have added an explanation at **x**.
 
 295:..at ecologically relevant spatial scales, even in system where phylogenetic
 structure would be expected to have a profoundly strong role” I think adding
 something like this to help drive the point home would help.
 
-> TODO
+> We agree, and are grateful for the suggestion. Added.
 
 Fig. 3: units on the x-axis could use some explaining in the figure legend (not
 just main text).
 
-> TODO
+> Fixed.
