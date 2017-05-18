@@ -27,7 +27,7 @@ Cospeciation-switching, and mixed patterns with cospeciations, duplications and
 switches) -- Can authors discuss a bit more about such (or other) potential
 hypothesis underlying the observed patterns of co-phylogenetic matching?
 
-> We appreciate the suggestion, and have added a paragraph in the discusion
+> We appreciate the suggestion, and have added a paragraph in the discussion
 (**x**) to highlight how the addition of time in the phylogenies can rule some
 of these scenarios apart.
 
@@ -41,7 +41,7 @@ doi: 10.1111/ecog.02780).
 > We have added a discussion of this recent article. We think that some
 methodological differences between the two articles make them difficult to
 compare in depth, but we have drawn the reader's attention to the fact that
-interaction probability (and therefore their contribution to the cophylogenetic
+interaction probability (and therefore their contribution to the co-phylogenetic
 signal) should be analysed at the interaction level.
 
 Locally sampled communities rarely showed strong matching despite the fact that
