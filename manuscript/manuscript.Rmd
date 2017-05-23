@@ -240,7 +240,7 @@ legend("topleft", c("Significant", "Non significant"), fill=c("black", "white"),
 box()
 ```
 
-![Spatial distribution of co-phylogenetic matching across the 51 sites. For each location, we indicate whether or not the structure of regional and local interaction networks is consistent with phylogenetic congruence. Locations where the local network shows a significant co-phylogenetic structure are marked with triangles. Locaitions where the regional network shows a significant co-phylogenetic structure are in black. See also {@tbl:contingency}.](figure/maps-1.pdf){#fig:maps width=100%}
+![Spatial distribution of co-phylogenetic matching across the 51 sites. For each location, we indicate whether or not the structure of regional and local interaction networks is consistent with phylogenetic congruence. Locations where the local network shows a significant co-phylogenetic structure are marked with triangles. Locaitions where the regional network shows a significant co-phylogenetic structure are in black. See also {@tbl:contingency}. ](figure/maps-1.pdf){#fig:maps width=100%}
 
 # Results and discussion
 
@@ -527,25 +527,28 @@ measure, but is better defined for each interaction separately ({@eq:linktunover
 this is the case, we report no relationship between the probability of
 interaction and its contribution to co-phylogenetic signal ({@fig:consistency}).
 
-The lack of a relationship between an interaction's probability of occurring (which represents
-their ecological stability) and its contribution to the co-phylogenetic process
-(which can be a proxy of their evolutionary stability) draws into question
-the basic long-term stability of interactions. Specifically, the existence of
-interactions with strong co-phylogenetic contribution, but low probability, is
-puzzling. It is tempting to hypothesize that these interactions may have once been strong
-enough to drive (co-)speciation, but are now decaying, due either to the fact
-that the host-parasite pair has been disrupted or as a consequence of
-ecological processes. DBS Can you spell this transition out for me better? I don't quite see the link. DBS @janz11err show that parasites can frequently acquire
-hosts that are not closely related to their initial host. This phenomenon,
-dubbed the "parasite paradox", can be responsible for a large number of
-diversification events, as parasites will be introduced to a novel environment
-when exposed to a novel host. The acquisition of novel hosts proceeds primarily
-from ecological contact between distantly related species. This emphasizes the
-need to account for the spatial structure of species interactions in these
-studies -- because all species do not co-occur at all places, the potential for
-ecological contact with novel hosts varies across space. Ideally, reconstruction
-of the ancestral range of the species can shed some light on whether acquisition
-of distantly related species happened, and where.
+The lack of a relationship between an interaction's probability of occurring
+(which represents their ecological stability) and its contribution to the
+co-phylogenetic process (which can be a proxy of their evolutionary stability)
+draws into question the basic long-term stability of interactions. Specifically,
+the existence of interactions with strong co-phylogenetic contribution, but low
+probability, is puzzling. It is tempting to hypothesize that these interactions
+may have once been strong enough to drive (co-)speciation, but are now decaying,
+due either to the fact that the host-parasite pair has been disrupted (by
+additional speciation and extinction events in the hosts or parasites) or as a
+consequence of ecological processes (for example, changes in the environment
+modifying the strength of some interactions). @janz11err show that parasites can
+frequently acquire hosts that are not closely related to their initial host.
+This phenomenon, dubbed the "parasite paradox", can be responsible for a large
+number of diversification events, as parasites will be introduced to a novel
+environment when exposed to a novel host. The acquisition of novel hosts
+proceeds primarily from ecological contact between distantly related species.
+This emphasizes the need to account for the spatial structure of species
+interactions in these studies -- because all species do not co-occur at all
+places, the potential for ecological contact with novel hosts varies across
+space. Ideally, reconstruction of the ancestral range of the species can shed
+some light on whether acquisition of distantly related species happened, and
+where.
 
 Local networks show little to no signal of co-phylogenetic matching, and the
 strength of co-phylogenetic matching that can be ascribed to the interactions
@@ -556,7 +559,7 @@ impact is actually minimal at ecologically relevant spatial scales, even in
 a system where phylogenetic structure would be expected to have a profoundly
 strong role. And yet, despite all the above, individual interactions are somehow
 able to maintain their co-phylogenetic matching even when the community they are
-woven into does not. Thinking more broadly, these discrepancies provide a 
+woven into does not. Thinking more broadly, these discrepancies provide a
 roadmap for bridging the gap between our appreciation of the role of shared
 evolutionary history and its empirically measurable outcomes: network structure
 is the most parsimonious *mechanism* by which coevolution proceeds, not the
@@ -566,26 +569,24 @@ Finally, we would like to acknowledge some limitations in the data.
 Host-parasite evolution usually follows a number of canonical coevolutionary
 scenarios [@page03ttp]: true cospeciation, where the two speciation events are
 simultaneous; pseudo- or delayed-cospeciations, where one speciation event
-happens after the other; host shift, where the parasite acquires a new host
-(and can subsequently lose the previous host, undergo speciation, or maintain its
-ability to use the previous host); and host-range expansion, in which the parasite
-acquires a novel host.
-DBS Are we sure the differences between host shift and host-range expansion clear enough in the above? DBS
-When the likelihood of both host and parasite extinction
-events are added to these models, the variety of outcomes is considerable.
-@dev07wch shows that host-switch-like events can result in matching trees, and
-so one could argue that the continental-level signal of tree matching can emerge
-from numerous host-shift events [although the results of @kras12psm do not
-support this scenario]. Because separating true cospeciation events from all
-other situations is difficult without time-calibrated trees, @dev13cvh suggest
-that the number of cospeciation events is inflated by cophenetic methods like
-*PACo* or *ParaFit* [although @lope01mpf reported an increased number of
-cospeciations when accounting for time of speciation events]. This reinforces
-the need for high-quality phylogeny data calibrated for communities in which the
-interactions are known. Not only will this help us make more robust inference about
-the evolution of networks [@eklo16pcf], it will also help us leverage information about
-species interactions embedded within networks to better understand coevolutionary
-dynamics.
+happens after the other; host shift, where the parasite acquires a new host (and
+can subsequently lose the previous host, or undergo speciation); and host-range
+expansion, in which the parasite acquires a novel host and retains the ability
+to infect the previous host. When the likelihood of both host and parasite
+extinction events are added to these models, the variety of outcomes is
+considerable. @dev07wch shows that host-switch-like events can result in
+matching trees, and so one could argue that the continental-level signal of tree
+matching can emerge from numerous host-shift events [although the results of
+@kras12psm do not support this scenario]. Because separating true cospeciation
+events from all other situations is difficult without time-calibrated trees,
+@dev13cvh suggest that the number of cospeciation events is inflated by
+cophenetic methods like *PACo* or *ParaFit* [although @lope01mpf reported an
+increased number of cospeciations when accounting for time of speciation
+events]. This reinforces the need for high-quality phylogeny data calibrated for
+communities in which the interactions are known. Not only will this help us make
+more robust inference about the evolution of networks [@eklo16pcf], it will also
+help us leverage information about species interactions embedded within networks
+to better understand coevolutionary dynamics.
 
 **Acknowledgements.** We thank Juan Antonio Balbuena for discussions about the
 *PACo* method, and members of the Stouffer and Tylianakis groups for comments
