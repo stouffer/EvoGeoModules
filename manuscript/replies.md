@@ -13,9 +13,10 @@ I follow the reviewer's comment and suggest additional elements to strengthen
 the ms. -- note that the discussion is too short (only one page!) and it should
 be expanded at least to another page.
 
-> We have expanded the discussion, by adding a paragraph (**x**) comparing our
-results to a recent study in mutualistic systems, and by discussing how they fit
-in the discussion about the turnover of interactions in space and time (**x**).
+> We have expanded the discussion, by adding a paragraph (L. 269-278) comparing
+our results to a recent study in mutualistic systems, and by discussing how they
+fit in the discussion about the turnover of interactions in space and time (L.
+279-294).
 
 There are several ways to expand it. For example, methods used here do not
 mention a whole branch of tangled trees methods to study potential mechanisms of
@@ -27,8 +28,8 @@ Cospeciation-switching, and mixed patterns with cospeciations, duplications and
 switches) -- Can authors discuss a bit more about such (or other) potential
 hypothesis underlying the observed patterns of co-phylogenetic matching?
 
-> We appreciate the suggestion, and have added a paragraph in the discussion
-(**x**) to highlight how the addition of time in the phylogenies can rule some
+> We appreciate the suggestion, and have added a paragraph in the discussion (L.
+306-322) to highlight how the addition of time in the phylogenies can rule some
 of these scenarios apart.
 
 What are the mechanisms decoupling the local and the continental scale patterns
@@ -58,7 +59,7 @@ interactions for predicting large-scale associations between host and parasites
 as reflected in the phylogenies.
 
 > We have added a discussion of these mechanisms in the paragraph on the
-stability of species interactions (**x**).
+stability of species interactions (L. 288-293).
 
 ## Reviewer 2
 
@@ -80,13 +81,14 @@ shape and is well-worthy of publication.
 that a keystone species could have powerful interactions that shape the
 evolution of a number of different taxa.
 
-> We have added a discussion of this (**x**), emphasizing that interactions can
+> We have added a discussion of this (L. 60-61, emphasizing that interactions can
 have different effects.
 
 Line 94: I get that this means 51 local sites.  How were regions were
 delineated?
 
-> We have clarified the definition of what we mean by "regional scale" at XX.
+> We have clarified the definition of what we mean by "regional scale" at L.
+117-132.
 
 203-206: What percentage of the host-parasite interactions in the dataset would
 be considered co-evolutionary from a phylogenetic perspective (at the
@@ -94,9 +96,8 @@ continental scale)?
 
 > It would be difficult to express this as a percentage -- in a sense, the
 *evolutionary events* could be considered to contribute or not to the
-coevolutionary dynamics. In the absence of time-resolved trees (see new
-paragraph in **x**), it is difficult to address this point, and we would rather
-not speculate about this.
+coevolutionary dynamics. In the absence of time-resolved trees, it is difficult
+to address this point, and we would rather not speculate about this.
 
 220-223: I had a lot of trouble understanding this.  Would this be correct?: …if
 some driver acts to maintain the interaction between pairs of species at
@@ -124,7 +125,8 @@ interactions over long timescales.  We assume these interactions were once
 strong enough to drive speciation and now they are no longer strong enough to
 overcome local ecological processes.”
 
-> We thank the reviewer for this comment. We have added an explanation at **x**.
+> We thank the reviewer for this comment. We have added an explanation at L.
+291-293.
 
 295:..at ecologically relevant spatial scales, even in system where phylogenetic
 structure would be expected to have a profoundly strong role” I think adding

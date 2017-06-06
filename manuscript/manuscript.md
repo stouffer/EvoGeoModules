@@ -221,7 +221,7 @@ phylogenetic data [@kras12psm].
 
 
 
-![Spatial distribution of co-phylogenetic matching across the 51 sites. For each location, we indicate whether or not the structure of regional and local interaction networks is consistent with phylogenetic congruence. Locations where the local network shows a significant co-phylogenetic structure are marked with triangles. Locaitions where the regional network shows a significant co-phylogenetic structure are in black. See also {@tbl:contingency}. ](figure/maps-1.pdf){#fig:maps width=100%}
+![Spatial distribution of co-phylogenetic matching across the 51 sites. For each location, we indicate whether or not the structure of regional and local interaction networks is consistent with phylogenetic congruence. Locations where the local network shows a significant co-phylogenetic structure are marked with triangles. Locaitions where the regional network shows a significant co-phylogenetic structure are in black.](figure/maps-1.pdf){#fig:maps width=100%}
 
 # Results and discussion
 
@@ -326,7 +326,7 @@ ultimately differ in how frequently they vary when the species involved co-occur
 the partners is able to forage for optimal resources [@bett15prk]. Once more,
 the literature on host-parasite interactions assumes that the reason why some
 interactions are more frequent is because they reflect a significant past
-history of coevolution [@guim07iia; @mora10bhi]; that is, the ecological
+history of coevolution [@guim07iia; @nieb10ucp]; that is, the ecological
 constraints emerge from evolutionary conservatism. Using a weighted Pearson's
 correlation between the interaction frequency, interaction contribution to
 co-phylogenetic matching, and the number of observations of each interaction as
@@ -430,15 +430,15 @@ strength of co-phylogenetic matching that can be ascribed to the interactions
 between two species is a surprisingly poor predictor of how frequently they
 interact. In contrast to the frequent assumption that phylogenetic structure is
 a key driver of community structure [@cave09mce], these data reveal that this
-impact is actually minimal at ecologically relevant spatial scales, even in
-a system where phylogenetic structure would be expected to have a profoundly
+impact is actually minimal at ecologically relevant spatial scales, even in a
+system where phylogenetic structure would be expected to have a profoundly
 strong role. And yet, despite all the above, individual interactions are somehow
 able to maintain their co-phylogenetic matching even when the community they are
 woven into does not. Thinking more broadly, these discrepancies provide a
 roadmap for bridging the gap between our appreciation of the role of shared
 evolutionary history and its empirically measurable outcomes: network structure
 is the most parsimonious *mechanism* by which coevolution proceeds, not the
-imprint potential coevolution leaves on ecological communities.
+imprint potential coevolution leaves on ecological communities [@poni17clw].
 
 Finally, we would like to acknowledge some limitations in the data.
 Host-parasite evolution usually follows a number of canonical coevolutionary
